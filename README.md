@@ -1,31 +1,21 @@
-BIG Benchmark Metaphor understanding: https://github.com/google/BIG-bench/tree/main/bigbench/benchmark_tasks/metaphor_understanding
+# Evaluating LLMs on Danish Expressions with DSL's talemaader-dataset
 
-classification task
+Digitaliseringsstyrelsen and Det Danske Sprog- og Litteraturselskab (DSL) have developed the 'talemaader' dataset consisting of 1000 expressions, each of which with 1 true and 3 false definitions. This is a classification task and the LLM's predicition can be used to evaluate the language model's ability to understand Danish idioms and fixed expressions. This repository is such an evaluation of some of the biggest market LLMs currently available (model list below).
 
-zero-shot, one-shot, two-shot, and four-shot settings(?)
+Project ongoing.
 
-Models accuracy score: 
+## Results
 
-gpt-4
-
-gpt-4o
-
-(gpt-4o-mini)
-
-gpt-o1-preview
-
-Gemini
-
-Llama / Lambda
-Claude Sonnet
-QWEN2.5
-
-gpt-3.5
-Gemma
-mBERT
-davinci
+Models evaluated: 
+- gpt-4 (by OpenAI)
+- gpt-4o (by OpenAI)
+- gpt-o1-preview (by OpenAI)
+- Claude Sonnet (by Anthropic)
+- Gemini (by Google)
 
 
-Code inspired by https://github.com/xiaoyuisrain/metaphor-understanding-challenge/tree/main(?)
+
+
+
 
 
