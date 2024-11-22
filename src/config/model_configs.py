@@ -24,14 +24,10 @@ MODEL_CONFIGS = {
         "max_tokens": 1,
         "temperature": 0
     },
-    "gpt-o1-preview": {
-        "model_name": "o1-preview",
-        "max_tokens": 1,
-        "temperature": 0
-    },
     "gemini": {
         "model_name": "gemini-pro",
-        "temperature": 0
+        "temperature": 0,
+        "max_output_tokens": 1
     }
 }
 
