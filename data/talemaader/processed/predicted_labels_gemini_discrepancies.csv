@@ -1,0 +1,64 @@
+talemaade_udtryk,predicted_label,true_label,predicted_definition,true_definition,Discrepancy
+lang næse,0,1,nedladende eller på anden måde negativ kritik,skuffelse; følelse af at være snydt,DISCREPANCY
+det er der ingen ben i,1,3,det er ikke økonomisk forsvarligt; det er ikke gangbart i virkeligheden,det er nemt at udføre eller forstå,DISCREPANCY
+ikke have mange brikker at flytte rundt med,0,2,have en stram økonomi,ikke være særlig begavet,DISCREPANCY
+stryge med hårene,0,3,være modvillig eller genstridig; (prøve at) forhindre noget,prøve at behage; optræde føjeligt og eftergivende,DISCREPANCY
+svæve over vandene,0,1,diskret eller ubemærket overvære noget,præge noget; være mærkbar,DISCREPANCY
+uden mad og drikke duer helten ikke,3,0,man kan ikke udføre heltegerninger på tom mave,man må sørge for at få noget at spise og drikke hvis man vil klare sig,DISCREPANCY
+mester for noget,0,3,"person der (uden at ville det) er skyld i en negativ udvikling, hændelse eller lignende","person der har skabt, designet eller udtænkt et kunstnerisk værk eller noget andet der gør indtryk",DISCREPANCY
+holde på hat og briller,0,3,være på sporet af en sags rette sammenhæng; være inde på noget af det rigtige,passe på fordi noget (voldsomt) begynder eller finder sted,DISCREPANCY
+andre boller på suppen,1,3,bruges for at udtrykke at noget ikke smager en,noget der er nyt og helt forskelligt fra det man kender til i den pågældende sammenhæng,DISCREPANCY
+det fagreste træ i skoven,2,1,"den person der udpeges som den smukkeste blandt en gruppe mennesker, fx i en konkurrence",det som er vigtigst og betyder mest,DISCREPANCY
+tegn og underlige gerninger,3,1,mystiske tegn og handlinger som man ikke forstår,uforståelige eller forunderlige handlinger eller fænomener,DISCREPANCY
+få skovlen under,0,1,komme i gang med et foretagende,besejre eller få overtaget over,DISCREPANCY
+hele dynen,0,3,fare omkring; være meget foretagsom,alt det som er relevant i en bestemt sammenhæng,DISCREPANCY
+puste til gløderne,0,2,puste til en ild der er ved at dø ud,få en strid til at udvikle sig (igen),DISCREPANCY
+skulle have skolepengene tilbage,2,1,være berettiget til erstatning af et undervisningsgebyr,være dum eller uvidende om et bestemt forhold,DISCREPANCY
+gå i brædderne,3,0,besvime som følge af overdrevent indtag af alkohol,blive træt (og falde i søvn); miste energi,DISCREPANCY
+det ene ord tager det andet,2,1,ord efterfølger ord i en talestrøm,bruges om en situation hvor påstande om nogen eller noget tiltager i grovhed,DISCREPANCY
+for fulde gardiner,1,3,helt trukket for,for fuld kraft; uden hæmninger eller begrænsninger,DISCREPANCY
+køre med klatten,0,1,køre på en hensynsløs og uansvarlig måde,være suveræn til noget; brillere,DISCREPANCY
+behandle nogen som et råddent æg,2,1,ignorere nogen; behandle nogen strengt og uretfærdigt,omgås en person på en meget diplomatisk og forsigtig måde fordi vedkommende er meget nærtagende og besværlig,DISCREPANCY
+tampen brænder,2,0,der er ild i tovet,man er tæt ved at nå til en erkendelse,DISCREPANCY
+en streg i luften,2,1,"en uventet og uønsket hændelse, handling eller lignende",en meget tynd person,DISCREPANCY
+tage pungen frem,0,2,fremdrage sin pengepung for at betale for bestemte varer eller en bestemt ydelse,(modvilligt) betale et stort beløb,DISCREPANCY
+vride bananen,1,2,stimulere en penis med hånden,tisse,DISCREPANCY
+ikke lægge fingrene imellem,1,3,ikke blande sig i andres konflikt,"ikke være skånsom eller tilbageholdende, men direkte i ord eller handling",DISCREPANCY
+Lars Tyndskids mark,3,0,påtage sig en ubehagelig og evt. skæbnesvanger opgave sådan at en anden slipper for den,sted langt ude på landet,DISCREPANCY
+der må være en blonde,3,2,der må være en anden løsning på problemet,der er grænser for hvad man kan tillade sig,DISCREPANCY
+nogens eget kød og blod,3,0,nogens egen krop,nogens (egen) blodsbeslægtede familie,DISCREPANCY
+dele sol og vind lige,0,1,sørge for at rose nogen før og efter man kritiserer dem,være retfærdig; tilgodese alle parter i en sag,DISCREPANCY
+få en spand koldt vand i hovedet,1,3,pludselig komme ud af en rus,uventet blive afvist; komme ud for en stor skuffelse,DISCREPANCY
+nye koste fejer bedst,2,0,en ny kost fejer bedre end en gammel og slidt kost,nyt er altid bedre end gammelt blot fordi det er nyt,DISCREPANCY
+lyse i kuld og køn,2,0,vække opsigt pga. sine smykker eller fine påklædning,anerkende officielt,DISCREPANCY
+ål i strømperne,2,0,vittigheder; underholdende påfund,folder i strømper der er gledet ned ad benet,DISCREPANCY
+ligge med næsen i vejret,0,3,ligge på ryggen,være død og begravet,DISCREPANCY
+have knive i ærmerne,3,2,medbringe noget overraskende eller overrumplende,vente på en lejlighed til at foretage et (uventet) angreb,DISCREPANCY
+få fingrene i fedtefadet,3,1,"(uventet) komme i en fordelagtig situation, fx fordi man kender de rette personer","rode sig ud i en vanskelig, ubehagelig eller tvivlsom situation",DISCREPANCY
+rene ord for pengene,1,3,det bedste af sin art,udtalelse der ikke kan misforstås,DISCREPANCY
+ikke lade solen gå ned over sin vrede,0,3,ikke gå vred i seng,glemme eller tilgive noget man er blevet vred over,DISCREPANCY
+uden for lands lov og ret,2,1,uden de regler der ellers ville gælde,i et øde område fjernt fra større byer,DISCREPANCY
+ikke fugls føde,0,3,"vanskelig eller uigennemskuelig opgave, aktivitet ellerlign.",ingenting; intet som helst,DISCREPANCY
+træde af på naturens vegne,3,2,afholde sig fra materielle goder af miljømæssige hensyn,trække sig tilbage for at forrette sin nødtørft,DISCREPANCY
+binde på hænder og fødder,3,0,fratage modstanderen muligheden for at kæmpe videre; gøre ukampdygtig,gøre fuldstændig afhængig,DISCREPANCY
+for lidt og for meget fordærver alting,3,0,både en for stor og en for lille mængde af noget ødelægger et produkt,man bør ikke overdrive eller gå til yderligheder,DISCREPANCY
+"ét spøg, et andet alvor",3,0,en vittighed og noget alvorligt,man bør holde det morsomme og det alvorlige ved en sag adskilt,DISCREPANCY
+få lange arme,2,3,udvide sit netværk eller sine muligheder for at tjene penge,blive træt i armene af at bære på noget tungt,DISCREPANCY
+man skal høre meget før ørerne falder af,1,2,ørerne kan holde til meget støj; ørerne går ikke i stykker af at lytte (intenst),"bruges for at udtrykke forbavselse over at nogen kan sige eller fortælle om noget så mærkeligt, vanvittigt, sladderagtigt eller lignende",DISCREPANCY
+med skindet på næsen,1,3,lige netop klare sig igennem en umiddelbart umulig situation,"uden at komme galt af sted, tabe anseelse, miste sin position eller lignende; uden at miste alle sine penge eller gå fallit",DISCREPANCY
+der er løbet meget vand gennem åen siden ..,1,0,børn ændrer sig over tid,"noget der passer godt med nogens ønsker, hensigter eller meninger",DISCREPANCY
+slå til plukfisk,0,2,"slække på sine ønsker, krav eller principper","tæske, gennembanke; ødelægge, nedbryde",DISCREPANCY
+varme nogens ører,0,3,bevirke at en person føler sig pinligt berørt,slå nogen (på siden af hovedet),DISCREPANCY
+få kærligheden at føle,1,3,"opleve kærlighed fra en forælder, en partner eller lignende",blive ramt af ubehagelige (selvforskyldte) konsekvenser; opleve livets barske realiteter,DISCREPANCY
+som en brækket arm,0,1,som gør en ked af det; sårende,elendigt; talentløst,DISCREPANCY
+finde melodien,0,2,finde på en melodi til en sangtekst,"(atter) finde sammen i indbyrdes harmoni; (gen)finde indre glæde, ro, selvtillid eller lignende",DISCREPANCY
+trække tænderne ud,2,1,pine sig selv eller andre,svække alvorligt; gøre uskadelig,DISCREPANCY
+slag på tasken,2,3,indholdsløs snak; samtale uden vigtigt indhold,"omtrentlig beregning af nogets størrelse, omfang eller antal",DISCREPANCY
+komme ind fra gaden,3,2,komme ind i et hus ad en gadedør,pludselig dukke op og gøre sig gældende i en bestemt sammenhæng uden forudgående erfaring,DISCREPANCY
+tanker er toldfri,0,2,der er ingen toldafgift på tanker,ingen bliver straffet for sine tanker,DISCREPANCY
+guds ord fra landet,0,2,religiøse udtryk der er populære i landområder,uerfaren og naiv ung pige,DISCREPANCY
+vise nogen vintervejen,0,2,bruge alt for stærke midler i forhold til situationen; overdrive; overreagere,afvise nogen; vende nogen ryggen,DISCREPANCY
+have rundsave på albuerne,0,1,"gøre noget der hjælper på kort sigt, men forværrer tingene på langt sigt",skubbe andre til side for at gavne sin egen karriere,DISCREPANCY
+med mand og mus,1,3,med alle i en husstand; med alle der bor på gården,bruges for at udtrykke at ingen overlever et skibsforlis,DISCREPANCY
+lyve så stærkt som en hest kan rende,2,3,fortælle løgne i samme tempo som det hurtigste en hest kan løbe,lyve groft; fortælle mange løgne,DISCREPANCY
+ikke have noget liv,0,2,være død; ikke længere være i live,aldrig mødes med andre mennesker i selskabeligt lag; være socialt udstødt,DISCREPANCY

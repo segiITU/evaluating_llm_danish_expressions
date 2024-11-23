@@ -5,19 +5,17 @@ classification task
 zero-shot, one-shot, two-shot, and four-shot settings(?)
 
 Models accuracy score: 
-
 gpt-4
-
 gpt-4o
+Claude Sonnet
+gemini-1.5-pro-latest
 
 (gpt-4o-mini)
 
-gpt-o1-preview
-
-Gemini
+(gpt-o1-preview)
 
 Llama / Lambda
-Claude Sonnet
+
 QWEN2.5
 
 gpt-3.5
@@ -26,6 +24,5 @@ mBERT
 davinci
 
 
-Code inspired by https://github.com/xiaoyuisrain/metaphor-understanding-challenge/tree/main(?)
 
 

@@ -1,17 +1,20 @@
 import os
 from typing import Dict, Any
 from openai import OpenAI
+import google.generativeai as genai
+from llamaapi import LlamaAPI
 
 API_KEYS = {
     "ANTHROPIC_API_KEY": os.getenv("ANTHROPIC_API_KEY", ""),
     "OPENAI_API_KEY": os.getenv("OPENAI_API_KEY", ""),
-    "GOOGLE_API_KEY": os.getenv("GOOGLE_API_KEY", "")
+    "GOOGLE_API_KEY": os.getenv("GOOGLE_API_KEY", ""),
+    "LLAMA_API_KEY": os.getenv("LLAMA_API_KEY", "")
 }
 
 MODEL_CONFIGS = {
-    "claude": {
-        "model_name": "claude-3-sonnet-20240229",
-        "max_tokens": 1,
+    "llama-3.1": {
+        "model_name": "llama3.1-70b",
+        "max_token": 1,
         "temperature": 0
     },
     "gpt-4": {
@@ -19,13 +22,13 @@ MODEL_CONFIGS = {
         "max_tokens": 1,
         "temperature": 0
     },
-    "gpt-4o-mini": {
-        "model_name": "gpt-4o-mini",
+    "gpt-4o": {
+        "model_name": "gpt-4o-2024-11-20",
         "max_tokens": 1,
         "temperature": 0
     },
     "gemini": {
-        "model_name": "gemini-pro",
+        "model_name": "gemini-1.5-pro-latest",
         "temperature": 0,
         "max_output_tokens": 1
     }
@@ -51,5 +54,12 @@ def list_openai_models():
     for model in models.data:
         print(model.id)
 
+def list_google_models():
+    for model in genai.list_models():
+        print(model.name)
+
 
 #list_openai_models()
+#list_google_models()
+# 
+# 
