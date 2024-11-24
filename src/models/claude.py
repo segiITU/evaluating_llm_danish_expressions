@@ -1,20 +1,19 @@
 from src.models.base_model import BaseModel
-import google.generativeai as genai
-import os
-import logging
 from typing import Dict
+import logging
+import anthropic
 from src.config.model_configs import PROMPT_TEMPLATE
 
 logger = logging.getLogger(__name__)
 
-class GeminiModel(BaseModel):
-    def __init__(self):
-        """Initialize Gemini model with API key and model config."""
+class ClaudeModel(BaseModel):
+    def __init__(self, model_name: str = "claude-3-sonnet-20240229"):
+        """Initialize Claude model with API key and model config."""
         try:
-            genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
-            self.model = genai.GenerativeModel('gemini-1.5-pro-latest')
+            self.client = anthropic.Client()
+            self.model = model_name
         except Exception as e:
-            logger.error(f"Error initializing Gemini model: {str(e)}")
+            logger.error(f"Error initializing Claude model: {str(e)}")
             raise
 
     def predict(self, expression: str, options: Dict[str, str]) -> str:
@@ -28,7 +27,6 @@ class GeminiModel(BaseModel):
         Returns:
             str: Predicted label ('A', 'B', 'C', or 'D')
         """
-        # Format the prompt using the template
         prompt = PROMPT_TEMPLATE.format(
             metaphorical_expression=expression,
             definition_a=options['A'],
@@ -38,23 +36,25 @@ class GeminiModel(BaseModel):
         )
         
         try:
-            response = self.model.generate_content(
-                prompt,
-                generation_config=genai.types.GenerationConfig(
-                    temperature=0,
-                    max_output_tokens=1,
-                    candidate_count=1
-                )
+            message = self.client.messages.create(
+                model=self.model,
+                max_tokens=1,
+                temperature=0,
+                messages=[{
+                    "role": "user",
+                    "content": prompt
+                }]
             )
-            prediction = response.text.strip().upper()
+            
+            prediction = message.content[0].text.strip().upper()
             
             # Validate prediction
             if prediction not in ['A', 'B', 'C', 'D']:
-                logger.warning(f"Invalid prediction from Gemini: {prediction}")
+                logger.warning(f"Invalid prediction from Claude: {prediction}")
                 raise ValueError(f"Invalid prediction: {prediction}")
                 
             return prediction
             
         except Exception as e:
-            logger.error(f"Gemini prediction error: {str(e)}")
+            logger.error(f"Claude prediction error: {str(e)}")
             raise

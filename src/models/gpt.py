@@ -2,7 +2,7 @@ import openai
 import logging
 from typing import Dict
 from src.models.base_model import BaseModel
-from src.utils.rate_limiter import rate_limit
+from src.config.model_configs import PROMPT_TEMPLATE
 
 logger = logging.getLogger(__name__)
 
@@ -11,23 +11,17 @@ class GPTModel(BaseModel):
         self.model = model_name
         self.logger = logging.getLogger(f"{model_name}_model")
         
-    @rate_limit(calls_per_minute=60)
-    def predict(self, idiom: str, options: Dict[str, str]) -> str:
-        """Predict the correct definition for a Danish idiom."""
+    def predict(self, expression: str, options: Dict[str, str]) -> str:
+        """Predict the correct definition for a Danish expression."""
         try:
-            # Format the prompt exactly as in the working logs
-            prompt = (
-                "Choose the correct definition for the given metaphorical expression "
-                "by responding with only a single letter representing your choice (A, B, C, or D).\n"
-                f"Sentence: {idiom}\n"
-                f"Option A: {options['A']}\n"
-                f"Option B: {options['B']}\n"
-                f"Option C: {options['C']}\n"
-                f"Option D: {options['D']}\n"
-                "Your response should be exactly one letter: A, B, C, or D."
+            prompt = PROMPT_TEMPLATE.format(
+                metaphorical_expression=expression,
+                definition_a=options['A'],
+                definition_b=options['B'],
+                definition_c=options['C'],
+                definition_d=options['D']
             )
 
-            # Use the exact parameters from the working logs
             params = {
                 'model': self.model,
                 'messages': [{'role': 'user', 'content': prompt}],
@@ -49,7 +43,6 @@ class GPTModel(BaseModel):
             raise
 
 if __name__ == "__main__":
-    # Use the same test case from the logs
     test_data = {
         "expression": "have sommerfugle i maven",
         "A": "føle sig dårligt tilpas",
@@ -61,8 +54,8 @@ if __name__ == "__main__":
     model = GPTModel()
     try:
         prediction = model.predict(test_data["expression"], test_data)
-        print(f"Idiom: {test_data['expression']}")
+        print(f"Expression: {test_data['expression']}")
         print(f"Prediction: {prediction}")
         print(f"Meaning: {test_data[prediction]}")
     except Exception as e:
-        print(f"Error predicting for idiom '{test_data['expression']}': {str(e)}")
+        print(f"Error predicting for expression '{test_data['expression']}': {str(e)}")

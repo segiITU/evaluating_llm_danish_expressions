@@ -3,6 +3,7 @@ from typing import Dict, Any
 from openai import OpenAI
 import google.generativeai as genai
 from llamaapi import LlamaAPI
+import anthropic
 
 API_KEYS = {
     "ANTHROPIC_API_KEY": os.getenv("ANTHROPIC_API_KEY", ""),
@@ -13,7 +14,7 @@ API_KEYS = {
 
 MODEL_CONFIGS = {
     "llama-3.1": {
-        "model_name": "llama3.1-70b",
+        "model_name": "llama-3.1-70b",
         "max_token": 1,
         "temperature": 0
     },
@@ -31,6 +32,11 @@ MODEL_CONFIGS = {
         "model_name": "gemini-1.5-pro-latest",
         "temperature": 0,
         "max_output_tokens": 1
+    },
+    "claude": {
+        "model_name": "claude-3-sonnet-latest",
+        "max_tokens": 1,
+        "temperature": 0
     }
 }
 
@@ -41,25 +47,3 @@ Option B: {definition_b}
 Option C: {definition_c}
 Option D: {definition_d}
 Your response should be exactly one letter: A, B, C, or D."""
-
-def validate_api_keys():
-    missing_keys = [key for key, value in API_KEYS.items() if not value]
-    if missing_keys:
-        raise ValueError(f"Missing API keys: {', '.join(missing_keys)}")
-
-
-def list_openai_models():
-    client = OpenAI()
-    models = client.models.list()
-    for model in models.data:
-        print(model.id)
-
-def list_google_models():
-    for model in genai.list_models():
-        print(model.name)
-
-
-#list_openai_models()
-#list_google_models()
-# 
-# 

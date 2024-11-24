@@ -6,7 +6,7 @@ from typing import Dict, List, Tuple
 logger = logging.getLogger(__name__)
 
 class TalemaaderDataLoader:
-    def __init__(self, data_dir: str = "data/talemaader/raw"):
+    def __init__(self, data_dir: str = "data/raw"):
         self.data_dir = Path(data_dir)
         self.logger = logger
         

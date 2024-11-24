@@ -3,12 +3,12 @@ from typing import Dict
 
 class BaseModel(ABC):
     @abstractmethod
-    def predict(self, idiom: str, options: Dict[str, str]) -> str:
+    def predict(self, expression: str, options: Dict[str, str]) -> str:
         """
-        Predict the correct definition for a Danish idiom.
+        Predict the correct definition for a Danish expression.
         
         Args:
-            idiom: The Danish idiom
+            expression: The Danish expression
             options: Dictionary with keys 'A', 'B', 'C', 'D' containing possible definitions
             
         Returns:
