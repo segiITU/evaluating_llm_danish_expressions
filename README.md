@@ -7,18 +7,14 @@ zero-shot, one-shot, two-shot, and four-shot settings(?)
 Models accuracy score: 
 gpt-4
 gpt-4o
-
 gemini-1.5-pro-latest
+Claude 3 Sonnet
+Llama3.1
+gpt-3.5 (gpt-3.5-turbo-0125)
 
-(gpt-4o-mini)
-(gpt-o1-preview)
-Claude Sonnet
+QWEN2.5 (not good)
 
-Llama / Lambda
 
-QWEN2.5
-
-gpt-3.5
 Gemma
 mBERT
 davinci

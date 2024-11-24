@@ -4,6 +4,16 @@ import logging
 import argparse
 import os
 
+"""Analyzes prediction discrepancies between model outputs and true labels.
+
+Takes predicted vs. true label comparisons and generates detailed analysis of incorrect predictions,
+including both numerical labels and full definitions for easier analysis.
+
+Usage: python -m src.utils.process_discrepancies --model [model_name]
+Output: Saves analysis to data/processed/only_discrepancies_[model_name].csv
+"""
+
+
 def setup_logging(model_name: str):
     log_dir = Path('logs')
     log_dir.mkdir(exist_ok=True)

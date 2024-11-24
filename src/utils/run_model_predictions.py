@@ -11,6 +11,17 @@ from typing import Set
 import argparse
 import os
 
+
+"""Generates predictions for Danish expressions using selected LLM model.
+
+Processes batches of expressions from raw data through specified model (GPT-4, GPT-4o, Gemini, Llama, Claude).
+Saves predictions and handles partial completions through batch processing.
+
+Usage: python -m src.utils.run_model_predictions --model [model_name] --batch-size [size]
+Output: Saves predictions to data/predictions/predicted_labels_[model_name].csv
+"""
+
+
 def setup_logging(model_name: str, batch_size: int):
     log_dir = Path('logs')
     log_dir.mkdir(exist_ok=True)

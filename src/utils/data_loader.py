@@ -3,6 +3,20 @@ from pathlib import Path
 import logging
 from typing import Dict, List, Tuple
 
+
+"""Handles loading and validation of Danish expressions dataset.
+
+Manages data loading from raw files, performs validation checks, and prepares
+data structure for model evaluation. Handles multiple file formats and encodings.
+
+Usage: Import TalemaaderDataLoader class
+Required files: In data/talemaader/raw/
+- talemaader_leverance_1.csv
+- talemaader_leverance_2_kun_labels.csv
+- talemaader_leverance_2_uden_labels.csv
+"""
+
+
 logger = logging.getLogger(__name__)
 
 class TalemaaderDataLoader:

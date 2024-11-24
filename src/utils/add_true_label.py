@@ -4,6 +4,17 @@ import logging
 import argparse
 import os
 
+
+"""Combines model predictions with gold standard labels for evaluation.
+
+Merges model predictions with true labels, calculates accuracy metrics,
+and identifies prediction discrepancies for further analysis.
+
+Usage: python -m src.utils.add_true_label --model [model_name]
+Output: Saves to data/predictions/predicted_and_gold_labels_[model_name].csv
+"""
+
+
 def setup_logging(model_name: str):
     log_dir = Path('logs')
     log_dir.mkdir(exist_ok=True)
