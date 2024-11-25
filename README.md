@@ -1,24 +1,6 @@
-BIG Benchmark Metaphor understanding: https://github.com/google/BIG-bench/tree/main/bigbench/benchmark_tasks/metaphor_understanding
+This project evaluates the language competency of six different LLMs, including the larger GPT models, Gemini, Claude and Llama on DSL's 'talemaader - 1000 Danish expressions' dataset.
 
-classification task
-
-zero-shot, one-shot, two-shot, and four-shot settings(?)
-
-Models accuracy score: 
-gpt-4
-gpt-4o
-gemini-1.5-pro-latest
-Claude 3 Sonnet
-Llama3.1
-gpt-3.5 (gpt-3.5-turbo-0125)
-
-QWEN2.5 (not good)
-
-
-Gemma
-mBERT
-davinci
-
+For a exploratory data analysis of the dataset, see please the EDA notebook in /notebooks.
 
 
 
