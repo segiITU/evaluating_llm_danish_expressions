@@ -1,0 +1,1001 @@
+talemaade_udtryk,predicted_label,true_label,Discrepancy
+lægge låg på noget,1,1,
+snyde nogen så vandet driver,3,3,
+tale med store bogstaver,3,3,
+lang næse,2,1,DISCREPANCY
+slå knuder på tungen,0,0,
+hurtig hjælp er dobbelt hjælp,2,0,DISCREPANCY
+puste til ilden,2,2,
+måtte sige farvel til noget,1,0,DISCREPANCY
+et levende leksikon,1,1,
+ikke have salt til et æg,1,1,
+skinnet bedrager,1,1,
+ikke have opfundet den dybe tallerken,2,0,DISCREPANCY
+lokummet brænder,2,2,
+det er der ingen ben i,1,3,DISCREPANCY
+ramme muren,2,0,DISCREPANCY
+ikke have mange brikker at flytte rundt med,2,2,
+danse efter nogens pibe,2,2,
+det kommer ikke det smør ved,3,3,
+hælde vand ud af ørerne,2,2,
+vride halsen om på nogen,3,3,
+være på egen boldgade,2,2,
+male byen rød,2,0,DISCREPANCY
+løbet er kørt,2,2,
+"lev stærkt, dø ung",1,1,
+stryge med hårene,2,3,DISCREPANCY
+den rygende pistol,2,2,
+svæve over vandene,2,1,DISCREPANCY
+give en gang lak,2,2,
+være på bølgelængde,1,1,
+spille sine kort godt,2,2,
+viske tavlen ren,0,0,
+løbe om hjørner med,1,1,
+under én hat,1,3,DISCREPANCY
+så går den vilde jagt,3,3,
+uden mad og drikke duer helten ikke,3,0,DISCREPANCY
+ikke være mange sure sild værd,3,1,DISCREPANCY
+de bonede gulve,1,2,DISCREPANCY
+få beskidte hænder,0,0,
+hul på bylden,2,3,DISCREPANCY
+vejen til en mands hjerte går gennem maven,2,2,
+med næb og kløer,0,0,
+leve som hund og kat,2,2,
+give en god dag i noget,3,0,DISCREPANCY
+male fanden på væggen,2,2,
+være tynd i papirerne,2,2,
+synge på sidste vers,3,3,
+slå større brød op end man kan bage,3,3,
+spildte Guds ord på Balle-Lars,2,2,
+hæve barren,2,2,
+sandheden er ilde hørt,0,0,
+det går ned ad bakke,1,1,
+blind høne finder også korn,3,3,
+mester for noget,2,3,DISCREPANCY
+trække en streg i sandet,1,1,
+bløde fronterne op,1,1,
+langt hen ad vejen,0,3,DISCREPANCY
+hænge i sin mors skørter,3,3,
+grine hele vejen til banken,3,0,DISCREPANCY
+komme ud af busken,0,0,
+gå med halm i træskoene,0,0,
+give med den ene hånd og tage med den anden,3,3,
+holde på hat og briller,1,3,DISCREPANCY
+andre boller på suppen,2,3,DISCREPANCY
+ligne hinanden som to dråber vand,2,3,DISCREPANCY
+en dråbe i havet,1,1,
+lavthængende frugter,2,2,
+"når man ikke vil høre, må man føle",2,2,
+nød lærer nøgen kvinde at spinde,1,1,
+der gror mos på nogen el. noget,0,0,
+det fagreste træ i skoven,0,1,DISCREPANCY
+lakrids mellem tæerne,3,3,
+ikke nå nogen til knæene,1,1,
+gå efter manden i stedet for bolden,1,1,
+tegn og underlige gerninger,3,1,DISCREPANCY
+tage nogen ved hånden,0,0,
+tage nogen med bukserne nede,2,2,
+pakke ind i vat,2,0,DISCREPANCY
+panik før lukketid,0,0,
+få skovlen under,2,1,DISCREPANCY
+en dans på roser,0,0,
+arbejde så blodet springer fra neglene,2,2,
+være i lommen på,3,3,
+grus i maskineriet,0,2,DISCREPANCY
+ikke være helt fin i kanten,1,1,
+hele dynen,1,3,DISCREPANCY
+smage af fugl,0,0,
+have blod på hænderne,3,2,DISCREPANCY
+puste til gløderne,0,2,DISCREPANCY
+have mange jern i ilden,2,2,
+næsten ikke kunne få armene ned,2,2,
+ikke vide om man er købt eller solgt,0,0,
+de forhåndenværende søms princip,1,1,
+"når enden er god, er alting godt",0,0,
+komme ud af røret,1,1,
+skulle have skolepengene tilbage,2,1,DISCREPANCY
+skære ud i pap,0,1,DISCREPANCY
+gå hjem og vug,3,1,DISCREPANCY
+krydse nogens vej,1,3,DISCREPANCY
+gå i brædderne,0,0,
+kronen på værket,2,2,
+være i stødet,0,2,DISCREPANCY
+slippe katten ud af sækken,2,2,
+være højt på strå,3,3,
+der er synk i nogen,2,2,
+ikke være nogens kop te,3,3,
+det ene ord tager det andet,2,1,DISCREPANCY
+være høj i hatten,2,2,
+feje ind under gulvtæppet,3,3,
+nissen flytter med,0,0,
+være ved sine sansers fulde brug,0,2,DISCREPANCY
+kæmpe mod vindmøller,1,1,
+have spidse albuer,3,2,DISCREPANCY
+kaste med mudder,0,2,DISCREPANCY
+for fulde gardiner,3,3,
+religion er opium for folket,2,2,
+én fugl i hånden er bedre end ti på taget,3,3,
+med arme og ben,2,3,DISCREPANCY
+have ryggen mod muren,0,0,
+have alle trumfer på hånden,3,3,
+det er en dårlig fugl der skider i sin egen rede,1,1,
+med lodder og trisser,3,3,
+man kan ikke klippe håret af en skaldet,2,2,
+flyde med mælk og honning,0,0,
+kigge for dybt i flasken,1,1,
+stå på gloende pæle,0,0,
+belåne til op over skorstenen,2,2,
+der går tretten på dusinet af noget,3,3,
+på sine grædende knæ,1,1,
+køre med klatten,0,1,DISCREPANCY
+græsset er altid grønnere i naboens have,0,0,
+behandle nogen som et råddent æg,1,1,
+kigge nogen i kortene,2,2,
+være i ilden,3,3,
+have brød i ovnen,2,2,
+den åbne dørs politik,1,0,DISCREPANCY
+i den kolde sne,3,2,DISCREPANCY
+og så er den potte ude,0,0,
+man kan ikke lære en gammel hund nye kunster,2,2,
+ikke kunne huske fra næse til mund,2,2,
+et ord er et ord,3,1,DISCREPANCY
+kende sine lus på travet,3,3,
+lægge sin klamme hånd på noget,3,3,
+tampen brænder,2,0,DISCREPANCY
+holde på den forkerte hest,2,2,
+en streg i luften,2,1,DISCREPANCY
+bide i græsset,2,0,DISCREPANCY
+gammel kærlighed ruster ikke,3,3,
+gå til de evige jagtmarker,1,1,
+komme på slagtebænken,3,3,
+være solgt til stanglakrids,2,1,DISCREPANCY
+eneste hane i kurven,1,0,DISCREPANCY
+"koste blod, sved og tårer",1,1,
+rive nogen noget i næsen,1,3,DISCREPANCY
+"når solen går ned i en sæk, står den op i en bæk",3,1,DISCREPANCY
+noget er ikke det papir værd det er skrevet på,3,3,
+få en på frakken,2,2,
+tale samme sprog,3,0,DISCREPANCY
+spille på hele klaviaturet,1,1,
+hvem har tisset på din sukkermad,2,2,
+have det som blommen i et æg,2,2,
+stå med det ene ben i graven,3,3,
+munden står ikke stille på nogen,3,3,
+lægge et godt ord ind for nogen,1,1,
+gøre rent bord,2,2,
+der er ingen smalle steder,2,2,
+gå på akkord,2,2,
+være vaccineret med en grammofonstift,2,2,
+dansen om guldkalven,1,1,
+der falder en sten fra éns hjerte,1,1,
+gå ud som et lys,1,2,DISCREPANCY
+krybe langs panelerne,3,1,DISCREPANCY
+tabe både næse og mund,2,2,
+ligge lige til højrebenet,3,3,
+gaven der bliver ved med at give,0,0,
+tage pungen frem,0,2,DISCREPANCY
+træde i karakter,0,0,
+"villa, Volvo og vovhund",1,1,
+kæden er hoppet af,3,3,
+døden skal have en årsag,3,2,DISCREPANCY
+der ryger en finke af panden,1,1,
+have fingeren på pulsen,0,0,
+få enden på komedie,3,1,DISCREPANCY
+skriften på væggen,3,3,
+fiske i rørte vande,2,2,
+bide sig fast,1,1,
+slå to fluer med ét smæk,2,2,
+stå malet i ansigtet på nogen,3,3,
+noget kan blive både en dreng og en pige,2,2,
+vride bananen,1,2,DISCREPANCY
+ikke lægge fingrene imellem,3,3,
+åbne sit hjerte,1,1,
+gå rundt med noget i maven,2,0,DISCREPANCY
+helt ude i skoven,2,2,
+klæder skaber folk,2,2,
+op ad bakke,1,1,
+tage hatten af for,0,3,DISCREPANCY
+Lars Tyndskids mark,3,0,DISCREPANCY
+"går den, så går den",1,0,DISCREPANCY
+"højt at flyve, dybt at falde",3,2,DISCREPANCY
+gøre sine hoser grønne,2,2,
+gassen går af ballonen,0,0,
+køre kanonerne i stilling,3,3,
+en pose blandede bolsjer,3,2,DISCREPANCY
+der må være en blonde,3,2,DISCREPANCY
+gå op og ned som kong Volmers røv,3,2,DISCREPANCY
+have det hele i munden,2,2,
+"skomager, bliv ved din læst",3,3,
+væggene har ører,1,1,
+vende tingene på hovedet,0,0,
+ville give sin højre arm for noget,2,2,
+brænde sit lys i begge ender,3,3,
+vække den slumrende løve,0,0,
+kæmpe mod vejrmøller,3,3,
+høre en knappenål falde til jorden,1,1,
+strø sand på,1,1,
+nogens eget kød og blod,3,0,DISCREPANCY
+de ti bud,2,3,DISCREPANCY
+vende på en tallerken,1,1,
+være tredje hjul på vognen,3,3,
+være på tynd is,2,2,
+kunne mere end sit fadervor,0,0,
+få noget på halsen,3,3,
+stikke piben ind,1,1,
+grave et par spadestik dybere,0,0,
+komme gennem kødhakkeren,2,2,
+man skal ikke sælge skindet før bjørnen er skudt,1,1,
+"hvis man kan være en karl om natten, kan man også være en karl om dagen",2,2,
+så du røgen,1,1,
+ikke tro nogen over en dørtærskel,2,2,
+vide hvordan kagen skal skæres,3,1,DISCREPANCY
+"hvor der er hjerterum, er der husrum",3,3,
+det er lettere for en kamel at komme igennem et nåleøje end for en rig at komme ind i Guds rige,2,2,
+slå fast med syvtommersøm,2,2,
+skrive sig noget bag øret,1,1,
+"den der ager med stude, kommer også frem",0,0,
+sætte nogens pis i kog,1,1,
+dele sol og vind lige,1,1,
+fyre godt op under kedlerne,3,0,DISCREPANCY
+målet helliger midlet,3,3,
+være femte hjul på vognen,1,0,DISCREPANCY
+være helt ude i tovene,3,3,
+der er ugler i mosen,1,1,
+falde på et tørt sted,1,2,DISCREPANCY
+kysten er klar,3,3,
+der gror ikke mos på en rullesten,1,1,
+ind til benet,3,1,DISCREPANCY
+ligeud ad landevejen,2,3,DISCREPANCY
+skruen uden ende,1,1,
+der går inflation i noget,0,3,DISCREPANCY
+forsvarsparaderne er oppe,0,0,
+have store tanker om,1,1,
+med pistolen for brystet,1,1,
+få en spand koldt vand i hovedet,3,3,
+splitte mine bramsejl,3,0,DISCREPANCY
+nye koste fejer bedst,2,0,DISCREPANCY
+der skal to til tango,3,2,DISCREPANCY
+store ord og fedt flæsk,2,3,DISCREPANCY
+tilbage til rødderne,0,0,
+lyse i kuld og køn,2,0,DISCREPANCY
+spille kong Gulerod,3,3,
+lægge billet ind på noget,2,2,
+fra asken og i ilden,0,0,
+"har man sagt A, må man også sige B",3,3,
+"skønne, spildte kræfter",2,2,
+ål i strømperne,0,0,
+ligge med næsen i vejret,0,3,DISCREPANCY
+have knive i ærmerne,2,2,
+give bolden op,1,1,
+man kan stille uret efter ham,3,3,
+vaske sine hænder,2,2,
+få fingrene i fedtefadet,1,1,
+til punkt og prikke,2,2,
+det løber nogen koldt ned ad ryggen,0,0,
+alle gode gange tre,0,0,
+læsse noget over på nogen,2,2,
+bide nogen i haserne,2,3,DISCREPANCY
+dagens mand i skysovs,1,1,
+det er her det sner,1,1,
+tungen på vægtskålen,2,1,DISCREPANCY
+smage sin egen medicin,3,3,
+sætte i et dårligt lys,1,1,
+tage hul på noget,1,1,
+køre af sporet,0,0,
+rene ord for pengene,3,3,
+is i maven,2,3,DISCREPANCY
+trække noget op af hatten,2,2,
+"hvad man ikke ved, har man ikke ondt af",2,2,
+ikke lade solen gå ned over sin vrede,1,3,DISCREPANCY
+ikke den skarpeste kniv i skuffen,2,2,
+skyde sig selv i foden,2,2,
+våd som en druknet mus,3,3,
+ikke større end tobak for en skilling,2,0,DISCREPANCY
+rage kastanjerne ud af ilden,0,0,
+have kniven på struben,2,2,
+født med en guldske i munden,3,3,
+det må briste eller bære,3,3,
+stikke spaden i jorden,1,0,DISCREPANCY
+stå med håret ned ad nakken,0,3,DISCREPANCY
+uden for lands lov og ret,0,1,DISCREPANCY
+ligge og lure i vandskorpen,3,0,DISCREPANCY
+den ene tjeneste er den anden værd,1,2,DISCREPANCY
+gå hele vejen,3,3,
+lige så godt springe som krybe i det,1,1,
+ikke fugls føde,1,3,DISCREPANCY
+have penge på kistebunden,0,2,DISCREPANCY
+trykke på pauseknappen,0,3,DISCREPANCY
+bidt af en gal skuespiller,2,0,DISCREPANCY
+være på benene,2,2,
+det kan du tage gift på,1,1,
+få luft under vingerne,1,1,
+grave grøfter,0,1,DISCREPANCY
+ramme hovedet på sømmet,2,3,DISCREPANCY
+træde af på naturens vegne,3,2,DISCREPANCY
+få noget ud af systemet,2,0,DISCREPANCY
+"ude af øje, ude af sind",3,3,
+binde på hænder og fødder,0,0,
+vove det ene øje,2,0,DISCREPANCY
+der bliver ingen bukser ud af det skind,3,3,
+for lidt og for meget fordærver alting,3,0,DISCREPANCY
+"ét spøg, et andet alvor",3,0,DISCREPANCY
+ikke ville røre noget med en ildtang,1,1,
+en pæl i kødet,1,1,
+sætte skibe i søen,1,1,
+få lange arme,2,3,DISCREPANCY
+elefanten i rummet,2,2,
+det stille vand har den dybe grund,2,2,
+føre nogen bag lyset,3,3,
+man skal høre meget før ørerne falder af,1,2,DISCREPANCY
+lytte på vandrørene,2,2,
+købe katten i sækken,2,2,
+tomme tønder buldrer mest,1,1,
+med skindet på næsen,1,3,DISCREPANCY
+gå op i en spids,2,2,
+der er løbet meget vand gennem åen siden ..,1,0,DISCREPANCY
+slå til plukfisk,3,2,DISCREPANCY
+varme nogens ører,0,3,DISCREPANCY
+få kærligheden at føle,1,3,DISCREPANCY
+"hvor der handles, der spildes",3,3,
+ben i næsen,1,0,DISCREPANCY
+et plaster på såret,2,2,
+små gryder har også ører,1,1,
+asfaltere mens man kører,2,2,
+være karl for sin hat,3,3,
+som en brækket arm,3,1,DISCREPANCY
+have et øje på hver finger,0,0,
+"hvad hjertet er fuldt af, løber munden over med",1,1,
+koste spidsen af en jetjager,3,3,
+man skal rejse sig ved det træ hvor man er faldet,3,1,DISCREPANCY
+tabe småkagerne,2,0,DISCREPANCY
+skille fårene fra bukkene,3,3,
+være på den grønne gren,2,2,
+med omvendt fortegn,3,3,
+lokke nogen ud af busken,1,1,
+hugge en hæl og klippe en tå,1,1,
+ikke være til at styre på en hel tønde land,2,1,DISCREPANCY
+man skal ikke give bagerbørn hvedebrød,3,3,
+holde kortene tæt til kroppen,3,3,
+have gode kort på hånden,2,2,
+"hvad er højest, Rundetårn eller et tordenskrald?",0,0,
+finde melodien,2,2,
+have nogen el. noget i kikkerten,2,1,DISCREPANCY
+gennemgå med en tættekam,3,3,
+fra hestens egen mund,3,3,
+en sund sjæl i et sundt legeme,2,2,
+hverken se til højre eller venstre,1,0,DISCREPANCY
+bo i en kuffert,1,3,DISCREPANCY
+"to sjæle, én tanke",3,3,
+hælde benzin på bålet,0,0,
+trække tænderne ud,1,1,
+ved kasse ét,2,0,DISCREPANCY
+man skal ikke flyve højere end vingerne kan bære,3,3,
+slag på tasken,1,3,DISCREPANCY
+gnide salt i såret,3,1,DISCREPANCY
+logik for burhøns,3,3,
+køre på skinner,1,1,
+hånd i hanke med,1,1,
+helt ind i knoglerne,1,1,
+det er ikke studenterhuen der trykker,2,2,
+hvile på laurbærrene,2,2,
+komme ind fra gaden,2,2,
+støde panden mod en mur,0,0,
+"når det regner på præsten, drypper det på degnen",0,2,DISCREPANCY
+være livet om at gøre,2,2,
+"goddag mand, økseskaft",3,3,
+dråben der får bægeret til at flyde over,2,0,DISCREPANCY
+have en høne at plukke med nogen,0,0,
+gå i nogens fodspor,2,2,
+"den der kommer først til mølle, får først malet",0,0,
+komme ind med firetoget,3,3,
+ikke kunne se skoven for bare træer,2,2,
+sætte ulven til at vogte får,0,0,
+"når skidt kommer til ære, ved det ikke hvordan det skal være",2,2,
+i mørke er alle katte grå,3,1,DISCREPANCY
+være sulten som en ulv,3,3,
+arbejde sin røv i laser,2,2,
+ikke få et ben til jorden,1,1,
+skrive til skrivebordsskuffen,1,0,DISCREPANCY
+toppen af kransekagen,2,3,DISCREPANCY
+det glatte lag,0,3,DISCREPANCY
+gå i spagat over noget,3,2,DISCREPANCY
+hellere se éns hæl end éns tå,1,1,
+fryse til is,0,2,DISCREPANCY
+hvad forstår bønder sig på agurkesalat,0,0,
+skæg for sig og snot for sig,1,1,
+mennesket lever ikke af brød alene,0,0,
+gå bananas,0,0,
+penge lugter ikke,2,3,DISCREPANCY
+hive sig selv op ved håret,1,1,
+sidde med hænderne i skødet,0,0,
+komme ind under huden,0,0,
+tabe på gulvet,0,1,DISCREPANCY
+få noget med på vejen,3,0,DISCREPANCY
+slå knuder på sig selv,1,1,
+vifte nogen om næsen med noget,1,2,DISCREPANCY
+den hellige grav er vel forvaret,2,1,DISCREPANCY
+heldet følger de tossede,3,3,
+tanker er toldfri,1,2,DISCREPANCY
+med hård hånd,1,1,
+være et hestehoved foran,0,0,
+nogens mund er lukket med syv segl,0,0,
+satse alt på ét kort,0,2,DISCREPANCY
+parkere bussen,2,1,DISCREPANCY
+guds ord fra landet,0,2,DISCREPANCY
+feje af bordet,2,2,
+blæse nogen en hatfuld,2,0,DISCREPANCY
+have jord under neglene,2,2,
+"når nøden er størst, er hjælpen nærmest",1,1,
+stikke hånden i en hvepserede,0,0,
+få blod på tanden,3,3,
+vise nogen vintervejen,2,2,
+gå i ét med tapetet,3,3,
+nu er gode råd dyre,3,3,
+gå som varmt brød,2,2,
+se ud som om man er faldet ned fra månen,0,0,
+krølle på halen,0,0,
+levende lig,1,3,DISCREPANCY
+sætte himmel og hav i bevægelse,3,3,
+ikke kunne gøre en flue fortræd,0,0,
+tage tyren ved hornene,0,0,
+tale nogen efter munden,2,0,DISCREPANCY
+bestemme hvor skabet skal stå,3,2,DISCREPANCY
+godt begyndt er halvt fuldendt,2,2,
+have rundsave på albuerne,3,1,DISCREPANCY
+den ene hånd ved ikke hvad den anden gør,0,0,
+ikke nå nogen til sokkeholderne,1,3,DISCREPANCY
+hr. og fru Danmark,1,0,DISCREPANCY
+vende hver en sten,1,0,DISCREPANCY
+holde dampen oppe,3,2,DISCREPANCY
+med mand og mus,2,3,DISCREPANCY
+man skal ikke skue hunden på hårene,1,1,
+ingen roser uden torne,3,3,
+slå hjernen fra,2,2,
+sidde løst i sadlen,2,2,
+ikke kunne se ud over sin egen næsetip,1,1,
+have en kage i ovnen,1,1,
+et vink med en vognstang,1,1,
+gå til makronerne,2,1,DISCREPANCY
+sådan spiller klaveret ikke,3,3,
+trække nogen rundt ved næsen,2,2,
+lyve så stærkt som en hest kan rende,2,3,DISCREPANCY
+ikke være tabt bag en vogn,2,2,
+æren er det fejreste træ i skoven,3,3,
+tage ordet ud af munden på nogen,2,2,
+bide til bollen,0,0,
+med åben mund og polypper,2,2,
+glansen går af Sankt Gertrud,3,3,
+den sne der faldt i fjor,1,0,DISCREPANCY
+lægge hænderne på kogepladen,1,1,
+puste i nakken,2,0,DISCREPANCY
+have nogen i sin hule hånd,3,0,DISCREPANCY
+trække noget ned over hovedet på nogen,3,3,
+have en skrue løs,0,0,
+sætte alle sejl til,0,0,
+hår på brystet,0,0,
+sætte hælene i,1,1,
+gøre kort proces,2,2,
+så er det bal forbi,3,3,
+dreje 180 grader,3,3,
+høre en lille fugl synge om noget,1,1,
+ikke have noget liv,2,2,
+i en snæver vending,1,0,DISCREPANCY
+overlade tøjlerne til nogen,0,0,
+vende sig i sin grav,3,3,
+lediggang er roden til alt ondt,1,1,
+skud fra hoften,0,0,
+stå på god fod med nogen,3,3,
+vende den anden kind til,2,1,DISCREPANCY
+skrive noget på nogens konto,2,2,
+sno nogen om sin lillefinger,2,2,
+sætte det lange ben foran,0,0,
+ryge fredspibe,3,2,DISCREPANCY
+stiv time,2,1,DISCREPANCY
+havkat i hyttefadet,2,0,DISCREPANCY
+lade fem og syv være lige,1,3,DISCREPANCY
+dummere end politiet tillader,1,1,
+sætte en ny plade på grammofonen,3,2,DISCREPANCY
+tage noget på sin kappe,1,1,
+kaste et redningsbælte ud til nogen,2,0,DISCREPANCY
+have ti tommelfingre,3,2,DISCREPANCY
+sætte lus i skindpelsen,2,2,
+tabe hovedet,3,3,
+leve på en sten,3,3,
+"livet er kort, kunsten er lang",3,2,DISCREPANCY
+med bred pensel,3,2,DISCREPANCY
+den blå luft,1,1,
+dreje kniven rundt i såret,2,2,
+drive nogen i armene på nogen,3,3,
+hyppe sine egne kartofler,2,3,DISCREPANCY
+smede mens jernet er varmt,3,3,
+hurtig i vendingen,1,1,
+få fingeren ud,2,1,DISCREPANCY
+ikke kende nogen landegrænser,0,0,
+tjene ind på gyngerne hvad man har mistet på karrusellen,1,1,
+stå med hatten i hånden,1,1,
+græde over spildt mælk,0,0,
+historiens vingesus,1,1,
+hellere lille og vågen end stor og doven,3,1,DISCREPANCY
+langt mellem snapsene,2,0,DISCREPANCY
+gammel i gårde,0,0,
+ligne udskidt æblegrød,3,2,DISCREPANCY
+med hovedet under armen,0,3,DISCREPANCY
+trække store veksler på nogen,0,0,
+ikke lutter lagkage,3,3,
+føle sig hjemme,2,1,DISCREPANCY
+sætte ræven til at vogte gæs,0,0,
+frem og tilbage er lige langt,1,3,DISCREPANCY
+mange bække små gør en stor å,1,1,
+gå op i sømmene,3,0,DISCREPANCY
+glat som en ål,2,2,
+falde nogen for brystet,2,2,
+mele sin egen kage,2,2,
+holde nogen til ilden,0,0,
+gå forkert i byen,2,0,DISCREPANCY
+det er ikke raketvidenskab,1,1,
+kaste nogen for løverne,2,2,
+spænde ben,2,2,
+ikke ane hvilket ben man skal stå på,1,1,
+slå hånden af nogen,2,1,DISCREPANCY
+rande under øjnene,0,0,
+hellere ville brække en arm på langs end ..,1,3,DISCREPANCY
+køre sit eget løb,3,3,
+skide grønne grise,2,2,
+åbne for sluserne,1,1,
+"operationen lykkedes, men patienten døde",3,1,DISCREPANCY
+efter alle kunstens regler,1,1,
+holde nogen på pinebænken,1,1,
+ude på dybt vand,0,0,
+det skal du længere ud på landet med,2,2,
+sætte kroner og øre på noget,0,0,
+ligeved og næsten slår ingen mand af hesten,1,1,
+underskrive sin egen dødsdom,2,2,
+have et horn i siden på,1,1,
+have flossede kanter,0,2,DISCREPANCY
+komme ud af fjerene,2,2,
+få svesken på disken,3,3,
+tone rent flag,2,2,
+drikke nogen under bordet,2,2,
+smage som at række tungen ud ad vinduet,1,3,DISCREPANCY
+sætte kikkerten for det blinde øje,2,2,
+vippe af sadlen,1,1,
+riste over en sagte ild,3,1,DISCREPANCY
+kunne tælles på én hånd,0,0,
+sælge sand i Sahara,2,2,
+lægge kortene på bordet,2,2,
+stikke hovedet i busken,0,0,
+være nogens forlængede arm,3,3,
+en streg i regningen,2,2,
+ikke født i går,0,0,
+hænge ved nogens læber,2,2,
+surt løg,1,1,
+det rager mig en fjer,2,2,
+sætte sig på den høje hest,2,2,
+tage noget tungt,0,1,DISCREPANCY
+koste en bondegård,1,1,
+løvens gab,2,3,DISCREPANCY
+nære en slange ved sin barm,3,3,
+spille med skjulte kort,1,1,
+hverken vådt eller tørt,1,1,
+naturens muntre søn,1,1,
+en tynd kop te,0,0,
+jeg vil æde min hat på ..,1,2,DISCREPANCY
+én gang skal jo være den første,2,0,DISCREPANCY
+trække en kanin op af hatten,1,3,DISCREPANCY
+vide hvordan landet ligger,1,0,DISCREPANCY
+ingen kender dagen før solen går ned,1,1,
+ikke vide hvor man skal ende og begynde,2,1,DISCREPANCY
+lægge ansigtet i de rette folder,2,2,
+i sit ansigts sved,2,1,DISCREPANCY
+skære nogen i hjertet,2,2,
+en gave fra himlen,1,1,
+klæde sig i sæk og aske,0,0,
+bevæbnet til tænderne,1,1,
+have mange bolde i luften,2,2,
+løbe åbne døre ind,1,1,
+kvæle i fødslen,1,1,
+de tusind søers land,3,3,
+slå nogen oven i hovedet med noget,2,3,DISCREPANCY
+sommerfuglestøv på vingerne,0,2,DISCREPANCY
+nogen vender bøtten,0,3,DISCREPANCY
+være med på noderne,0,0,
+skille klinten fra hveden,1,1,
+æblet falder ikke langt fra stammen,1,1,
+tale lige ud af posen,0,0,
+slå hovedet på sømmet,0,0,
+der falder brænde ned,3,1,DISCREPANCY
+rasle med sablen,1,3,DISCREPANCY
+som en åben bog,3,1,DISCREPANCY
+Rom blev ikke bygget på en dag,3,2,DISCREPANCY
+fange nogen på det forkerte ben,2,2,
+bide sig selv i halen,2,2,
+gå på krum arm,2,1,DISCREPANCY
+jorden brænder under nogen,3,3,
+holde gryden i kog,0,2,DISCREPANCY
+spille med åbne kort,1,1,
+kaste perler for svin,3,3,
+skyde over målet,2,0,DISCREPANCY
+der er ikke nogen hjemme,2,2,
+holde snuden fra noget,2,2,
+verdens tag,0,2,DISCREPANCY
+gammel vin på nye flasker,3,3,
+til ingen verdens nytte,2,2,
+mosekonen brygger,2,1,DISCREPANCY
+alle veje fører til Rom,3,3,
+helt nede i kælderen,0,0,
+der kom en mand med en slæde i vejen,3,3,
+give faklen videre,2,2,
+ved sine fulde fem,2,2,
+give den en skalle,1,2,DISCREPANCY
+ikke give ved dørene,2,1,DISCREPANCY
+kunne ligge på et meget lille sted,2,2,
+en orm gnaver,3,3,
+bide skeer med,0,3,DISCREPANCY
+kært barn har mange navne,0,0,
+skære ind til benet,0,0,
+sætte sin hat som man vil,3,3,
+være stor i munden,0,0,
+feje for sin egen dør,0,0,
+skulle bæres ud med fødderne først,3,3,
+en kærlig hånd,1,0,DISCREPANCY
+rive sig i håret,3,3,
+hverken fugl eller fisk,2,2,
+kende noget som sin egen bukselomme,2,2,
+der er ikke noget at rafle om,3,3,
+lade falde hvad ikke kan stå,3,3,
+ikke lige være nogens nummer,0,0,
+ikke kunne stikke en pind i en lort uden at ødelægge begge dele,3,1,DISCREPANCY
+blive taget med fingrene i kagedåsen,1,1,
+komme fra et hjem med klaver,1,0,DISCREPANCY
+rydde noget af vejen,2,2,
+stikke hovederne sammen,2,2,
+have gelé i knæene,1,1,
+have et ben i hver lejr,3,3,
+være en flue på væggen,2,2,
+krumme et hår på nogens hoved,0,3,DISCREPANCY
+gå på med krum hals,0,0,
+en bid af kagen,2,2,
+der er mere mellem himmel og jord,1,1,
+det tager en krig,1,1,
+det er ikke mit bord,0,0,
+ligne noget katten har slæbt ind,0,2,DISCREPANCY
+stikke noget under stolen,3,3,
+være godt skåret for tungebåndet,2,2,
+have fået det forkerte ben ud af sengen,2,2,
+en strid om kejserens skæg,3,3,
+i den bedste af alle verdener,2,2,
+koge suppe på noget,1,1,
+bringe frem i lyset,3,3,
+ballonen revner,3,3,
+bagsiden af medaljen,1,1,
+have benzin i blodet,2,2,
+danse på vulkaner,2,2,
+stoppe mens legen er god,1,1,
+det haster ikke mere end det jager,2,2,
+til sidste blodsdråbe,1,1,
+vide hvad klokken er,1,0,DISCREPANCY
+have en ræv bag øret,0,0,
+have ild i enden,0,1,DISCREPANCY
+"ikke alt der glimter, er guld",3,3,
+en møllesten om halsen på nogen,3,3,
+give sorteper videre,3,2,DISCREPANCY
+have rent mel i posen,1,1,
+få så hatten passer,2,2,
+råbe vagt i gevær,2,3,DISCREPANCY
+bide i det sure æble,0,0,
+koge suppe på en pølsepind,1,1,
+være på trapperne,2,2,
+så slutter festen,2,1,DISCREPANCY
+hænge i bremsen,1,1,
+stikke næsen i sky,3,1,DISCREPANCY
+have en aktie i,2,3,DISCREPANCY
+træde op på den store klinge,3,3,
+apostlenes heste,1,3,DISCREPANCY
+sejle på varmen,2,0,DISCREPANCY
+spille fransk klovn,1,1,
+være som snydt ud af næsen på nogen,3,0,DISCREPANCY
+en fjer i hatten,1,1,
+gå nogen nærmere på klingen,3,3,
+luften går af ballonen,3,3,
+en ulykke kommer sjældent alene,3,3,
+de bredeste skuldre skal bære de tungeste byrder,3,0,DISCREPANCY
+en køn plante,1,0,DISCREPANCY
+slibe kanterne af nogen,2,0,DISCREPANCY
+så let som at klø sig selv i nakken,3,1,DISCREPANCY
+have noget hængende over hovedet,0,0,
+det er for sent at kaste brønden til når barnet er druknet,1,1,
+alt lykkes i en gasovn,1,1,
+"når man taler om solen, så skinner den",1,1,
+klappe hesten,0,0,
+der falder skæl fra ens øjne,1,1,
+til at komme i papirmøllen,1,3,DISCREPANCY
+I må kalde mig Mads hvis ..,2,2,
+det pulveriserende liv,2,2,
+lugten i bageriet,2,3,DISCREPANCY
+brændt barn skyr ilden,2,2,
+klædt af til skindet,2,0,DISCREPANCY
+have rene hænder,1,0,DISCREPANCY
+have snuden i sporet,0,3,DISCREPANCY
+"når krybben er tom, bides hestene",2,2,
+bryde isen,2,3,DISCREPANCY
+stærk tobak,1,1,
+hovmod står for fald,2,0,DISCREPANCY
+tage noget i stiv arm,3,3,
+få en appelsin i turbanen,1,2,DISCREPANCY
+sagen er bøf,1,2,DISCREPANCY
+grave sin egen grav,2,2,
+heldig kartoffel,1,1,
+have bly i røven,3,1,DISCREPANCY
+som at slå vand på en gås,3,2,DISCREPANCY
+læse noget som Fanden læser Bibelen,2,2,
+skumme fløden,1,1,
+den sorte klap går ned,1,2,DISCREPANCY
+slå op i banen,0,2,DISCREPANCY
+sidste skud på stammen,1,3,DISCREPANCY
+tage benene på nakken,2,2,
+rydde nogen af vejen,1,0,DISCREPANCY
+kunne høre græsset gro,3,1,DISCREPANCY
+ryste som et espeløv,1,1,
+vandene skilles,0,0,
+gå uden om noget som katten om den varme grød,0,1,DISCREPANCY
+føre til torvs,1,1,
+stikke næsen indenfor,3,3,
+tung at danse med,1,0,DISCREPANCY
+skræve mere end bukserne kan holde,2,2,
+blive lang i ansigtet,3,3,
+male sig selv op i et hjørne,1,1,
+hammeren falder,2,0,DISCREPANCY
+ligge lunt i svinget,3,3,
+begge fødder på jorden,3,3,
+hvor længe var Adam i Paradis,2,3,DISCREPANCY
+vide hvad vej vinden blæser,3,3,
+holde skindet på næsen,2,2,
+i nøden skal man kende sine venner,3,3,
+lige børn leger bedst,3,3,
+være på hælene,2,1,DISCREPANCY
+blive vejet og fundet for let,3,1,DISCREPANCY
+hænge nogen langt ud af halsen,2,2,
+"man ved hvad man har, men ikke hvad man får",3,0,DISCREPANCY
+dér ligger hunden begravet,2,0,DISCREPANCY
+ukrudt forgår ikke så let,1,1,
+man skal ikke kaste med sten når man selv bor i et glashus,1,1,
+skyde en hvid pind efter,0,0,
+have en heldig hånd,2,2,
+sidde med livet i hænderne,2,3,DISCREPANCY
+have flere strenge at spille på,3,3,
+der er forår i luften,0,0,
+vand på nogens mølle,0,0,
+lang som et ondt år,2,2,
+alt hvad remmer og tøj kan holde,3,2,DISCREPANCY
+"se sol, måne og stjerner",2,1,DISCREPANCY
+have foden under eget bord,2,2,
+gale katte får revne skind,1,1,
+love guld og grønne skove,2,2,
+finde sine egne ben,2,3,DISCREPANCY
+slag i ansigtet,0,0,
+slå til søren,1,0,DISCREPANCY
+spænde livremmen ind,2,1,DISCREPANCY
+den vej skal vi alle,0,1,DISCREPANCY
+være over alle bjerge,1,3,DISCREPANCY
+have ordet i sin magt,3,0,DISCREPANCY
+på éns glatte ansigt,3,3,
+gå op i limningen,2,2,
+plejer er død,1,1,
+der er ingen ko på isen,3,1,DISCREPANCY
+ride med på en bølge,1,1,
+give den hele armen,1,1,
+i sin visdom,1,0,DISCREPANCY
+save den gren over man selv sidder på,3,0,DISCREPANCY
+have en skarp tunge,1,1,
+eneste høne i kurven,0,0,
+brænde alle broer bag sig,1,1,
+enhver er sig selv nærmest,2,2,
+ikke ride den dag man sadler,3,3,
+slikke frimærker,1,1,
+træerne vokser ikke ind i himlen,2,1,DISCREPANCY
+vende vrangen ud,1,1,
+have bly i benene,2,0,DISCREPANCY
+rive hovedet af nogen,1,1,
+tyv tror hvermand stjæler,2,2,
+på et hængende hår,0,0,
+fare rundt som en flue i en flaske,2,2,
+som skidt fra en spædekalv,0,3,DISCREPANCY
+blod er tykkere end vand,0,0,
+himmel og jord står i ét,0,1,DISCREPANCY
+ikke kunne se en hånd for sig,2,2,
+man skal kravle før man kan gå,0,0,
+tage brødet ud af munden på nogen,2,3,DISCREPANCY
+hverken til at hugge eller stikke i,2,2,
+arbejde som en hest,2,2,
+for nogens blå øjnes skyld,3,3,
+løbe hornene af sig,2,2,
+om smagen kan der ikke diskuteres,1,1,
+have nerverne uden på tøjet,1,1,
+have bukserne på,1,1,
+slå en streg over noget,0,0,
+spænde buen for hårdt,3,2,DISCREPANCY
+lægge alle sine æg i samme kurv,3,3,
+fare i blækhuset,2,2,
+søbe den kål man selv har spyttet i,1,1,
+støde nogen på manchetterne,2,2,
+det skriger til himlen,1,1,
+sur røv,1,1,
+det hører man ikke når musikken spiller,1,0,DISCREPANCY
+som at se maling tørre,3,2,DISCREPANCY
+en storm i et glas vand,1,1,
+stege i sit eget fedt,0,3,DISCREPANCY
+miraklernes tid er ikke forbi,0,0,
+bukke begge ender sammen på,1,0,DISCREPANCY
+med det yderste af neglene,3,0,DISCREPANCY
+ride sin kæphest,1,3,DISCREPANCY
+en hård nød at knække,0,0,
+gøre kål på,3,3,
+det går ikke altid som præsten prædiker,3,3,
+gnide sig op ad nogen,3,3,
+hår i suppen,2,2,
+træde nogen over tæerne,1,1,
+tage skeen i den anden hånd,1,1,
+man kan også købe guld for dyrt,0,0,
+rønnebærrene er sure,3,2,DISCREPANCY
+passe som fod i hose,3,3,
+nerverne står på højkant,0,0,
+tro som guld,2,2,
+tælle på knapperne,0,0,
+der er intet nyt under solen,0,0,
+en gang til for prins Knud,0,0,
+krage søger mage,0,0,
+ønske nogen hen hvor peberet gror,1,1,
+rotterne forlader den synkende skude,2,2,
+så god som dagen er lang,3,3,
+sætte fingeren på det ømme punkt,1,1,
+skyde gråspurve med kanoner,3,3,
+"de gode græd, og de onde lo",2,0,DISCREPANCY
+én svale gør ingen sommer,3,3,
+tage en kugle for nogen,2,2,
+have både til gården og til gaden,2,1,DISCREPANCY
+for mange kokke fordærver maden,2,2,
+trække læsset,1,1,
+spise kirsebær med de store,2,1,DISCREPANCY
+have en trumf i ærmet,2,2,
+en fis i en hornlygte,2,1,DISCREPANCY
+være grebet ud af luften,2,2,
+stikke halen mellem benene,2,2,
+have en lille fjer på,2,0,DISCREPANCY
+veje sine ord på en guldvægt,3,3,
+surt show,2,3,DISCREPANCY
+have nogen nede i sækken,2,3,DISCREPANCY
+gå gennem ild og vand,1,1,
+se gennem fingrene med noget,3,3,
+sætte en finger på noget,2,2,
+hælde ned ad brættet,1,3,DISCREPANCY
+erfaren mand er god at gæste,2,1,DISCREPANCY
+hverken hoved eller hale,1,1,
+man må krybe før man kan gå,3,2,DISCREPANCY
+give nogen horn i panden,1,0,DISCREPANCY
+ligge på den flade hånd,1,1,
+fuglen er fløjet,2,1,DISCREPANCY
+trække fronterne op,3,3,
+forbuden frugt smager bedst,2,2,
+gå i vasken,2,2,
+jokke i spinaten,3,3,
+klappe i sine små hænder,3,3,
+oven i hatten,2,0,DISCREPANCY
+en hund i et spil kegler,2,2,
+ingen kæde er stærkere end det svageste led,1,3,DISCREPANCY
+tab og vind med samme sind,2,0,DISCREPANCY
+ondt i håret,3,3,
+brede sig som ringe i vandet,1,1,
+blive slap i knæene,1,1,
+lade en dør stå på klem,2,0,DISCREPANCY
+ikke kunne høre hvad man selv tænker,1,1,
+uden for pædagogisk rækkevidde,2,1,DISCREPANCY
+være oppe på lakridserne,0,0,
+fyre kanonen af,2,1,DISCREPANCY
+tage med fløjlshandsker på nogen,0,0,
+det muntre køkken,1,3,DISCREPANCY
+smøge ærmerne op,2,2,
+gå hen over hovedet på nogen,1,1,
+springe over hvor gærdet er lavest,2,2,
+nogens hjerte springer et slag over,3,3,
+lege med ilden,1,1,
+over hals og hoved,2,2,
+"den der gemmer til natten, gemmer til katten",2,2,
+tage arven op efter nogen,2,1,DISCREPANCY
+slå sig på flasken,2,2,
+"mens græsset gror, dør horsemor",1,1,
+det store dyr i åbenbaringen,3,2,DISCREPANCY
+gå i hundene,0,0,
+ramme på kornet,1,1,
+sætte nogen fluer i hovedet,0,0,
+være i sikre hænder,2,2,
+fare i flæsket på,2,0,DISCREPANCY
+smide over bord,3,0,DISCREPANCY
+gribe i egen barm,3,3,
+én på torsken,3,0,DISCREPANCY
+tage med sig i graven,1,1,
+komme godt fra land,1,1,
+lægge to og to sammen,1,1,
+ofre noget på kærlighedens alter,2,2,
+bange for sin egen skygge,2,2,
+det grå guld,0,0,
+spil for galleriet,2,2,
+en pind til nogens el. nogets ligkiste,3,3,
+sidde klistret til skærmen,3,2,DISCREPANCY
+krybe i et musehul,2,1,DISCREPANCY
+kun en tåbe frygter ikke havet,1,2,DISCREPANCY
+forslå som en skrædder i helvede,2,0,DISCREPANCY
+det melder historien ikke noget om,1,1,
+have fat i den lange ende,3,0,DISCREPANCY
+"den der sår vind, høster storm",1,1,
+tisse i bukserne for at holde varmen,1,2,DISCREPANCY
+tage nogen ved vingebenet,2,2,
+hvis og hvis min røv var spids,1,1,
+prinsen på den hvide hest,0,0,
+have meget om ørerne,1,1,
+vælte læsset,3,2,DISCREPANCY
+stikke en kniv i ryggen på nogen,1,1,
+stille sig på bagbenene,3,3,
+slag i bolledejen,1,2,DISCREPANCY
+være en spurv i tranedans,3,3,
+lukke for det varme vand,2,0,DISCREPANCY
+vente på at stegte duer skal flyve ind i munden på én,2,2,
+sætte til vægs,0,0,
+en klods om benet på nogen,1,1,
+gå ud af sit gode skind,3,3,
+smide barnet ud med badevandet,0,0,
+hu hej vilde dyr,3,0,DISCREPANCY
+toppen af isbjerget,3,3,
+hver fugl synger med sit næb,2,2,
+slå koldt vand i blodet,0,0,
+når der er to torsdage i en uge,1,1,
+krig på kniven,2,2,
+med et glimt i øjet,2,2,
+kunne bide tungen af sig selv,2,2,
+man kan ikke både blæse og have mel i munden,0,0,
+man har et standpunkt til man tager et nyt,0,0,
+være en hund efter noget,0,0,
+der går et lys op for nogen,0,0,
+sælge nogen en trepattet ko,3,3,
+gøre en myg til en elefant,2,2,
+gå over åen efter vand,2,2,
+ingen kan tjene to herrer,1,1,
+bide tænderne sammen,1,1,
+skulle have noget ind med skeer,1,1,
+lægge hovedet i blød,1,1,
+pynte sig med lånte fjer,2,2,
+"det er mig, sagde hunden",2,1,DISCREPANCY
+gå op i hat og briller,3,0,DISCREPANCY
+stå med håret i postkassen,3,3,
+smile i skægget,3,3,
+gyde olie på vandene,2,2,
+"den der graver en grav for andre, falder selv i den",2,2,
+lykken står den kække bi,2,2,
+kræve nogens hoved på et fad,1,1,
+bringe blodet i kog,3,3,
+tage bladet fra munden,1,1,
+kolos på lerfødder,1,1,
+slå ind på en anden vej,3,3,
+støbe kuglerne,3,3,
+have krudt i røven,3,3,
+ikke have en snebolds chance i helvede,3,3,
+"når katten er ude, spiller musene på bordet",2,2,
+stirre sig blind på noget,1,1,
+der er løbet meget vand i stranden siden ..,3,3,
+slå til skaglerne,3,3,
+"øje for øje, tand for tand",1,1,
+håbet er lysegrønt,2,0,DISCREPANCY
+vende og dreje hver femøre,2,3,DISCREPANCY
+proppe noget ned i halsen på nogen,1,1,
+tale for sin syge moster,3,1,DISCREPANCY
+til den store guldmedalje,1,3,DISCREPANCY
+kaste under bussen,2,2,
+holde næsen i plovfuren,2,2,
+stampe op af jorden,1,3,DISCREPANCY
+svare i øst når der spørges i vest,0,0,
+et greb i lommen,0,0,
+smide gode penge efter dårlige,0,0,
+piben får en anden lyd,3,3,
+spille på flere heste,0,0,
+ikke syv vilde heste kan ..,3,3,
+"den enes død, den andens brød",1,1,
+bære kappen på begge skuldre,1,1,

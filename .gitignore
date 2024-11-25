@@ -9,6 +9,7 @@ develop-eggs/
 dist/
 eggs/
 *.egg-info/
+.cursorrules
 
 venv/
 .env/
@@ -23,3 +24,4 @@ venv/
 /TODO.md
 /SPEC.md
 /tests/
+/logs

@@ -1,17 +1,21 @@
 import os
 from typing import Dict, Any
 from openai import OpenAI
+import google.generativeai as genai
+from llamaapi import LlamaAPI
+import anthropic
 
 API_KEYS = {
     "ANTHROPIC_API_KEY": os.getenv("ANTHROPIC_API_KEY", ""),
     "OPENAI_API_KEY": os.getenv("OPENAI_API_KEY", ""),
-    "GOOGLE_API_KEY": os.getenv("GOOGLE_API_KEY", "")
+    "GOOGLE_API_KEY": os.getenv("GOOGLE_API_KEY", ""),
+    "LLAMA_API_KEY": os.getenv("LLAMA_API_KEY", "")
 }
 
 MODEL_CONFIGS = {
-    "claude": {
-        "model_name": "claude-3-sonnet-20240229",
-        "max_tokens": 1,
+    "llama-3.1": {
+        "model_name": "llama-3.1-70b",
+        "max_token": 1,
         "temperature": 0
     },
     "gpt-4": {
@@ -19,18 +23,19 @@ MODEL_CONFIGS = {
         "max_tokens": 1,
         "temperature": 0
     },
-    "gpt-4o-mini": {
-        "model_name": "gpt-4o-mini",
-        "max_tokens": 1,
-        "temperature": 0
-    },
-    "gpt-o1-preview": {
-        "model_name": "o1-preview",
+    "gpt-4o": {
+        "model_name": "gpt-4o-2024-11-20",
         "max_tokens": 1,
         "temperature": 0
     },
     "gemini": {
-        "model_name": "gemini-pro",
+        "model_name": "gemini-1.5-pro-latest",
+        "temperature": 0,
+        "max_output_tokens": 1
+    },
+    "claude": {
+        "model_name": "claude-3-sonnet-latest",
+        "max_tokens": 1,
         "temperature": 0
     }
 }
@@ -42,18 +47,3 @@ Option B: {definition_b}
 Option C: {definition_c}
 Option D: {definition_d}
 Your response should be exactly one letter: A, B, C, or D."""
-
-def validate_api_keys():
-    missing_keys = [key for key, value in API_KEYS.items() if not value]
-    if missing_keys:
-        raise ValueError(f"Missing API keys: {', '.join(missing_keys)}")
-
-
-def list_openai_models():
-    client = OpenAI()
-    models = client.models.list()
-    for model in models.data:
-        print(model.id)
-
-
-#list_openai_models()
