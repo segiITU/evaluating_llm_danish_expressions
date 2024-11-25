@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ### Evaluating LLMs on Danish Expressions with DSL's *talemaader*-dataset
 Digitaliseringsstyrelsen and Det Danske Sprog- og Litteraturselskab (DSL) have developed the 'talemaader' dataset, which consists of 1000 Danish idioms and fixed expressions. Each expression comes with one true definition and three false definitions. This project aims to evaluate how well various Large Language Models (LLMs) can classify the correct definitions, thereby testing their ability to understand Danish idioms and fixed expressions.
 
@@ -21,9 +20,6 @@ The project is ongoing. Initial evaluations are being conducted, and detailed re
 This project evaluates the language competency of six different LLMs, including the larger GPT models, Gemini, Claude and Llama on DSL's 'talemaader - 1000 Danish expressions' dataset.
 
 For a exploratory data analysis of the dataset, see please the EDA notebook in /notebooks.
-
-
->>>>>>> dev
 
 #### Dataset and license
 The dataset is made available under a CC-BY license and can be downloaded via sprogteknologi.dk by [clicking here](https://sprogteknologi.dk/dataset/1000-talemader-evalueringsdatasaet). All credit goes to Det Danske Sprog- og Litteraturselskab (DSL) and Digitaliseringsstyrelsen.
