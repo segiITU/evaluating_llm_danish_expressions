@@ -1,3 +1,6 @@
+![accuracy_LLMs_talemaader-dataset](https://github.com/user-attachments/assets/be4f9ef9-2287-4797-8d4e-47495fc6aaea)
+
+
 tl;dr: The GPT model series show increasing Danish language competency on Danish expressions and figures of speech, and the GPT-4o predicts the correct definition with an impressive 93% accuracy on the *talemaader*-dataset, made available by DSL. The Claude Sonnet 3 model, on the other hand, does not well perform on Danish with 69% accuracy, which is comparable to the older GPT-3.5-turbo model's 67%. Meta's Llama and Google's Gemini models sit in the mid-range with ~87% and ~80% accuracy, respectively.
 ### Evaluating LLMs on Danish Expressions with DSL's *talemaader*-dataset
 Digitaliseringsstyrelsen and Det Danske Sprog- og Litteraturselskab (DSL) have developed the 'talemaader' dataset, which consists of 1000 Danish idioms and fixed expressions. Each expression comes with one true definition and three false definitions. This project aims to evaluate how well various Large Language Models (LLMs) can classify the correct definitions, thereby testing their ability to understand Danish idioms and fixed expressions.
