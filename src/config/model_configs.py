@@ -37,6 +37,11 @@ MODEL_CONFIGS = {
         "model_name": "claude-3-sonnet-latest",
         "max_tokens": 1,
         "temperature": 0
+    },
+    "claude-3-5-sonnet": {
+        "model_name": "claude-3-5-sonnet-20241022",
+        "max_tokens": 1,
+        "temperature": 0
     }
 }
 

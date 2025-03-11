@@ -57,8 +57,8 @@ class ModelPredictor:
             self.model = GeminiModel()
         elif model_name == 'llama':
             self.model = LlamaModel()
-        elif model_name == 'claude':
-            self.model = ClaudeModel()
+        elif model_name in ['claude', 'claude-3-5-sonnet']:
+            self.model = ClaudeModel(model_name="claude-3-5-sonnet-20241022" if model_name == 'claude-3-5-sonnet' else "claude-3-sonnet-20240229")
         else:
             self.model = GPTModel(model_name=model_name)
         
@@ -148,8 +148,8 @@ class ModelPredictor:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Run predictions for a specific model')
     parser.add_argument('--model', type=str, default="gpt-4", 
-                      choices=['gpt-4', 'gpt-4o', 'gemini', 'llama', 'claude'],
-                      help='Model name to use for predictions')
+                  choices=['gpt-4', 'gpt-4o', 'gemini', 'llama', 'claude', 'claude-3-5-sonnet'],
+                  help='Model name to use for predictions')
     parser.add_argument('--batch-size', type=int, default=5,
                       help='Number of idioms to process in this batch (default: 5)')
     
