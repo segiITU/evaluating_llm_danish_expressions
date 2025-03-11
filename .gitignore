@@ -11,6 +11,9 @@ eggs/
 *.egg-info/
 .cursorrules
 
+# LibreOffice/OpenOffice lock files
+.~lock.*
+
 venv/
 .env/
 .venv/
