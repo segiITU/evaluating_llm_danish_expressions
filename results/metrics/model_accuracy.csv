@@ -1,5 +1,6 @@
 ,accuracy
 claude-3-5-sonnet,94.69999999999999
+claude-3-7-sonnet,93.30000000000001
 claude-3,69.1
 gemini-1.5,87.0
 gpt-3.5-one_shot,65.4
