@@ -1,0 +1,69 @@
+talemaade_udtryk,predicted_label,misinterpretation_type,true_label
+vride halsen om på nogen,0,concrete misinterpretation,3
+uden mad og drikke duer helten ikke,3,concrete misinterpretation,0
+ikke være mange sure sild værd,3,abstract misinterpretation,1
+mester for noget,2,concrete misinterpretation,3
+det fagreste træ i skoven,2,abstract misinterpretation,1
+hele dynen,0,random definition,3
+gå i brædderne,2,concrete misinterpretation,0
+en streg i luften,0,concrete misinterpretation,1
+bide i græsset,3,abstract misinterpretation,0
+vride bananen,1,abstract misinterpretation,2
+gå rundt med noget i maven,3,abstract misinterpretation,0
+"højt at flyve, dybt at falde",3,concrete misinterpretation,2
+der må være en blonde,3,abstract misinterpretation,2
+strø sand på,2,abstract misinterpretation,1
+grave et par spadestik dybere,1,abstract misinterpretation,0
+ål i strømperne,2,abstract misinterpretation,0
+have knive i ærmerne,3,abstract misinterpretation,2
+give bolden op,0,abstract misinterpretation,1
+ikke lade solen gå ned over sin vrede,0,concrete misinterpretation,3
+uden for lands lov og ret,2,abstract misinterpretation,1
+"ét spøg, et andet alvor",3,concrete misinterpretation,0
+få lange arme,2,abstract misinterpretation,3
+der er løbet meget vand gennem åen siden ..,1,abstract misinterpretation,0
+ved kasse ét,2,abstract misinterpretation,0
+i mørke er alle katte grå,3,concrete misinterpretation,1
+gå i spagat over noget,0,abstract misinterpretation,2
+tabe på gulvet,0,concrete misinterpretation,1
+guds ord fra landet,3,random definition,2
+"når nøden er størst, er hjælpen nærmest",0,concrete misinterpretation,1
+puste i nakken,2,concrete misinterpretation,0
+gøre kort proces,3,concrete misinterpretation,2
+"livet er kort, kunsten er lang",3,concrete misinterpretation,2
+hyppe sine egne kartofler,2,abstract misinterpretation,3
+hellere lille og vågen end stor og doven,3,concrete misinterpretation,1
+ligne udskidt æblegrød,3,concrete misinterpretation,2
+føle sig hjemme,2,concrete misinterpretation,1
+gå op i sømmene,1,abstract misinterpretation,0
+skide grønne grise,3,abstract misinterpretation,2
+smage som at række tungen ud ad vinduet,0,concrete misinterpretation,3
+som en åben bog,3,concrete misinterpretation,1
+give faklen videre,0,abstract misinterpretation,2
+give den en skalle,3,concrete misinterpretation,2
+bide skeer med,0,random definition,3
+det tager en krig,0,abstract misinterpretation,1
+have ild i enden,2,abstract misinterpretation,1
+sejle på varmen,2,abstract misinterpretation,0
+en køn plante,1,abstract misinterpretation,0
+så let som at klø sig selv i nakken,3,concrete misinterpretation,1
+klædt af til skindet,2,concrete misinterpretation,0
+tage noget i stiv arm,1,abstract misinterpretation,3
+den sorte klap går ned,1,abstract misinterpretation,2
+slå til søren,2,abstract misinterpretation,0
+eneste høne i kurven,1,concrete misinterpretation,0
+som skidt fra en spædekalv,0,concrete misinterpretation,3
+have både til gården og til gaden,2,abstract misinterpretation,1
+surt show,2,random definition,3
+hælde ned ad brættet,1,concrete misinterpretation,3
+ingen kæde er stærkere end det svageste led,1,concrete misinterpretation,3
+uden for pædagogisk rækkevidde,2,abstract misinterpretation,1
+fyre kanonen af,2,abstract misinterpretation,1
+det muntre køkken,1,concrete misinterpretation,3
+gå hen over hovedet på nogen,3,random definition,1
+kun en tåbe frygter ikke havet,1,concrete misinterpretation,2
+have fat i den lange ende,3,concrete misinterpretation,0
+hu hej vilde dyr,3,abstract misinterpretation,0
+vende og dreje hver femøre,0,abstract misinterpretation,3
+tale for sin syge moster,2,concrete misinterpretation,1
+til den store guldmedalje,0,abstract misinterpretation,3
