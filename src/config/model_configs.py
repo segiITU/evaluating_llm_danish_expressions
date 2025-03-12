@@ -9,7 +9,8 @@ API_KEYS = {
     "ANTHROPIC_API_KEY": os.getenv("ANTHROPIC_API_KEY", ""),
     "OPENAI_API_KEY": os.getenv("OPENAI_API_KEY", ""),
     "GOOGLE_API_KEY": os.getenv("GOOGLE_API_KEY", ""),
-    "LLAMA_API_KEY": os.getenv("LLAMA_API_KEY", "")
+    "LLAMA_API_KEY": os.getenv("LLAMA_API_KEY", ""),
+    "XAI_API_KEY": os.getenv("XAI_API_KEY", "")
 }
 
 MODEL_CONFIGS = {
@@ -45,6 +46,11 @@ MODEL_CONFIGS = {
     },
     "claude-3-7-sonnet": {
         "model_name": "claude-3-7-sonnet-20250219",
+        "max_tokens": 1,
+        "temperature": 0
+    },
+        "grok-2": {
+        "model_name": "grok-2-1212",
         "max_tokens": 1,
         "temperature": 0
     }
