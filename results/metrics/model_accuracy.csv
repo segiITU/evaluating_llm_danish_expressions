@@ -8,4 +8,5 @@ gpt-3.5,67.5
 gpt-4,89.4
 gpt-4o-smaller-prompt,93.0
 gpt-4o,93.10000000000001
+grok-2,84.7
 llama-3.1,78.9
