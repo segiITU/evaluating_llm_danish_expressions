@@ -1,55 +1,90 @@
 import pandas as pd
 from pathlib import Path
+import os
 
-def analyze_misinterpretations():
-    # Read the labels file
-    labels_df = pd.read_csv('data/raw/talemaader_leverance_2_kun_labels.csv', sep='\t')
+def generate_misinterpretation_overview():
+    # Define paths
+    results_dir = Path('results/predictions')
+    output_path = results_dir / 'overview_misinterpretation.csv'
     
-    # Get list of discrepancy files
-    processed_dir = Path('data/processed')
-    discrepancy_files = list(processed_dir.glob('only_discrepancies_*.csv'))
+    # Get all misinterpretation files
+    misinterpretation_files = list(results_dir.glob('misinterpretations_*.csv'))
     
-    for file_path in discrepancy_files:
-        # Extract LLM name from filename
-        llm_name = file_path.stem.split('_')[-1]
+    if not misinterpretation_files:
+        print("No misinterpretation files found!")
+        return
         
-        # Read discrepancy file
-        disc_df = pd.read_csv(file_path)
+    # Initialize results dictionary
+    overview_data = []
+    
+    for file_path in misinterpretation_files:
+        # Extract model name from filename
+        model_name = file_path.stem.replace('misinterpretations_', '')
         
-        # Initialize misinterpretation column
-        misinterpretations = []
+        # Read misinterpretation file
+        df = pd.read_csv(file_path)
         
-        # For each discrepancy
-        for _, row in disc_df.iterrows():
-            # Find corresponding row in labels
-            label_row = labels_df[labels_df['talemaade_udtryk'] == row['talemaade_udtryk']].iloc[0]
-            pred_label = row['predicted_label']
-            
-            # Determine misinterpretation type
-            if pred_label == label_row['falsk1']:
-                mistype = 'concrete misinterpretation'
-            elif pred_label == label_row['falsk2']:
-                mistype = 'abstract misinterpretation'
-            elif pred_label == label_row['falsk3']:
-                mistype = 'random definition'
-            else:
-                mistype = 'unknown'
-                
-            misinterpretations.append(mistype)
+        # Count total misinterpretations
+        total_misinterpretations = len(df)
         
-        # Create output dataframe with required columns
-        output_df = pd.DataFrame({
-            'talemaade_udtryk': disc_df['talemaade_udtryk'],
-            'predicted_label': disc_df['predicted_label'],
-            'misinterpretation_type': misinterpretations,
-            'true_label': disc_df['true_label']
-        })
+        # Count by misinterpretation type
+        type_counts = df['misinterpretation_type'].value_counts().to_dict()
         
-        # Save to results directory
-        output_path = Path(f'results/predictions/misinterpretations_{llm_name}.csv')
-        output_path.parent.mkdir(parents=True, exist_ok=True)
-        output_df.to_csv(output_path, index=False)
-        print(f"Processed {llm_name}")
+        # Ensure all categories exist with at least 0 count
+        for category in ['concrete misinterpretation', 'abstract misinterpretation', 'random definition', 'unknown']:
+            if category not in type_counts:
+                type_counts[category] = a = 0
+        
+        # Create row for this model
+        model_data = {
+            'model': model_name,
+            'total_misinterpretations': total_misinterpretations,
+            'concrete_misinterpretations': type_counts.get('concrete misinterpretation', 0),
+            'abstract_misinterpretations': type_counts.get('abstract misinterpretation', 0),
+            'random_definitions': type_counts.get('random definition', 0),
+            'unknown': type_counts.get('unknown', 0)
+        }
+        
+        # Add percentages
+        if total_misinterpretations > 0:
+            model_data['concrete_percent'] = round(100 * model_data['concrete_misinterpretations'] / total_misinterpretations, 2)
+            model_data['abstract_percent'] = round(100 * model_data['abstract_misinterpretations'] / total_misinterpretations, 2)
+            model_data['random_percent'] = round(100 * model_data['random_definitions'] / total_misinterpretations, 2)
+            model_data['unknown_percent'] = round(100 * model_data['unknown'] / total_misinterpretations, 2)
+        else:
+            model_data['concrete_percent'] = 0
+            model_data['abstract_percent'] = 0
+            model_data['random_percent'] = 0
+            model_data['unknown_percent'] = 0
+        
+        overview_data.append(model_data)
+    
+    # Create DataFrame from results
+    overview_df = pd.DataFrame(overview_data)
+    
+    # Reorder columns for better readability
+    column_order = [
+        'model', 'total_misinterpretations',
+        'concrete_misinterpretations', 'concrete_percent',
+        'abstract_misinterpretations', 'abstract_percent',
+        'random_definitions', 'random_percent',
+        'unknown', 'unknown_percent'
+    ]
+    overview_df = overview_df[column_order]
+    
+    # Sort by total misinterpretations (ascending = better performance)
+    overview_df = overview_df.sort_values('total_misinterpretations')
+    
+    # Save to CSV
+    overview_df.to_csv(output_path, index=False)
+    
+    print(f"Generated overview of misinterpretations for {len(overview_data)} models")
+    print(f"Overview saved to: {output_path}")
+    
+    # Print a summary table
+    print("\nMisinterpretation Overview:")
+    print(overview_df[['model', 'total_misinterpretations', 
+                      'concrete_percent', 'abstract_percent', 'random_percent']].to_string(index=False))
 
 if __name__ == "__main__":
-    analyze_misinterpretations()
+    generate_misinterpretation_overview()
