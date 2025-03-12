@@ -91,22 +91,32 @@ parser.add_argument('--model', type=str, default="gpt-4",
 Execute these commands in sequence:
 
 1. Generate predictions (repeat until all 1000 expressions are processed):
-```
+```bash
 python -m src.utils.run_model_predictions --model claude-3-5-sonnet --batch-size 100
 ```
 
 2. Add true labels:
-```
+```bash
 python -m src.utils.add_true_label --model claude-3-5-sonnet
 ```
 
 3. Process discrepancies:
-```
+```bash
 python -m src.utils.process_discrepancies --model claude-3-5-sonnet
 ```
 
-4. Calculate accuracy metrics:
+4. Analyze misinterpretation types:
+```bash
+python results/predictions/misinterpretation_analysis.py
 ```
+
+5. Generate misinterpretation overview:
+```bash
+python results/predictions/generate_misinterpretation_overview.py
+```
+
+6. Calculate accuracy metrics:
+```bash
 python results/metrics/calculate_accuracy.py
 ```
 
