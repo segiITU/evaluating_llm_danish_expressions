@@ -94,7 +94,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Add true labels to predictions for a specific model.')
     parser.add_argument('--model', type=str, default="gpt-4", 
                   choices=['gpt-4', 'gpt-4o', 'gpt-4o-smaller-prompt', 'gemini', 'llama', 'claude', 
-                           'gpt-3.5-one_shot', 'claude-3-5-sonnet', 'claude-3-7-sonnet', 'grok-2'],
+                           'gpt-3.5-one_shot', 'claude-3-5-sonnet', 'claude-3-7-sonnet', 'grok-2', 'deepseek'],
                   help='Model name to process (default: gpt-4)')
     
     args = parser.parse_args()
