@@ -92,30 +92,25 @@ Execute these commands in sequence:
 
 1. Generate predictions (repeat until all 1000 expressions are processed):
 ```bash
-python -m src.utils.run_model_predictions --model claude-3-5-sonnet --batch-size 100
+python -m src.utils.run_model_predictions --model <model_name> --batch-size <5>
 ```
 
 2. Add true labels:
 ```bash
-python -m src.utils.add_true_label --model claude-3-5-sonnet
+python -m src.utils.add_true_label --model <model_name>
 ```
 
 3. Process discrepancies:
 ```bash
-python -m src.utils.process_discrepancies --model claude-3-5-sonnet
+python -m src.utils.process_discrepancies --model <model_name>
 ```
 
-4. Analyze misinterpretation types:
+4. Analyze misinterpretation types and generate overview:
 ```bash
 python results/predictions/misinterpretation_analysis.py
 ```
 
-5. Generate misinterpretation overview:
-```bash
-python results/predictions/generate_misinterpretation_overview.py
-```
-
-6. Calculate accuracy metrics:
+5. Calculate accuracy metrics:
 ```bash
 python results/metrics/calculate_accuracy.py
 ```
