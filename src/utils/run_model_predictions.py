@@ -7,6 +7,7 @@ from src.models.gemini import GeminiModel
 from src.models.llama import LlamaModel
 from src.models.claude import ClaudeModel
 from src.models.grok import GrokModel
+from src.models.deepseek import DeepseekModel
 import time
 from typing import Set
 import argparse
@@ -67,6 +68,8 @@ class ModelPredictor:
             elif model_name == 'claude-3-7-sonnet':
                 model_string = "claude-3-7-sonnet-20250219"
             self.model = ClaudeModel(model_name=model_string)
+        elif model_name == 'deepseek':
+            self.model = DeepseekModel()
         else:
             self.model = GPTModel(model_name=model_name)
         
@@ -156,7 +159,8 @@ class ModelPredictor:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Run predictions for a specific model')
     parser.add_argument('--model', type=str, default="gpt-4", 
-                  choices=['gpt-4', 'gpt-4o', 'gemini', 'llama', 'claude', 'claude-3-5-sonnet', 'claude-3-7-sonnet', 'grok-2'],
+                  choices=['gpt-4', 'gpt-4o', 'gemini', 'llama', 'claude', 'claude-3-5-sonnet', 
+                           'claude-3-7-sonnet', 'grok-2', 'deepseek'],
                   help='Model name to use for predictions')
     parser.add_argument('--batch-size', type=int, default=5,
                       help='Number of idioms to process in this batch (default: 5)')

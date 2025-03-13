@@ -1,1 +1,0 @@
-This folder contains scripts that are only used related to creating the GPT-3 baseline in this project. You may use also the code in the /utils folder for LLMs including larger GPT models, Gemini, Claude and Llama.

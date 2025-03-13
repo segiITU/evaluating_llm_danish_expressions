@@ -10,7 +10,8 @@ API_KEYS = {
     "OPENAI_API_KEY": os.getenv("OPENAI_API_KEY", ""),
     "GOOGLE_API_KEY": os.getenv("GOOGLE_API_KEY", ""),
     "LLAMA_API_KEY": os.getenv("LLAMA_API_KEY", ""),
-    "XAI_API_KEY": os.getenv("XAI_API_KEY", "")
+    "XAI_API_KEY": os.getenv("XAI_API_KEY", ""),
+    "DEEPSEEK_API_KEY": os.getenv("DEEPSEEK_API_KEY", "")
 }
 
 MODEL_CONFIGS = {
@@ -51,6 +52,11 @@ MODEL_CONFIGS = {
     },
         "grok-2": {
         "model_name": "grok-2-1212",
+        "max_tokens": 1,
+        "temperature": 0
+    },
+      "deepseek": {  
+        "model_name": "deepseek-chat", # points to DeepSeek-V3
         "max_tokens": 1,
         "temperature": 0
     }
