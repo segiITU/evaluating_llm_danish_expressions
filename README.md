@@ -1,4 +1,4 @@
-![accuracy_LLMs_talemaader-dataset](results\figures\LLM_model_accuracy_comparison.png)
+![accuracy_LLMs_talemaader-dataset](results/figures/LLM_model_accuracy_comparison.png)
 
 # Danish Idioms Benchmark: LLM Accuracy Comparison
 
