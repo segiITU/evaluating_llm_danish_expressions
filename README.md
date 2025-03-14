@@ -1,13 +1,19 @@
-![accuracy_LLMs_talemaader-dataset](https://github.com/user-attachments/assets/be4f9ef9-2287-4797-8d4e-47495fc6aaea)
+![accuracy_LLMs_talemaader-dataset](results\figures\LLM_model_accuracy_comparison.png)
 
+# Danish Idioms Benchmark: LLM Accuracy Comparison
 
-tl;dr: The GPT model series show increasing Danish language competency on Danish expressions and figures of speech, and the GPT-4o predicts the correct definition with an impressive 93% accuracy on the *talemaader*-dataset, made available by DSL. The Claude Sonnet 3 model, on the other hand, does not well perform on Danish with 69% accuracy, which is comparable to the older GPT-3.5-turbo model's 67%. Meta's Llama and Google's Gemini models sit in the mid-range with ~87% and ~80% accuracy, respectively.
+**tl;dr:** This project evaluates 10 different LLMs on their ability to *"understand"* Danish idioms using DSL's *talemaader*-dataset of 1000 Danish expressions. Claude 3.5 Sonnet leads the benchmark with 94.7% accuracy, followed closely by Claude 3.7 Sonnet (93.3%) and GPT-4o (93.1%). There's a significant performance gap between these leaders and models like Claude 3 (69.1%) and GPT-3.5 (67.5%), but they are pre-historic models in LLM years - they are from March 2024 and November 2022, respectively! This benchmark provides valuable insights into how different LLMs handle Danish language comprehension, particularly with idiomatic expressions.
+
 ### Evaluating LLMs on Danish Expressions with DSL's *talemaader*-dataset
-Digitaliseringsstyrelsen and Det Danske Sprog- og Litteraturselskab (DSL) have developed the 'talemaader' dataset, which consists of 1000 Danish idioms and fixed expressions. Each expression comes with one true definition and three false definitions. This project aims to evaluate how well various Large Language Models (LLMs) can classify the correct definitions, thereby testing their ability to understand Danish idioms and fixed expressions.
+Digitaliseringsstyrelsen and Det Danske Sprog- og Litteraturselskab (DSL) have developed the 'talemaader' dataset, which consists of 1000 Danish idioms and fixed expressions. Each expression comes with one true definition and three false definitions. This project evaluates how well various Large Language Models can identify the correct definition, testing their Danish language competence.
 
-This project evaluates the language competency of six different LLMs, including the larger GPT models, Gemini, Claude and Llama on DSL's 'talemaader - 1000 Danish expressions' dataset.
+The results show significant differences in performance across models:
+- **Top performers (>90%)**: Claude 3.5 Sonnet (94.7%), Claude 3.7 Sonnet (93.3%), GPT-4o (93.1%)
+- **Strong performers (85-90%)**: GPT-4 (89.4%), Gemini 1.5 Pro (87.0%)
+- **Mid-range performers (75-85%)**: Grok-2 (84.7%), DeepSeek (79.0%), Llama 3.1 (78.9%)
+- **Lower performers (<70%)**: Claude 3 (69.1%), GPT-3.5 (67.5%)
 
-For an walkthrough of this project and its findings, please the notebook (here)[notebooks\walkthrough_project_findings.ipynb].
+For a walkthrough of this project and its findings, please see the notebook [here](notebooks\walkthrough_project_findings.ipynb).
 
 #### Dataset and license
 The dataset is made available under a CC-BY license and can be downloaded via sprogteknologi.dk by [clicking here](https://sprogteknologi.dk/dataset/1000-talemader-evalueringsdatasaet). All credit goes to Det Danske Sprog- og Litteraturselskab (DSL) and Digitaliseringsstyrelsen.
@@ -27,6 +33,8 @@ This guide provides step-by-step instructions for evaluating a new LLM on the Da
   - `OPENAI_API_KEY` for GPT models
   - `GOOGLE_API_KEY` for Gemini models
   - `LLAMA_API_KEY` for Llama models
+  - `XAI_API_KEY` for XAI models, i.e. GROK
+  - `DEEPSEEK_API_KEY` for DeepSeek
 
 ## Step 1: Update Model Configurations
 
