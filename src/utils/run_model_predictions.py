@@ -159,9 +159,9 @@ class ModelPredictor:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Run predictions for a specific model')
     parser.add_argument('--model', type=str, default="gpt-4", 
-                  choices=['gpt-4', 'gpt-4o', 'gemini', 'llama', 'claude', 'claude-3-5-sonnet', 
-                           'claude-3-7-sonnet', 'grok-2', 'deepseek'],
-                  help='Model name to use for predictions')
+              choices=['gpt-4', 'gpt-4o', 'gemini', 'llama', 'claude', 'claude-3-5-sonnet', 
+                       'claude-3-7-sonnet', 'grok-2', 'deepseek', 'gpt-3.5-turbo'],
+              help='Model name to use for predictions')
     parser.add_argument('--batch-size', type=int, default=5,
                       help='Number of idioms to process in this batch (default: 5)')
     

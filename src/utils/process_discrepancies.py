@@ -100,9 +100,9 @@ def process_discrepancies(model_name: str = "gpt-4"):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Process prediction discrepancies for a specific model.')
     parser.add_argument('--model', type=str, default="gpt-4", 
-                  choices=['gpt-4', 'gpt-4o', 'gpt-4o-smaller-prompt', 'gemini', 'llama', 'claude', 
-                          'gpt-3.5-one_shot', 'claude-3-5-sonnet', 'claude-3-7-sonnet', 'grok-2', 'deepseek'],
-                  help='Model name to process (default: gpt-4)')
+              choices=['gpt-4', 'gpt-4o', 'gpt-4o-smaller-prompt', 'gemini', 'llama', 'claude', 
+                      'gpt-3.5-one_shot', 'claude-3-5-sonnet', 'claude-3-7-sonnet', 'grok-2', 'deepseek', 'gpt-3.5-turbo'],
+              help='Model name to process (default: gpt-4)')
     
     args = parser.parse_args()
     process_discrepancies(model_name=args.model)

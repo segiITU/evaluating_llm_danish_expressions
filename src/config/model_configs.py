@@ -20,6 +20,11 @@ MODEL_CONFIGS = {
         "max_token": 1,
         "temperature": 0
     },
+    "gpt-3.5-turbo": {
+    "model_name": "gpt-3.5-turbo-0125",
+    "max_tokens": 1,
+    "temperature": 0
+    },
     "gpt-4": {
         "model_name": "gpt-4-0125-preview",
         "max_tokens": 1,

@@ -5,6 +5,7 @@ claude-3,69.1
 deepseek,79.0
 gemini-1.5,87.0
 gpt-3.5-one_shot,65.4
+gpt-3.5-turbo,67.5
 gpt-3.5,67.5
 gpt-4,89.4
 gpt-4o-smaller-prompt,93.0
