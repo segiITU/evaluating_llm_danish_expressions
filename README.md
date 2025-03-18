@@ -13,12 +13,15 @@ The results show significant differences in performance across models:
 - **Mid-range performers (75-85%)**: Grok-2 (84.7%), DeepSeek (79.0%), Llama 3.1 (78.9%)
 - **Lower performers (<70%)**: Claude 3 (69.1%), GPT-3.5 (67.5%)
 
-For a walkthrough of this project and its findings, please see the notebook [here](notebooks/walkthrough_project_findings.ipynb).
+For a walkthrough of this project and its findings, please see the notebooks folder.
 
 #### Dataset and license
 The dataset is made available under a CC-BY license and can be downloaded via sprogteknologi.dk by [clicking here](https://sprogteknologi.dk/dataset/1000-talemader-evalueringsdatasaet). All credit goes to Det Danske Sprog- og Litteraturselskab (DSL) and Digitaliseringsstyrelsen.
 
 This is my first project of this sort, so input, comments and suggestions are very welcome! 
+
+#### Requested models to evaluate
+The following models have been requested to be evaluatd through social media: Grok3, ChatGPT-4.5, Gemini Flash 2, Gemma 3 27B, DanskGPT.
 
 
 # Guide: Running the Danish Idioms Evaluation Pipeline with New Models
