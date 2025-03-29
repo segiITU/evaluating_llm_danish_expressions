@@ -21,7 +21,7 @@ The dataset is made available under a CC-BY license and can be downloaded via sp
 This is my first project of this sort, so input, comments and suggestions are very welcome! 
 
 #### Requested models to evaluate
-The following models have been requested to be evaluatd through social media: Grok3, ChatGPT-4.5, Gemini Flash 2, Gemma 3 27B, DanskGPT.
+The following models have been requested to be evaluated by users through social media: Grok3, ChatGPT-4.5, Gemini Flash 2, Gemma 3 27B, DanskGPT, Gemini 2.5 Pro Exp. 
 
 
 # Guide: Running the Danish Idioms Evaluation Pipeline with New Models
