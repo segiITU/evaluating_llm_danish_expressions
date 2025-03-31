@@ -17,32 +17,65 @@ class ClaudeModel(BaseModel):
             raise
 
     def predict(self, expression: str, options: Dict[str, str]) -> str:
-        """Predict the correct definition for a Danish expression."""
-        prompt = PROMPT_TEMPLATE.format(
-            metaphorical_expression=expression,
-            definition_a=options['A'],
-            definition_b=options['B'],
-            definition_c=options['C'],
-            definition_d=options['D']
-        )
-        try:
-            message = self.client.messages.create(
-                model=self.model,
-                max_tokens=1,
-                temperature=0,
-                messages=[{
-                    "role": "user",
-                    "content": prompt
-                }]
+        """
+        Predict the correct definition for a Danish expression by asking yes/no questions
+        for each definition option.
+        
+        Args:
+            expression: The Danish expression
+            options: Dictionary with keys 'A', 'B', 'C', 'D' containing possible definitions
+            
+        Returns:
+            str: Predicted label ('A', 'B', 'C', or 'D')
+        """
+        predictions = {}
+        
+        # Ask about each definition option
+        for option_key, definition in options.items():
+            prompt = PROMPT_TEMPLATE.format(
+                metaphorical_expression=expression,
+                definition_a=definition
             )
-            prediction = message.content[0].text.strip().upper()
-            if prediction not in ['A', 'B', 'C', 'D']:
-                logger.warning(f"Invalid prediction from Claude: {prediction}")
-                raise ValueError(f"Invalid prediction: {prediction}")
-            return prediction
-        except Exception as e:
-            logger.error(f"Claude prediction error: {str(e)}")
-            raise
+            
+            try:
+                message = self.client.messages.create(
+                    model=self.model,
+                    max_tokens=1,
+                    temperature=0,
+                    messages=[{
+                        "role": "user",
+                        "content": prompt
+                    }]
+                )
+                
+                response = message.content[0].text.strip().lower()
+                
+                # Map response to a binary value
+                if 'ja' in response:
+                    predictions[option_key] = 1
+                else:
+                    predictions[option_key] = 0
+                
+                logger.info(f"Option {option_key} response: {response} -> {predictions[option_key]}")
+                
+            except Exception as e:
+                logger.error(f"Claude prediction error for option {option_key}: {str(e)}")
+                predictions[option_key] = 0
+        
+        # Find the option with a "ja" response (should only be one)
+        yes_responses = [k for k, v in predictions.items() if v == 1]
+        
+        if len(yes_responses) == 1:
+            # Return the one option that got a "yes"
+            return yes_responses[0]
+        elif len(yes_responses) > 1:
+            # If multiple "yes" responses, log a warning and return the first one
+            logger.warning(f"Multiple 'yes' responses for expression '{expression}': {yes_responses}")
+            return yes_responses[0]
+        else:
+            # If no "yes" responses, log error and default to first option
+            logger.error(f"No 'yes' responses for expression '{expression}'")
+            return 'A'  # Default to first option
 
 class Claude35Sonnet20241022(ClaudeModel):
     def __init__(self):
