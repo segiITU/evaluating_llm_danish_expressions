@@ -23,9 +23,8 @@ This is my first project of this sort, so input, comments and suggestions are ve
 #### Requested models to evaluate
 The following models have been requested to be evaluated by users through social media: Grok3, ChatGPT-4.5, Gemini Flash 2, Gemma 3 27B, DanskGPT, Gemini 2.5 Pro Exp. 
 
-<details>
+<Guide: Running the Danish Idioms Evaluation Pipeline with New Models>
 <br />
-# Guide: Running the Danish Idioms Evaluation Pipeline with New Models
 
 This guide provides step-by-step instructions for evaluating a new LLM on the Danish idioms dataset, specifically focused on adding Claude 3.5 Sonnet to the evaluation.
 
@@ -152,4 +151,4 @@ Find detailed logs in:
 - `logs/batch_claude-3-5-sonnet_*.log` (predictions)
 - `logs/analysis_claude-3-5-sonnet_*.log` (true label analysis)
 - `logs/discrepancies_claude-3-5-sonnet_*.log` (discrepancy processing)
-</details>
+</Guide: Running the Danish Idioms Evaluation Pipeline with New Models>
