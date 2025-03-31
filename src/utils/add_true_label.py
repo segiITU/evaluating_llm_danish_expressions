@@ -4,24 +4,13 @@ import logging
 import argparse
 import os
 
-
-"""Combines model predictions with gold standard labels for evaluation.
-
-Merges model predictions with true labels, calculates accuracy metrics,
-and identifies prediction discrepancies for further analysis.
-
-Usage: python -m src.utils.add_true_label --model [model_name]
-Output: Saves to data/predictions/predicted_and_gold_labels_[model_name].csv
-"""
-
-
 def setup_logging(model_name: str):
     log_dir = Path('logs')
     log_dir.mkdir(exist_ok=True)
     
     run_number = 1
     while True:
-        log_file = log_dir / f"analysis_{model_name}_{run_number}.log"
+        log_file = log_dir / f"analysis_yesno_{model_name}_{run_number}.log"
         if not log_file.exists():
             break
         run_number += 1
@@ -40,7 +29,7 @@ def add_true_label(model_name: str = "gpt-4"):
     logger = setup_logging(model_name)
     
     try:
-        pred_path = Path(f"data/predictions/predicted_labels_{model_name}.csv")
+        pred_path = Path(f"data/predictions/yesno/predicted_labels_{model_name}.csv")
         output_path = pred_path.parent / f'predicted_and_gold_labels_{model_name}.csv'
         
         predictions_df = pd.read_csv(pred_path)
@@ -72,7 +61,7 @@ def add_true_label(model_name: str = "gpt-4"):
 
         merged_df.to_csv(output_path, index=False)
 
-        logger.info(f"\nAnalysis complete for {model_name}:")
+        logger.info(f"\nAnalysis complete for {model_name} using yes/no approach:")
         logger.info(f"Total predictions: {total}")
         logger.info(f"Discrepancies found: {discrepancies}")
         logger.info(f"Accuracy: {accuracy:.2%}")
@@ -91,7 +80,7 @@ def add_true_label(model_name: str = "gpt-4"):
         raise
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Add true labels to predictions for a specific model.')
+    parser = argparse.ArgumentParser(description='Add true labels to yes/no predictions for a specific model.')
     parser.add_argument('--model', type=str, default="gpt-4", 
               choices=['gpt-4', 'gpt-4o', 'gpt-4o-smaller-prompt', 'gemini', 'llama', 'claude', 
                        'gpt-3.5-one_shot', 'claude-3-5-sonnet', 'claude-3-7-sonnet', 'grok-2', 'deepseek', 'gpt-3.5-turbo'],

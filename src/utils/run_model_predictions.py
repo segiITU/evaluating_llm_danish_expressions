@@ -13,24 +13,13 @@ from typing import Set
 import argparse
 import os
 
-
-"""Generates predictions for Danish expressions using selected LLM model.
-
-Processes batches of expressions from raw data through specified model (GPT-4, GPT-4o, Gemini, Llama, Claude).
-Saves predictions and handles partial completions through batch processing.
-
-Usage: python -m src.utils.run_model_predictions --model [model_name] --batch-size [size]
-Output: Saves predictions to data/predictions/predicted_labels_[model_name].csv
-"""
-
-
 def setup_logging(model_name: str, batch_size: int):
     log_dir = Path('logs')
     log_dir.mkdir(exist_ok=True)
     
     run_number = 1
     while True:
-        log_file = log_dir / f"batch_{model_name}_{batch_size}_{run_number}.log"
+        log_file = log_dir / f"batch_yesno_{model_name}_{batch_size}_{run_number}.log"
         if not log_file.exists():
             break
         run_number += 1
@@ -51,7 +40,7 @@ class ModelPredictor:
         self.batch_size = batch_size
         self.logger = setup_logging(model_name, batch_size)
         self.data_loader = TalemaaderDataLoader()
-        self.pred_dir = Path("data/predictions")
+        self.pred_dir = Path("data/predictions/yesno")
         self.pred_dir.mkdir(parents=True, exist_ok=True)
         self.output_file = self.pred_dir / f"predicted_labels_{model_name}.csv"
         
@@ -101,7 +90,7 @@ class ModelPredictor:
             new_df.to_csv(self.output_file, index=False)
 
     def run_predictions(self):
-        """Run predictions on unprocessed idioms"""
+        """Run predictions on unprocessed idioms using yes/no questions for each definition"""
         try:
             test_df = self.data_loader.load_evaluation_data()
             
@@ -129,14 +118,40 @@ class ModelPredictor:
                 }
                 
                 try:
-                    pred_letter = self.model.predict(expression, options)
+                    # For yes/no approach, query each option
+                    responses = {}
+                    for opt_key, definition in options.items():
+                        # This would need to be added to the model class
+                        response = self.model.get_single_response(expression, definition)
+                        responses[opt_key] = response
+                    
+                    # Find which options got "yes"
+                    yes_responses = [k for k, v in responses.items() if v == 1]
+                    
+                    if len(yes_responses) == 1:
+                        pred_letter = yes_responses[0]
+                    elif len(yes_responses) > 1:
+                        self.logger.warning(f"Multiple 'yes' responses for {expression}: {yes_responses}")
+                        pred_letter = yes_responses[0]  # Default to first one
+                    else:
+                        self.logger.warning(f"No 'yes' responses for {expression}")
+                        pred_letter = 'A'  # Default
+                    
                     pred_num = {'A': 0, 'B': 1, 'C': 2, 'D': 3}[pred_letter]
                     
+                    # Save the prediction with all response data
                     new_predictions.append({
                         'talemaade_udtryk': expression,
-                        'predicted_label': pred_num
+                        'predicted_label': pred_num,
+                        'yes_count': len(yes_responses),
+                        'yes_options': ','.join(yes_responses) if yes_responses else 'None',
+                        'A_response': responses.get('A', 0),
+                        'B_response': responses.get('B', 0),
+                        'C_response': responses.get('C', 0),
+                        'D_response': responses.get('D', 0)
                     })
                     
+                    # Save after each prediction to avoid losing progress
                     if new_predictions:
                         self.save_predictions(new_predictions)
                         new_predictions = []
@@ -145,7 +160,7 @@ class ModelPredictor:
                     self.logger.error(f"Error processing expression {expression}: {str(e)}")
                     continue
                 
-                time.sleep(1)  
+                time.sleep(1)  # Courtesy delay between API calls
                 
             self.logger.info(f"Batch processing complete. Processed {len(batch_df)} idioms with {self.model_name}.")
             
@@ -157,7 +172,7 @@ class ModelPredictor:
             raise
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Run predictions for a specific model')
+    parser = argparse.ArgumentParser(description='Run predictions for a specific model using yes/no prompt approach')
     parser.add_argument('--model', type=str, default="gpt-4", 
               choices=['gpt-4', 'gpt-4o', 'gemini', 'llama', 'claude', 'claude-3-5-sonnet', 
                        'claude-3-7-sonnet', 'grok-2', 'deepseek', 'gpt-3.5-turbo'],

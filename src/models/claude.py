@@ -3,6 +3,8 @@ from typing import Dict
 import anthropic
 from src.models.base_model import BaseModel
 from src.config.model_configs import PROMPT_TEMPLATE
+import os
+import json
 
 logger = logging.getLogger(__name__)
 
@@ -10,8 +12,9 @@ class ClaudeModel(BaseModel):
     def __init__(self, model_name: str):
         """Initialize Claude model with API key and model config."""
         try:
-            self.client = anthropic.Client()
+            self.client = anthropic.Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
             self.model = model_name
+            logger.info(f"Initialized Claude model: {model_name}")
         except Exception as e:
             logger.error(f"Error initializing Claude model: {str(e)}")
             raise
@@ -33,14 +36,17 @@ class ClaudeModel(BaseModel):
         # Ask about each definition option
         for option_key, definition in options.items():
             prompt = PROMPT_TEMPLATE.format(
-                metaphorical_expression=expression,
-                definition_a=definition
+                idiom=expression,
+                definition=definition
             )
             
             try:
+                # Log the full prompt for debugging
+                logger.info(f"Sending prompt for option {option_key}: {prompt}")
+                
                 message = self.client.messages.create(
                     model=self.model,
-                    max_tokens=1,
+                    max_tokens=10,  # Increased from 1 to ensure we get a response
                     temperature=0,
                     messages=[{
                         "role": "user",
@@ -48,18 +54,36 @@ class ClaudeModel(BaseModel):
                     }]
                 )
                 
-                response = message.content[0].text.strip().lower()
+                # Log the full message response for debugging
+                logger.info(f"Raw message response: {message}")
+                
+                # Handle different response formats
+                response_text = ""
+                if hasattr(message, 'content') and message.content:
+                    if isinstance(message.content, list) and len(message.content) > 0:
+                        response_text = message.content[0].text
+                    elif isinstance(message.content, str):
+                        response_text = message.content
+                
+                response_text = response_text.strip().lower()
+                logger.info(f"Response for '{expression}' option {option_key}: '{response_text}'")
                 
                 # Map response to a binary value
-                if 'ja' in response:
+                if 'ja' in response_text:
                     predictions[option_key] = 1
                 else:
                     predictions[option_key] = 0
                 
-                logger.info(f"Option {option_key} response: {response} -> {predictions[option_key]}")
+                logger.info(f"Option {option_key} response: {response_text} -> {predictions[option_key]}")
                 
             except Exception as e:
                 logger.error(f"Claude prediction error for option {option_key}: {str(e)}")
+                try:
+                    # Try to log the full message structure if it exists
+                    if 'message' in locals():
+                        logger.error(f"Message structure: {vars(message)}")
+                except:
+                    pass
                 predictions[option_key] = 0
         
         # Find the option with a "ja" response (should only be one)
@@ -76,6 +100,61 @@ class ClaudeModel(BaseModel):
             # If no "yes" responses, log error and default to first option
             logger.error(f"No 'yes' responses for expression '{expression}'")
             return 'A'  # Default to first option
+        
+    def get_single_response(self, expression: str, definition: str) -> int:
+        """
+        Get a binary response (1 for yes, 0 for no) for a single definition.
+        
+        Args:
+            expression: The Danish expression
+            definition: A possible definition
+            
+        Returns:
+            int: 1 for "yes", 0 for "no"
+        """
+        prompt = PROMPT_TEMPLATE.format(
+            idiom=expression,
+            definition=definition
+        )
+        
+        try:
+            # Log the prompt for debugging
+            logger.info(f"Sending prompt: {prompt}")
+            
+            message = self.client.messages.create(
+                model=self.model,
+                max_tokens=5,
+                temperature=0,
+                messages=[{
+                    "role": "user",
+                    "content": prompt
+                }]
+            )
+            
+            # Extract the response text
+            response_text = ""
+            if hasattr(message, 'content') and message.content:
+                if isinstance(message.content, list) and len(message.content) > 0:
+                    for content_item in message.content:
+                        if hasattr(content_item, 'text'):
+                            response_text += content_item.text
+                elif isinstance(message.content, str):
+                    response_text = message.content
+            
+            response_text = response_text.strip().lower()
+            logger.info(f"Response: '{response_text}'")
+            
+            # Check for "ja" response
+            if (response_text.startswith("ja") or 
+                re.search(r'\bja\b', response_text) or 
+                "ja." in response_text):
+                return 1
+            else:
+                return 0
+            
+        except Exception as e:
+            logger.error(f"Error getting response: {str(e)}")
+            return 0
 
 class Claude35Sonnet20241022(ClaudeModel):
     def __init__(self):

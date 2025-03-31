@@ -1,0 +1,7 @@
+talemaade_udtryk,predicted_label,yes_count,yes_options,A_response,B_response,C_response,D_response
+lægge låg på noget,1,2,"B,C",0,1,1,0
+snyde nogen så vandet driver,3,1,D,0,0,0,1
+tale med store bogstaver,3,1,D,0,0,0,1
+lang næse,1,1,B,0,1,0,0
+slå knuder på tungen,0,1,A,1,0,0,0
+hurtig hjælp er dobbelt hjælp,0,2,"A,C",1,0,1,0

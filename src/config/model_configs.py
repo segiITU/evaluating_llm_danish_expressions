@@ -67,10 +67,4 @@ MODEL_CONFIGS = {
     }
 }
 
-PROMPT_TEMPLATE = """Choose the correct definition for the given metaphorical expression by responding with only a single letter representing your choice (A, B, C, or D).
-Sentence: {metaphorical_expression}
-Option A: {definition_a}
-Option B: {definition_b}
-Option C: {definition_c}
-Option D: {definition_d}
-Your response should be exactly one letter: A, B, C, or D."""
+PROMPT_TEMPLATE = """Betyder udtrykket "{idiom}" følgende: "{definition}"? Svar kun med ja eler nej."""

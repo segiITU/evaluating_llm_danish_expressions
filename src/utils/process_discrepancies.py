@@ -4,23 +4,13 @@ import logging
 import argparse
 import os
 
-"""Analyzes prediction discrepancies between model outputs and true labels.
-
-Takes predicted vs. true label comparisons and generates detailed analysis of incorrect predictions,
-including both numerical labels and full definitions for easier analysis.
-
-Usage: python -m src.utils.process_discrepancies --model [model_name]
-Output: Saves analysis to data/processed/only_discrepancies_[model_name].csv
-"""
-
-
 def setup_logging(model_name: str):
     log_dir = Path('logs')
     log_dir.mkdir(exist_ok=True)
     
     run_number = 1
     while True:
-        log_file = log_dir / f"discrepancies_{model_name}_{run_number}.log"
+        log_file = log_dir / f"discrepancies_yesno_{model_name}_{run_number}.log"
         if not log_file.exists():
             break
         run_number += 1
@@ -39,8 +29,8 @@ def process_discrepancies(model_name: str = "gpt-4"):
     logger = setup_logging(model_name)
     
     try:
-        analyzed_path = Path(f"data/predictions/predicted_and_gold_labels_{model_name}.csv")
-        output_path = Path(f"data/processed/only_discrepancies_{model_name}.csv")
+        analyzed_path = Path(f"data/predictions/yesno/predicted_and_gold_labels_{model_name}.csv")
+        output_path = Path(f"data/processed/yesno/only_discrepancies_{model_name}.csv")
         
         analyzed_df = pd.read_csv(analyzed_path)
         logger.info(f"Loaded {len(analyzed_df)} analyzed predictions for {model_name}")
@@ -77,12 +67,12 @@ def process_discrepancies(model_name: str = "gpt-4"):
         ]
         discrepancy_df = discrepancy_df[columns_order]
         
-        output_dir = Path("data/processed")
+        output_dir = Path("data/processed/yesno")
         output_dir.mkdir(parents=True, exist_ok=True)
         
         discrepancy_df.to_csv(output_path, index=False)
         
-        logger.info(f"\nProcessing complete for {model_name}:")
+        logger.info(f"\nProcessing complete for {model_name} using yes/no approach:")
         logger.info(f"Total discrepancies processed: {len(discrepancy_df)}")
         logger.info(f"Output saved to: {output_path}")
         
@@ -98,7 +88,7 @@ def process_discrepancies(model_name: str = "gpt-4"):
         raise
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Process prediction discrepancies for a specific model.')
+    parser = argparse.ArgumentParser(description='Process prediction discrepancies for a specific model using yes/no approach.')
     parser.add_argument('--model', type=str, default="gpt-4", 
               choices=['gpt-4', 'gpt-4o', 'gpt-4o-smaller-prompt', 'gemini', 'llama', 'claude', 
                       'gpt-3.5-one_shot', 'claude-3-5-sonnet', 'claude-3-7-sonnet', 'grok-2', 'deepseek', 'gpt-3.5-turbo'],
