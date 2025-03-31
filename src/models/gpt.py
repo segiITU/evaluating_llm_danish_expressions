@@ -1,6 +1,7 @@
 import logging
 import os
 import requests
+import re
 from typing import Dict
 from src.models.base_model import BaseModel
 from src.config.model_configs import PROMPT_TEMPLATE
@@ -45,6 +46,50 @@ class GPTModel(BaseModel):
         except Exception as e:
             self.logger.error(f"Error in prediction: {str(e)}")
             raise
+    
+    def get_single_response(self, expression: str, definition: str) -> int:
+        """
+        Get a binary response (1 for yes, 0 for no) for a single definition.
+        
+        Args:
+            expression: The Danish expression
+            definition: A possible definition
+            
+        Returns:
+            int: 1 for "yes", 0 for "no"
+        """
+        prompt = PROMPT_TEMPLATE.format(
+            idiom=expression,
+            definition=definition
+        )
+        
+        try:
+            self.logger.info(f"Sending prompt: {prompt}")
+            
+            from openai import OpenAI
+            client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+            
+            response = client.chat.completions.create(
+                model=self.model,
+                messages=[{"role": "user", "content": prompt}],
+                max_tokens=5,
+                temperature=0
+            )
+            
+            response_text = response.choices[0].message.content.strip().lower()
+            self.logger.info(f"Response: '{response_text}'")
+            
+            # Check for "ja" response (Danish for "yes")
+            if (response_text.startswith("ja") or 
+                re.search(r'\bja\b', response_text) or 
+                "ja." in response_text):
+                return 1
+            else:
+                return 0
+                
+        except Exception as e:
+            self.logger.error(f"Error getting response: {str(e)}")
+            return 0
             
     def _predict_with_requests(self, prompt: str) -> str:
         """Use direct requests to OpenAI API for GPT-3.5-turbo to avoid client issues."""
