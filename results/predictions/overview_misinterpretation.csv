@@ -1,2 +1,2 @@
 model,total_misinterpretations,concrete_misinterpretations,concrete_percent,abstract_misinterpretations,abstract_percent,random_definitions,random_percent,unknown,unknown_percent
-claude-3-7-sonnet,1,1,100.0,0,0.0,0,0.0,0,0.0
+claude-3-7-sonnet,196,120,61.22,60,30.61,16,8.16,0,0.0

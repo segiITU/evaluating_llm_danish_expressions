@@ -1,2 +1,197 @@
 talemaade_udtryk,predicted_label,misinterpretation_type,true_label
 puste til ilden,0,concrete misinterpretation,2
+vride halsen om på nogen,0,concrete misinterpretation,3
+være på egen boldgade,0,concrete misinterpretation,2
+den rygende pistol,1,concrete misinterpretation,2
+svæve over vandene,0,random definition,1
+under én hat,1,abstract misinterpretation,3
+ikke være mange sure sild værd,0,concrete misinterpretation,1
+de bonede gulve,1,concrete misinterpretation,2
+hæve barren,1,concrete misinterpretation,2
+mester for noget,0,abstract misinterpretation,3
+ligne hinanden som to dråber vand,2,concrete misinterpretation,3
+det fagreste træ i skoven,0,concrete misinterpretation,1
+lakrids mellem tæerne,0,random definition,3
+arbejde så blodet springer fra neglene,1,concrete misinterpretation,2
+hele dynen,1,concrete misinterpretation,3
+puste til gløderne,0,concrete misinterpretation,2
+skulle have skolepengene tilbage,0,abstract misinterpretation,1
+krydse nogens vej,0,random definition,3
+der er synk i nogen,1,abstract misinterpretation,2
+for fulde gardiner,2,abstract misinterpretation,3
+én fugl i hånden er bedre end ti på taget,2,concrete misinterpretation,3
+have alle trumfer på hånden,2,concrete misinterpretation,3
+man kan ikke klippe håret af en skaldet,0,concrete misinterpretation,2
+køre med klatten,0,abstract misinterpretation,1
+en streg i luften,0,concrete misinterpretation,1
+være solgt til stanglakrids,0,random definition,1
+munden står ikke stille på nogen,1,concrete misinterpretation,3
+gå ud som et lys,0,concrete misinterpretation,2
+tage pungen frem,0,concrete misinterpretation,2
+"villa, Volvo og vovhund",0,concrete misinterpretation,1
+kæden er hoppet af,2,concrete misinterpretation,3
+døden skal have en årsag,3,concrete misinterpretation,2
+få enden på komedie,0,abstract misinterpretation,1
+stå malet i ansigtet på nogen,2,concrete misinterpretation,3
+vride bananen,0,concrete misinterpretation,2
+åbne sit hjerte,0,abstract misinterpretation,1
+klæder skaber folk,0,concrete misinterpretation,2
+køre kanonerne i stilling,0,concrete misinterpretation,3
+der må være en blonde,0,random definition,2
+gå op og ned som kong Volmers røv,1,abstract misinterpretation,2
+have det hele i munden,0,concrete misinterpretation,2
+ville give sin højre arm for noget,0,concrete misinterpretation,2
+de ti bud,0,concrete misinterpretation,3
+være tredje hjul på vognen,2,concrete misinterpretation,3
+være på tynd is,0,concrete misinterpretation,2
+få noget på halsen,0,concrete misinterpretation,3
+så du røgen,0,abstract misinterpretation,1
+det er lettere for en kamel at komme igennem et nåleøje end for en rig at komme ind i Guds rige,0,concrete misinterpretation,2
+målet helliger midlet,1,concrete misinterpretation,3
+kysten er klar,0,abstract misinterpretation,3
+der gror ikke mos på en rullesten,0,concrete misinterpretation,1
+spille kong Gulerod,0,abstract misinterpretation,3
+"skønne, spildte kræfter",0,abstract misinterpretation,2
+ligge med næsen i vejret,0,concrete misinterpretation,3
+vaske sine hænder,1,concrete misinterpretation,2
+få fingrene i fedtefadet,0,concrete misinterpretation,1
+alle gode gange tre,1,abstract misinterpretation,0
+"hvad man ikke ved, har man ikke ondt af",0,concrete misinterpretation,2
+ikke lade solen gå ned over sin vrede,0,concrete misinterpretation,3
+våd som en druknet mus,0,concrete misinterpretation,3
+stå med håret ned ad nakken,0,concrete misinterpretation,3
+uden for lands lov og ret,2,abstract misinterpretation,1
+ligge og lure i vandskorpen,3,concrete misinterpretation,0
+trykke på pauseknappen,0,concrete misinterpretation,3
+ramme hovedet på sømmet,1,abstract misinterpretation,3
+"ét spøg, et andet alvor",3,concrete misinterpretation,0
+en pæl i kødet,0,random definition,1
+få lange arme,0,concrete misinterpretation,3
+tomme tønder buldrer mest,0,concrete misinterpretation,1
+med skindet på næsen,1,abstract misinterpretation,3
+gå op i en spids,0,abstract misinterpretation,2
+få kærligheden at føle,0,random definition,3
+"hvor der handles, der spildes",0,concrete misinterpretation,3
+asfaltere mens man kører,0,abstract misinterpretation,2
+med omvendt fortegn,1,concrete misinterpretation,3
+have gode kort på hånden,0,concrete misinterpretation,2
+gennemgå med en tættekam,2,abstract misinterpretation,3
+en sund sjæl i et sundt legeme,0,concrete misinterpretation,2
+bo i en kuffert,1,abstract misinterpretation,3
+ved kasse ét,3,concrete misinterpretation,0
+logik for burhøns,0,abstract misinterpretation,3
+"når det regner på præsten, drypper det på degnen",0,abstract misinterpretation,2
+komme ind med firetoget,2,abstract misinterpretation,3
+"når skidt kommer til ære, ved det ikke hvordan det skal være",1,concrete misinterpretation,2
+i mørke er alle katte grå,0,abstract misinterpretation,1
+være sulten som en ulv,1,concrete misinterpretation,3
+gå i spagat over noget,0,abstract misinterpretation,2
+tabe på gulvet,0,concrete misinterpretation,1
+den hellige grav er vel forvaret,0,abstract misinterpretation,1
+heldet følger de tossede,0,concrete misinterpretation,3
+tanker er toldfri,0,concrete misinterpretation,2
+satse alt på ét kort,0,concrete misinterpretation,2
+"når nøden er størst, er hjælpen nærmest",0,concrete misinterpretation,1
+godt begyndt er halvt fuldendt,0,concrete misinterpretation,2
+ikke nå nogen til sokkeholderne,2,concrete misinterpretation,3
+lyve så stærkt som en hest kan rende,2,concrete misinterpretation,3
+med åben mund og polypper,0,concrete misinterpretation,2
+lægge hænderne på kogepladen,0,abstract misinterpretation,1
+dreje 180 grader,2,concrete misinterpretation,3
+skrive noget på nogens konto,0,concrete misinterpretation,2
+"livet er kort, kunsten er lang",3,concrete misinterpretation,2
+hurtig i vendingen,0,abstract misinterpretation,1
+ligne udskidt æblegrød,1,abstract misinterpretation,2
+frem og tilbage er lige langt,1,concrete misinterpretation,3
+mange bække små gør en stor å,0,concrete misinterpretation,1
+gå op i sømmene,1,abstract misinterpretation,0
+glat som en ål,1,concrete misinterpretation,2
+hellere ville brække en arm på langs end ..,0,abstract misinterpretation,3
+køre sit eget løb,0,abstract misinterpretation,3
+skide grønne grise,0,random definition,2
+have flossede kanter,0,concrete misinterpretation,2
+drikke nogen under bordet,0,random definition,2
+smage som at række tungen ud ad vinduet,0,concrete misinterpretation,3
+løvens gab,2,concrete misinterpretation,3
+hverken vådt eller tørt,0,concrete misinterpretation,1
+jeg vil æde min hat på ..,1,concrete misinterpretation,2
+de tusind søers land,2,concrete misinterpretation,3
+slå nogen oven i hovedet med noget,1,abstract misinterpretation,3
+sommerfuglestøv på vingerne,0,concrete misinterpretation,2
+som en åben bog,3,concrete misinterpretation,1
+til ingen verdens nytte,0,concrete misinterpretation,2
+der kom en mand med en slæde i vejen,1,concrete misinterpretation,3
+give faklen videre,0,abstract misinterpretation,2
+en orm gnaver,2,concrete misinterpretation,3
+sætte sin hat som man vil,0,concrete misinterpretation,3
+stikke hovederne sammen,0,concrete misinterpretation,2
+det tager en krig,0,abstract misinterpretation,1
+ligne noget katten har slæbt ind,0,concrete misinterpretation,2
+stikke noget under stolen,0,random definition,3
+i den bedste af alle verdener,0,abstract misinterpretation,2
+koge suppe på noget,0,abstract misinterpretation,1
+ballonen revner,2,concrete misinterpretation,3
+stoppe mens legen er god,0,concrete misinterpretation,1
+"ikke alt der glimter, er guld",1,concrete misinterpretation,3
+koge suppe på en pølsepind,0,concrete misinterpretation,1
+have en aktie i,1,abstract misinterpretation,3
+træde op på den store klinge,1,concrete misinterpretation,3
+sejle på varmen,2,abstract misinterpretation,0
+spille fransk klovn,0,random definition,1
+en ulykke kommer sjældent alene,0,concrete misinterpretation,3
+en køn plante,3,concrete misinterpretation,0
+alt lykkes i en gasovn,0,random definition,1
+til at komme i papirmøllen,1,concrete misinterpretation,3
+I må kalde mig Mads hvis ..,1,abstract misinterpretation,2
+det pulveriserende liv,0,abstract misinterpretation,2
+brændt barn skyr ilden,1,concrete misinterpretation,2
+klædt af til skindet,2,concrete misinterpretation,0
+"når krybben er tom, bides hestene",0,concrete misinterpretation,2
+sagen er bøf,0,random definition,2
+den sorte klap går ned,1,abstract misinterpretation,2
+kunne høre græsset gro,0,random definition,1
+ryste som et espeløv,0,concrete misinterpretation,1
+gå uden om noget som katten om den varme grød,0,concrete misinterpretation,1
+stikke næsen indenfor,2,concrete misinterpretation,3
+skræve mere end bukserne kan holde,0,abstract misinterpretation,2
+vide hvad vej vinden blæser,1,abstract misinterpretation,3
+ukrudt forgår ikke så let,0,concrete misinterpretation,1
+sidde med livet i hænderne,2,abstract misinterpretation,3
+love guld og grønne skove,1,concrete misinterpretation,2
+finde sine egne ben,0,random definition,3
+save den gren over man selv sidder på,3,concrete misinterpretation,0
+slikke frimærker,0,concrete misinterpretation,1
+vende vrangen ud,0,concrete misinterpretation,1
+tyv tror hvermand stjæler,0,concrete misinterpretation,2
+som skidt fra en spædekalv,0,concrete misinterpretation,3
+ikke kunne se en hånd for sig,1,concrete misinterpretation,2
+lægge alle sine æg i samme kurv,1,concrete misinterpretation,3
+sur røv,0,concrete misinterpretation,1
+stege i sit eget fedt,1,random definition,3
+ride sin kæphest,1,abstract misinterpretation,3
+gnide sig op ad nogen,1,concrete misinterpretation,3
+så god som dagen er lang,1,concrete misinterpretation,3
+én svale gør ingen sommer,1,concrete misinterpretation,3
+have både til gården og til gaden,2,abstract misinterpretation,1
+for mange kokke fordærver maden,0,concrete misinterpretation,2
+have nogen nede i sækken,1,abstract misinterpretation,3
+hælde ned ad brættet,0,abstract misinterpretation,3
+klappe i sine små hænder,0,concrete misinterpretation,3
+ingen kæde er stærkere end det svageste led,1,concrete misinterpretation,3
+det muntre køkken,1,concrete misinterpretation,3
+smøge ærmerne op,0,concrete misinterpretation,2
+gå hen over hovedet på nogen,0,abstract misinterpretation,1
+nogens hjerte springer et slag over,2,abstract misinterpretation,3
+tage arven op efter nogen,0,abstract misinterpretation,1
+det store dyr i åbenbaringen,0,abstract misinterpretation,2
+det melder historien ikke noget om,0,concrete misinterpretation,1
+slag i bolledejen,3,abstract misinterpretation,2
+toppen af isbjerget,1,abstract misinterpretation,3
+"den der graver en grav for andre, falder selv i den",0,concrete misinterpretation,2
+lykken står den kække bi,1,concrete misinterpretation,2
+slå ind på en anden vej,0,concrete misinterpretation,3
+støbe kuglerne,0,abstract misinterpretation,3
+der er løbet meget vand i stranden siden ..,0,concrete misinterpretation,3
+vende og dreje hver femøre,0,abstract misinterpretation,3
+proppe noget ned i halsen på nogen,0,abstract misinterpretation,1
+til den store guldmedalje,0,abstract misinterpretation,3
