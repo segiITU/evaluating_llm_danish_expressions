@@ -1,2 +1,2 @@
 ,accuracy,approach,yes_count_accuracy,multiple_yes_percent,no_yes_percent
-claude-3-7-sonnet,90.0,yes/no,60.0,40.0,0.0
+claude-3-7-sonnet,80.4,yes/no,68.8,25.6,5.6000000000000005
