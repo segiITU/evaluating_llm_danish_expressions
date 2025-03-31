@@ -1,0 +1,6 @@
+talemaade_udtryk,yes_count,option_idx,option_letter,category,definition
+lægge låg på noget,2,2,C,abstract misinterpretation,ikke anerkende og give plads til negative følelser
+hurtig hjælp er dobbelt hjælp,2,2,C,concrete misinterpretation,hurtig hjælp er dobbelt så nyttig som hjælp der ydes langsomt
+puste til ilden,2,0,A,concrete misinterpretation,"puste til gløderne i et bål, en pejs eller lignende for at få dem til at flamme op"
+måtte sige farvel til noget,3,1,B,concrete misinterpretation,være nødsaget til at sige farvel til noget
+måtte sige farvel til noget,3,3,D,abstract misinterpretation,skille sig af med en skattet ejendel

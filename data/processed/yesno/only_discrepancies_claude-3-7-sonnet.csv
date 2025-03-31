@@ -1,0 +1,2 @@
+talemaade_udtryk,predicted_label,true_label,error_category,predicted_definition,true_definition,Discrepancy,yes_count,yes_options,A_response,B_response,C_response,D_response
+puste til ilden,0,2,concrete misinterpretation,"puste til gløderne i et bål, en pejs eller lignende for at få dem til at flamme op","gøre en konflikt eller spændt situation værre, fx ved at komme med provokerende bemærkninger",DISCREPANCY,2,"A,C",1,0,1,0

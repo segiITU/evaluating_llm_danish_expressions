@@ -1,0 +1,2 @@
+,accuracy,approach,total_predictions,yes_count_accuracy,multiple_yes_percent,no_yes_percent,yes_count_1,yes_count_2,yes_count_3,accuracy_yes_count_1,accuracy_yes_count_2,accuracy_yes_count_3
+claude-3-7-sonnet,90.0,yes/no,10,60.0,40.0,0.0,600,300,100,0.0,0.0,0.0
