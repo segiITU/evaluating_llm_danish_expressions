@@ -1,0 +1,51 @@
+talemaade_udtryk,predicted_label,yes_count,yes_options,A_response,B_response,C_response,D_response,true_label,Discrepancy
+lægge låg på noget,1,3,"B,C,D",0,1,1,1,1,
+snyde nogen så vandet driver,3,1,D,0,0,0,1,3,
+tale med store bogstaver,3,1,D,0,0,0,1,3,
+lang næse,1,1,B,0,1,0,0,1,
+slå knuder på tungen,0,1,A,1,0,0,0,0,
+hurtig hjælp er dobbelt hjælp,0,2,"A,C",1,0,1,0,0,
+puste til ilden,0,2,"A,C",1,0,1,0,2,DISCREPANCY
+måtte sige farvel til noget,0,3,"A,B,D",1,1,0,1,0,
+et levende leksikon,1,1,B,0,1,0,0,1,
+ikke have salt til et æg,1,1,B,0,1,0,0,1,
+skinnet bedrager,0,2,"A,B",1,1,0,0,1,DISCREPANCY
+ikke have opfundet den dybe tallerken,0,1,A,1,0,0,0,0,
+lokummet brænder,0,2,"A,C",1,0,1,0,2,DISCREPANCY
+det er der ingen ben i,3,1,D,0,0,0,1,3,
+ramme muren,0,2,"A,C",1,0,1,0,0,
+ikke have mange brikker at flytte rundt med,0,2,"A,C",1,0,1,0,2,DISCREPANCY
+danse efter nogens pibe,2,1,C,0,0,1,0,2,
+det kommer ikke det smør ved,3,1,D,0,0,0,1,3,
+hælde vand ud af ørerne,2,1,C,0,0,1,0,2,
+vride halsen om på nogen,0,2,"A,D",1,0,0,1,3,DISCREPANCY
+være på egen boldgade,0,0,,0,0,0,0,2,DISCREPANCY
+male byen rød,0,1,A,1,0,0,0,0,
+løbet er kørt,2,1,C,0,0,1,0,2,
+"lev stærkt, dø ung",0,3,"A,B,D",1,1,0,1,1,DISCREPANCY
+stryge med hårene,2,2,"C,D",0,0,1,1,3,DISCREPANCY
+den rygende pistol,1,2,"B,C",0,1,1,0,2,DISCREPANCY
+svæve over vandene,1,1,B,0,1,0,0,1,
+give en gang lak,2,2,"C,D",0,0,1,1,2,
+være på bølgelængde,1,1,B,0,1,0,0,1,
+spille sine kort godt,2,1,C,0,0,1,0,2,
+viske tavlen ren,0,1,A,1,0,0,0,0,
+løbe om hjørner med,1,1,B,0,1,0,0,1,
+under én hat,1,2,"B,D",0,1,0,1,3,DISCREPANCY
+så går den vilde jagt,3,1,D,0,0,0,1,3,
+uden mad og drikke duer helten ikke,0,3,"A,B,D",1,1,0,1,0,
+ikke være mange sure sild værd,0,2,"A,D",1,0,0,1,1,DISCREPANCY
+de bonede gulve,2,1,C,0,0,1,0,2,
+få beskidte hænder,0,1,A,1,0,0,0,0,
+hul på bylden,3,1,D,0,0,0,1,3,
+vejen til en mands hjerte går gennem maven,2,1,C,0,0,1,0,2,
+med næb og kløer,0,1,A,1,0,0,0,0,
+leve som hund og kat,2,1,C,0,0,1,0,2,
+give en god dag i noget,0,1,A,1,0,0,0,0,
+male fanden på væggen,2,1,C,0,0,1,0,2,
+være tynd i papirerne,0,2,"A,C",1,0,1,0,2,DISCREPANCY
+synge på sidste vers,3,1,D,0,0,0,1,3,
+slå større brød op end man kan bage,3,1,D,0,0,0,1,3,
+spildte Guds ord på Balle-Lars,0,2,"A,C",1,0,1,0,2,DISCREPANCY
+hæve barren,1,2,"B,C",0,1,1,0,2,DISCREPANCY
+sandheden er ilde hørt,0,1,A,1,0,0,0,0,

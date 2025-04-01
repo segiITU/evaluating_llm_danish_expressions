@@ -2,6 +2,7 @@ from src.models.base_model import BaseModel
 from typing import Dict
 import logging
 import os
+import re
 from openai import OpenAI
 from src.config.model_configs import PROMPT_TEMPLATE
 
@@ -64,3 +65,44 @@ class DeepseekModel(BaseModel):
         except Exception as e:
             logger.error(f"DeepSeek prediction error: {str(e)}")
             raise
+            
+    def get_single_response(self, expression: str, definition: str) -> int:
+        """
+        Get a binary response (1 for yes, 0 for no) for a single definition.
+        
+        Args:
+            expression: The Danish expression
+            definition: A possible definition
+            
+        Returns:
+            int: 1 for "yes", 0 for "no"
+        """
+        prompt = PROMPT_TEMPLATE.format(
+            idiom=expression,
+            definition=definition
+        )
+        
+        try:
+            self.logger.info(f"Sending prompt to DeepSeek: {prompt}")
+            
+            response = self.client.chat.completions.create(
+                model=self.model,
+                messages=[{"role": "user", "content": prompt}],
+                max_tokens=5,
+                temperature=0
+            )
+            
+            response_text = response.choices[0].message.content.strip().lower()
+            self.logger.info(f"Response from DeepSeek: '{response_text}'")
+            
+            # Check for "ja" response (Danish for "yes")
+            if (response_text.startswith("ja") or 
+                re.search(r'\bja\b', response_text) or 
+                "ja." in response_text):
+                return 1
+            else:
+                return 0
+                
+        except Exception as e:
+            self.logger.error(f"Error getting response from DeepSeek: {str(e)}")
+            return 0

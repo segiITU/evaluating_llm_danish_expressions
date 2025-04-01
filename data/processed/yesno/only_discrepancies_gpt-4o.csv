@@ -1,0 +1,15 @@
+talemaade_udtryk,predicted_label,true_label,error_category,predicted_definition,true_definition,Discrepancy,yes_count,yes_options,A_response,B_response,C_response,D_response
+puste til ilden,0,2,concrete misinterpretation,"puste til gløderne i et bål, en pejs eller lignende for at få dem til at flamme op","gøre en konflikt eller spændt situation værre, fx ved at komme med provokerende bemærkninger",DISCREPANCY,2,"A,C",1,0,1,0
+skinnet bedrager,0,1,abstract misinterpretation,blot fordi solen er fremme betyder det ikke at det er varmt,"det ydre giver ikke nødvendigvis udtryk for de indre, sande kvaliteter hos noget eller nogen, eller for hvordan noget i virkeligheden forholder sig",DISCREPANCY,2,"A,B",1,1,0,0
+lokummet brænder,0,2,abstract misinterpretation,der er ikke styr på basale fornødenheder,der er (udsigt til) problemer,DISCREPANCY,2,"A,C",1,0,1,0
+ikke have mange brikker at flytte rundt med,0,2,abstract misinterpretation,have en stram økonomi,ikke være særlig begavet,DISCREPANCY,2,"A,C",1,0,1,0
+vride halsen om på nogen,0,3,concrete misinterpretation,dræbe ved kvælning,få nogen til at makke ret ved at presse eller true,DISCREPANCY,2,"A,D",1,0,0,1
+være på egen boldgade,0,2,concrete misinterpretation,dyrke boldspil på den bane hvor et sportshold sædvanligvis spiller kamp,være på egen hånd; være uden tilsyn,DISCREPANCY,0,,0,0,0,0
+"lev stærkt, dø ung",0,1,concrete misinterpretation,"være stærk mens man er i live, men dø i en ung alder","bruges for at udtrykke den opfattelse at det er bedre at tage chancer, leve livet fuldt ud og give efter for sine lyster end søge tryghed og faste rammer, også selvom man derved sætter livet på spil og risikerer at dø i en ung alder",DISCREPANCY,3,"A,B,D",1,1,0,1
+stryge med hårene,2,3,concrete misinterpretation,"ae nogen, fx et barn, på hovedet i den retning håret vokser",prøve at behage; optræde føjeligt og eftergivende,DISCREPANCY,2,"C,D",0,0,1,1
+den rygende pistol,1,2,concrete misinterpretation,en pistol der netop er affyret,det synlige eller på anden måde uigendrivelige bevis der fælder forbryderen i en kriminalsag,DISCREPANCY,2,"B,C",0,1,1,0
+under én hat,1,3,abstract misinterpretation,bruges som udtryk for at flere personer har samme holdning eller overbevisning,"på samme sted, under samme organisation eller under samme institution",DISCREPANCY,2,"B,D",0,1,0,1
+ikke være mange sure sild værd,0,1,concrete misinterpretation,have en værdi der svarer til et lille antal sild,være udmattet eller nedtrykt,DISCREPANCY,2,"A,D",1,0,0,1
+være tynd i papirerne,0,2,abstract misinterpretation,være uden interessant og vigtigt indhold - om tekst,"være usikker, uvidende, dårligt forberedt eller lignende",DISCREPANCY,2,"A,C",1,0,1,0
+spildte Guds ord på Balle-Lars,0,2,concrete misinterpretation,Balle-Lars forstår ikke det kristne budskab,forgæves forsøg på at overbevise eller belære en person der synes ganske uimodtagelig for fornuft,DISCREPANCY,2,"A,C",1,0,1,0
+hæve barren,1,2,concrete misinterpretation,hæve en barre -- fx i konkurrencer,øge ambitionerne eller kravene; hæve standarden,DISCREPANCY,2,"B,C",0,1,1,0
