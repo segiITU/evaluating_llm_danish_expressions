@@ -67,4 +67,4 @@ MODEL_CONFIGS = {
     }
 }
 
-PROMPT_TEMPLATE = """Betyder udtrykket "{idiom}" følgende: "{definition}"? Svar kun med ja eler nej."""
+PROMPT_TEMPLATE = """Betyder udtrykket "{idiom}" følgende: "{definition}"? Svar kun med ja eller nej."""
