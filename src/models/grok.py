@@ -1,5 +1,6 @@
 from src.models.base_model import BaseModel
 import logging
+import re
 from typing import Dict
 import requests
 import os
@@ -71,3 +72,61 @@ class GrokModel(BaseModel):
             if isinstance(e, requests.exceptions.RequestException):
                 logger.error(f"Request error details: {e.response.text if hasattr(e, 'response') else 'No response details'}")
             raise
+            
+    def get_single_response(self, expression: str, definition: str) -> int:
+        """
+        Get a binary response (1 for yes, 0 for no) for a single definition.
+        
+        Args:
+            expression: The Danish expression
+            definition: A possible definition
+            
+        Returns:
+            int: 1 for "yes", 0 for "no"
+        """
+        prompt = PROMPT_TEMPLATE.format(
+            idiom=expression,
+            definition=definition
+        )
+        
+        try:
+            logger.info(f"Sending prompt to Grok: {prompt}")
+            
+            headers = {
+                "Content-Type": "application/json",
+                "Authorization": f"Bearer {self.api_key}"
+            }
+            
+            payload = {
+                "model": self.model,
+                "messages": [{"role": "user", "content": prompt}],
+                "max_tokens": 5,
+                "temperature": 0
+            }
+            
+            response = requests.post(self.api_url, headers=headers, json=payload)
+            response.raise_for_status()
+            
+            result = response.json()
+            logger.info(f"API Response: {result}")
+            
+            if 'choices' not in result:
+                logger.error(f"Unexpected API response structure: {result}")
+                return 0
+                
+            response_text = result["choices"][0]["message"]["content"].strip().lower()
+            logger.info(f"Response from Grok: '{response_text}'")
+            
+            # Check for "ja" response (Danish for "yes")
+            if (response_text.startswith("ja") or 
+                re.search(r'\bja\b', response_text) or 
+                "ja." in response_text):
+                return 1
+            else:
+                return 0
+                
+        except Exception as e:
+            logger.error(f"Error getting response from Grok: {str(e)}")
+            if isinstance(e, requests.exceptions.RequestException):
+                logger.error(f"Request error details: {e.response.text if hasattr(e, 'response') else 'No response details'}")
+            return 0
