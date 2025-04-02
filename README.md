@@ -7,7 +7,7 @@ This branch contains a variation of the Danish Idioms benchmark that uses a Yes/
 Instead of asking models to select the correct definition from four options (A, B, C, D), this variation asks models directly if a given definition matches the idiom. The prompt format is:
 
 ```
-Betyder udtrykket {idiom} følgende: {definition}? (ja/nej)
+Betyder udtrykket "{idiom}" følgende: "{definition}"? Svar kun med ja eller nej.
 ```
 
 For each idiom, we present the model with each of the four possible definitions separately, asking if each one matches. The model's responses (ja/nej) determine which definition it believes is correct.
