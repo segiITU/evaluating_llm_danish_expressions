@@ -13,3 +13,214 @@ ikke være mange sure sild værd,0,1,concrete misinterpretation,have en værdi d
 være tynd i papirerne,0,2,abstract misinterpretation,være uden interessant og vigtigt indhold - om tekst,"være usikker, uvidende, dårligt forberedt eller lignende",DISCREPANCY,2,"A,C",1,0,1,0
 spildte Guds ord på Balle-Lars,0,2,concrete misinterpretation,Balle-Lars forstår ikke det kristne budskab,forgæves forsøg på at overbevise eller belære en person der synes ganske uimodtagelig for fornuft,DISCREPANCY,2,"A,C",1,0,1,0
 hæve barren,1,2,concrete misinterpretation,hæve en barre -- fx i konkurrencer,øge ambitionerne eller kravene; hæve standarden,DISCREPANCY,2,"B,C",0,1,1,0
+mester for noget,2,3,concrete misinterpretation,dygtig udøver af et håndværk,"person der har skabt, designet eller udtænkt et kunstnerisk værk eller noget andet der gør indtryk",DISCREPANCY,2,"C,D",0,0,1,1
+give med den ene hånd og tage med den anden,1,3,concrete misinterpretation,række nogen noget med den ene hånd og derefter tage det igen med den anden,"yde noget til nogen, men derefter fratage vedkommende dét eller noget andet",DISCREPANCY,2,"B,D",0,1,0,1
+ligne hinanden som to dråber vand,2,3,concrete misinterpretation,være ens på samme måde som to vanddråber er ens,ligne hinanden fuldstændig,DISCREPANCY,2,"C,D",0,0,1,1
+det fagreste træ i skoven,0,1,concrete misinterpretation,det største og mest levedygtige træ i skoven,det som er vigtigst og betyder mest,DISCREPANCY,0,,0,0,0,0
+lakrids mellem tæerne,1,3,abstract misinterpretation,snavs på steder hvor der sjældent bliver gjort rent,snavs mellem tæerne; snavsede fødder,DISCREPANCY,2,"B,D",0,1,0,1
+arbejde så blodet springer fra neglene,1,2,concrete misinterpretation,arbejde så hårdt at fingrene bløder,(arbejde) hårdt og intensivt,DISCREPANCY,2,"B,C",0,1,1,0
+grus i maskineriet,0,2,concrete misinterpretation,"grus, jord, sand ellerlign. i et maskineri","modgang, problemer, forhindringer eller lignende",DISCREPANCY,3,"A,B,C",1,1,1,0
+puste til gløderne,0,2,concrete misinterpretation,puste til en ild der er ved at dø ud,få en strid til at udvikle sig (igen),DISCREPANCY,3,"A,C,D",1,0,1,1
+der er synk i nogen,1,2,abstract misinterpretation,nogen er meget energisk eller handlekraftig,"nogen kan drikke meget, især alkohol",DISCREPANCY,3,"B,C,D",0,1,1,1
+én fugl i hånden er bedre end ti på taget,0,3,abstract misinterpretation,det er mere værd at have én partner man stoler på end mange løse forhold,"de (få) ting man ejer eller har opnået, har større værdi end de (mange) ting som man tror man kan få",DISCREPANCY,2,"A,D",1,0,0,1
+have alle trumfer på hånden,2,3,concrete misinterpretation,have de bedst mulige kort på hånden i et kortspil,have meget gode chancer; være i en meget fordelagtig situation,DISCREPANCY,2,"C,D",0,0,1,1
+med lodder og trisser,2,3,abstract misinterpretation,med garanti eller forsikring; med alle tænkelige forholdsregler,"med (lidt held og) hvad man kan finde på af hjælpemidler; på bedst mulige, men ikke altid helt vellykkede måde; med kniberi",DISCREPANCY,2,"C,D",0,0,1,1
+kigge nogen i kortene,0,2,random definition,meddele noget åbent og uden omsvøb; få sandheden på bordet,aflure nogen deres hensigter eller fremgangsmåde,DISCREPANCY,2,"A,C",1,0,1,0
+i den kolde sne,0,2,abstract misinterpretation,på et tidspunkt forholdsvis tidligt om morgenen,i en tilstand af udelukkelse og forladthed,DISCREPANCY,0,,0,0,0,0
+man kan ikke lære en gammel hund nye kunster,0,2,concrete misinterpretation,det er ikke muligt at oplære en hund i ny adfærd efter den har nået en vis alder,en (ældre) person med indgroede vaner har svært ved at omstille sig og lære nyt,DISCREPANCY,3,"A,C,D",1,0,1,1
+et ord er et ord,0,1,concrete misinterpretation,et ord er altid et ord,"det man med ord har lovet, er man forpligtet til at holde",DISCREPANCY,2,"A,B",1,1,0,0
+lægge sin klamme hånd på noget,1,3,abstract misinterpretation,snavse noget til der ellers var rent,"bemægtige sig noget, fx penge; få magten over noget",DISCREPANCY,2,"B,D",0,1,0,1
+en streg i luften,0,1,concrete misinterpretation,en kondensstribe på himlen skabt af en flyvemaskine,en meget tynd person,DISCREPANCY,0,,0,0,0,0
+få en på frakken,0,2,random definition,narre; snyde,få tæv,DISCREPANCY,0,,0,0,0,0
+hvem har tisset på din sukkermad,0,2,concrete misinterpretation,hvem har generet dig ved at urinere på din sukkermad,hvorfor er du sur; er der nogen der har fornærmet dig,DISCREPANCY,2,"A,C",1,0,1,0
+gå ud som et lys,0,2,concrete misinterpretation,blive slukket eller afbrudt brat,pludselig miste bevidstheden,DISCREPANCY,2,"A,C",1,0,1,0
+ligge lige til højrebenet,1,3,concrete misinterpretation,ligge godt til at sparke med højre ben -- om bold,være en indlysende og nærliggende mulighed,DISCREPANCY,2,"B,D",0,1,0,1
+tage pungen frem,0,2,concrete misinterpretation,fremdrage sin pengepung for at betale for bestemte varer eller en bestemt ydelse,(modvilligt) betale et stort beløb,DISCREPANCY,2,"A,C",1,0,1,0
+"villa, Volvo og vovhund",0,1,concrete misinterpretation,eje villa og en bil af mærket Volvo og holde hund som kæledyr,"bruges som symbol på det etablerede og trygge, lidt kedelige liv med fast arbejde og statussymboler",DISCREPANCY,3,"A,B,C",1,1,1,0
+kæden er hoppet af,1,3,abstract misinterpretation,"noget er gået i stykker, men kan repareres igen","et forløb, et foretagende eller lignende er gået i stå eller har udviklet sig uheldigt",DISCREPANCY,3,"B,C,D",0,1,1,1
+døden skal have en årsag,0,2,random definition,glæde sig over en økonomisk succes,bruges for at udtrykke en almenmenneskelig tendens til at fremhæve én simpel og afgrænset årsagssammenhæng som forklaring på noget,DISCREPANCY,0,,0,0,0,0
+bide sig fast,0,1,abstract misinterpretation,kæmpe ihærdigt med noget der er svært,blive en fast bestanddel af noget; fastholde en erobret position,DISCREPANCY,3,"A,B,D",1,1,0,1
+stå malet i ansigtet på nogen,2,3,concrete misinterpretation,være skrevet i panden eller kinderne på nogen,fremgå klart af nogens ansigtsudtryk,DISCREPANCY,2,"C,D",0,0,1,1
+vride bananen,1,2,abstract misinterpretation,stimulere en penis med hånden,tisse,DISCREPANCY,2,"B,C",0,1,1,0
+åbne sit hjerte,0,1,abstract misinterpretation,udtrykke stærke og kærlige følelser; erklære sin kærlighed til en person,betro sig,DISCREPANCY,2,"A,B",1,1,0,0
+klæder skaber folk,0,2,concrete misinterpretation,tøj er med til at forme en persons identitet,man vurderer folk (bl.a.) ud fra deres påklædning,DISCREPANCY,2,"A,C",1,0,1,0
+køre kanonerne i stilling,0,3,concrete misinterpretation,placere kanoner i en position hvor er klar til at blive affyret,gøre klar til en aktion eller vanskelig forhandling for at fremme egne interesser eller angribe andres,DISCREPANCY,2,"A,D",1,0,0,1
+der må være en blonde,1,2,concrete misinterpretation,her mangler en blonde,der er grænser for hvad man kan tillade sig,DISCREPANCY,2,"B,C",0,1,1,0
+gå op og ned som kong Volmers røv,1,2,abstract misinterpretation,der er både gode og dårlige dage,"bruges om noget der er ujævnt, eller om et stykke arbejde der er dårligt udført",DISCREPANCY,2,"B,C",0,1,1,0
+være tredje hjul på vognen,2,3,concrete misinterpretation,"være et ekstra, tredje hjul på en vogn der kun har behov for to hjul for at køre","være overflødig eller generende, fx i forbindelse med et kærlighedsforhold",DISCREPANCY,2,"C,D",0,0,1,1
+være på tynd is,0,2,concrete misinterpretation,stå på et tyndt isdække der er i fare for at revne,være i en situation hvor éns argumenter er utilstrækkelige eller uholdbare; være i en situation som man har svært ved at magte,DISCREPANCY,2,"A,C",1,0,1,0
+få noget på halsen,0,3,concrete misinterpretation,få noget på sin hals,blive udsat for eller udsætte nogen for problemer eller besværligheder,DISCREPANCY,2,"A,D",1,0,0,1
+så du røgen,0,1,abstract misinterpretation,bruges som kommentar til nogen der netop har tabt en konkurrence,"bruges som kommentar hvis noget ikke er blevet til noget, eller nogen ikke har fået opfyldt sine forventninger",DISCREPANCY,1,A,1,0,0,0
+"hvor der er hjerterum, er der husrum",2,3,concrete misinterpretation,hvis der er gæstfrit er der også rart at bo,"gæstfrihed hører til almindelig venlighed; gode mennesker trives, selv hvor pladsen er trang",DISCREPANCY,2,"C,D",0,0,1,1
+det er lettere for en kamel at komme igennem et nåleøje end for en rig at komme ind i Guds rige,0,2,concrete misinterpretation,det er lettere at bevæge sig gennem en snæver passage end at komme ind i Paradis med penge eller andre værdigenstande,bruges for at udtrykke hvor svært det er for mennesket at give afkald på materielle goder til fordel for åndelige værdier,DISCREPANCY,0,,0,0,0,0
+målet helliger midlet,1,3,concrete misinterpretation,målet retfærdiggør metoden,et godt formål berettiger brugen af mindre fine midler,DISCREPANCY,2,"B,D",0,1,0,1
+være helt ude i tovene,0,3,abstract misinterpretation,være fysisk udmattet (pga. hårdt arbejde); være udtømt for kræfter,være i en meget vanskelig situation som påvirker én psykisk,DISCREPANCY,2,"A,D",1,0,0,1
+der gror ikke mos på en rullesten,0,1,concrete misinterpretation,"hvis en sten er i bevægelse, vil der ikke vokse mos på den","personer der lever et aktivt og energisk liv, sygner ikke hen (mentalt)",DISCREPANCY,2,"A,B",1,1,0,0
+spille kong Gulerod,0,3,abstract misinterpretation,lave ballade; lave et stort postyr,"opføre sig på en indbildsk, overlegen eller arrogant måde",DISCREPANCY,2,"A,D",1,0,0,1
+"skønne, spildte kræfter",0,2,abstract misinterpretation,oversete eller spildte chancer og muligheder,"kræfter der energisk og måske selvopofrende er sat ind på en opgave, men senere viser sig at være anvendt forgæves",DISCREPANCY,3,"A,C,D",1,0,1,1
+ligge med næsen i vejret,0,3,concrete misinterpretation,ligge på ryggen,være død og begravet,DISCREPANCY,2,"A,D",1,0,0,1
+bide nogen i haserne,2,3,concrete misinterpretation,bide nogen nederst i benet,komme lige efter nogen; være meget tæt på nogen; presse nogen,DISCREPANCY,2,"C,D",0,0,1,1
+"hvad man ikke ved, har man ikke ondt af",0,2,concrete misinterpretation,man kan ikke være ked af noget man ikke kender til,det er ofte bedre at leve i uvidenhed end at kende den ubehagelige sandhed,DISCREPANCY,2,"A,C",1,0,1,0
+ikke lade solen gå ned over sin vrede,0,3,concrete misinterpretation,ikke gå vred i seng,glemme eller tilgive noget man er blevet vred over,DISCREPANCY,2,"A,D",1,0,0,1
+skyde sig selv i foden,0,2,concrete misinterpretation,skyde sig i foden for at gøre sig selv ukampdygtig -- historisk,ved en bevidst handling komme til at skade sig selv,DISCREPANCY,2,"A,C",1,0,1,0
+våd som en druknet mus,0,3,concrete misinterpretation,lige så våd som en mus der er druknet,meget våd; gennemblødt,DISCREPANCY,3,"A,C,D",1,0,1,1
+uden for lands lov og ret,0,1,concrete misinterpretation,uden for et lands grænser og derfor ikke underlagt dets love,i et øde område fjernt fra større byer,DISCREPANCY,2,"A,C",1,0,1,0
+trykke på pauseknappen,0,3,concrete misinterpretation,sætte noget på pause ved at trykke på en knap,midlertidigt sætte en udvikling i bero,DISCREPANCY,3,"A,B,D",1,1,0,1
+grave grøfter,0,1,concrete misinterpretation,grave lange render langs med veje,skabe splid og uenighed mellem to parter,DISCREPANCY,1,A,1,0,0,0
+"ude af øje, ude af sind",1,3,abstract misinterpretation,bruges om en situation hvor man undlader at forholde sig til noget ubehageligt,"det som ikke er synligt eller nærværende, bliver hurtigt glemt",DISCREPANCY,2,"B,D",0,1,0,1
+tomme tønder buldrer mest,0,1,concrete misinterpretation,tomme tønder larmer mere end fulde tønder,"det er ofte de personer som ved mindst eller har mindst betydning, der råber mest op eller gør sig mest gældende",DISCREPANCY,2,"A,B",1,1,0,0
+gå op i en spids,0,2,abstract misinterpretation,"gå meget op i detaljer; lægge stor vægt på detaljer og nuancer, fx i forbindelse med løsningen af et problem",udvikle sig i en retning hvor ingen løsning er mulig,DISCREPANCY,3,"A,C,D",1,0,1,1
+slå til plukfisk,0,2,random definition,"slække på sine ønsker, krav eller principper","tæske, gennembanke; ødelægge, nedbryde",DISCREPANCY,2,"A,C",1,0,1,0
+varme nogens ører,0,3,abstract misinterpretation,bevirke at en person føler sig pinligt berørt,slå nogen (på siden af hovedet),DISCREPANCY,1,A,1,0,0,0
+"hvor der handles, der spildes",0,3,concrete misinterpretation,der spildes det samme sted hvor handlinger finder sted,der er altid omkostninger eller tab forbundet med at foretage sig noget,DISCREPANCY,2,"A,D",1,0,0,1
+asfaltere mens man kører,1,2,concrete misinterpretation,lægge asfalt for at skabe den vej man kører ad,tilpasse sig og tage nye beslutninger i en proces hvor vilkårene løbende ændrer sig,DISCREPANCY,2,"B,C",0,1,1,0
+med omvendt fortegn,1,3,concrete misinterpretation,"med det modsatte fortegn, fx i matematisk opgave",karakteriseret ved at være diametralt modsat af noget på forhånd kendt eller netop omtalt,DISCREPANCY,2,"B,D",0,1,0,1
+man skal ikke give bagerbørn hvedebrød,0,3,concrete misinterpretation,børn af bagere har (formentlig) fri adgang til hvidt brød,man skal ikke give nogen noget som vedkommende i forvejen har nok af eller let adgang til,DISCREPANCY,2,"A,D",1,0,0,1
+holde kortene tæt til kroppen,2,3,abstract misinterpretation,ikke fortælle hvordan man har det,være tilbageholdende med at give oplysninger i en (kontroversiel) sag,DISCREPANCY,2,"C,D",0,0,1,1
+have gode kort på hånden,0,2,concrete misinterpretation,have en sammensætning af spillekort i hånden der giver gunstige chancer for at vinde et igangværende kortspil,have gode chancer; være i en fordelagtig situation,DISCREPANCY,2,"A,C",1,0,1,0
+gennemgå med en tættekam,1,3,random definition,være på en hård prøve; være i centrum for nærgående opmærksomhed,gennemgå meget omhyggeligt,DISCREPANCY,3,"B,C,D",0,1,1,1
+en sund sjæl i et sundt legeme,0,2,concrete misinterpretation,en person er både mentalt og fysisk i god form,"åndelig og legemlig sundhed hænger sammen, og begge dele skal plejes",DISCREPANCY,3,"A,B,C",1,1,1,0
+bo i en kuffert,1,3,abstract misinterpretation,bo på minimal plads og med minimalt forbrug af ressourcer,"rejse eller flytte meget tit, fx fordi éns arbejde kræver det; ikke have et fast sted at bo",DISCREPANCY,3,"B,C,D",0,1,1,1
+"goddag mand, økseskaft",1,3,abstract misinterpretation,bruges for at udtrykke frustration,"bruges for at udtrykke at det nogen svarer, ikke har noget med spørgsmålet at gøre og således ikke giver nogen mening",DISCREPANCY,2,"B,D",0,1,0,1
+"når skidt kommer til ære, ved det ikke hvordan det skal være",1,2,concrete misinterpretation,"når noget dårligt ændrer sig til det bedre, går det alligevel ofte galt til sidst","bruges hånligt og nedladende om en person der pludseligt eller nyligt har opnået høj social status, men som ikke formår at opføre sig på passende standsmæssig vis",DISCREPANCY,2,"B,C",0,1,1,0
+være sulten som en ulv,1,3,concrete misinterpretation,være lige så sulten som en ulv,være meget sulten,DISCREPANCY,2,"B,D",0,1,0,1
+toppen af kransekagen,2,3,concrete misinterpretation,den øverste del af en kransekage (med pynt),det bedste eller de dygtigste inden for et bestemt område,DISCREPANCY,2,"C,D",0,0,1,1
+fryse til is,0,2,concrete misinterpretation,nedkøle vand til is,bruges som udtryk for at man bliver overvældet af rædsel eller lignende,DISCREPANCY,3,"A,C,D",1,0,1,1
+slå knuder på sig selv,0,1,random definition,man bør ikke overdrive eller gå til yderligheder,gøre sig store anstrengelser (for at opnå noget bestemt),DISCREPANCY,2,"A,B",1,1,0,0
+vifte nogen om næsen med noget,1,2,concrete misinterpretation,vifte med noget foran nogens næse,bruge noget som lokkemad over for nogen; stille nogen noget i udsigt,DISCREPANCY,2,"B,C",0,1,1,0
+heldet følger de tossede,0,3,concrete misinterpretation,tossede mennesker er heldige,"handlekraftige, (dum)dristige mennesker er ofte også heldige",DISCREPANCY,3,"A,C,D",1,0,1,1
+satse alt på ét kort,0,2,concrete misinterpretation,satse alle sine penge på ét kort,satse alt på én gang,DISCREPANCY,0,,0,0,0,0
+guds ord fra landet,0,2,concrete misinterpretation,religiøse udtryk der er populære i landområder,uerfaren og naiv ung pige,DISCREPANCY,0,,0,0,0,0
+"når nøden er størst, er hjælpen nærmest",0,1,concrete misinterpretation,når man har voldsomt brug for hjælp er den tæt på at ankomme,"når alting ser værst ud, er det lige før det begynder at blive bedre",DISCREPANCY,2,"A,B",1,1,0,0
+vise nogen vintervejen,0,2,random definition,bruge alt for stærke midler i forhold til situationen; overdrive; overreagere,afvise nogen; vende nogen ryggen,DISCREPANCY,2,"A,C",1,0,1,0
+levende lig,1,3,concrete misinterpretation,person der snart vil dø,person der har det meget dårligt fysisk og psykisk,DISCREPANCY,2,"B,D",0,1,0,1
+godt begyndt er halvt fuldendt,0,2,concrete misinterpretation,er man begyndt på noget er det det samme som at være halvvejs færdig med det,en god begyndelse på noget forøger muligheden for en vellykket fortsættelse og afslutning,DISCREPANCY,2,"A,C",1,0,1,0
+ikke nå nogen til sokkeholderne,2,3,concrete misinterpretation,være meget lav i forhold til en anden person,have meget ringe evner i forhold til en anden,DISCREPANCY,2,"C,D",0,0,1,1
+med mand og mus,1,3,abstract misinterpretation,med alle i en husstand; med alle der bor på gården,bruges for at udtrykke at ingen overlever et skibsforlis,DISCREPANCY,2,"B,D",0,1,0,1
+gå til makronerne,0,1,abstract misinterpretation,"spise søde sager, fx chokolade eller kager",gå energisk i gang med noget og arbejde ihærdigt med det,DISCREPANCY,2,"A,B",1,1,0,0
+lyve så stærkt som en hest kan rende,2,3,concrete misinterpretation,fortælle løgne i samme tempo som det hurtigste en hest kan løbe,lyve groft; fortælle mange løgne,DISCREPANCY,2,"C,D",0,0,1,1
+æren er det fejreste træ i skoven,1,3,concrete misinterpretation,god opførsel er lige så smukt som et meget smukt træ,hæder og anerkendelse er vigtigst og går forud for andet,DISCREPANCY,2,"B,D",0,1,0,1
+lægge hænderne på kogepladen,0,1,abstract misinterpretation,tage en beslutning man godt ved er ufordelagtig,"tage et forpligtende, personligt ansvar der indebærer at man selv rammes af konsekvenserne af sine beslutninger",DISCREPANCY,3,"A,B,C",1,1,1,0
+dreje 180 grader,2,3,concrete misinterpretation,dreje en halv omgang,ændre til det modsatte eller til noget helt andet,DISCREPANCY,2,"C,D",0,0,1,1
+skrive noget på nogens konto,0,2,concrete misinterpretation,notere en udgift til senere betaling,give nogen skylden eller lade nogen tage ansvaret for noget,DISCREPANCY,2,"A,C",1,0,1,0
+"livet er kort, kunsten er lang",0,2,abstract misinterpretation,man forstår aldrig kunsten til fulde,man kan blive udødeliggjort gennem kunsten,DISCREPANCY,3,"A,C,D",1,0,1,1
+hyppe sine egne kartofler,2,3,abstract misinterpretation,dyrke grøntsager i sin have til eget brug; være selvforsynende,pleje sine egne interesser,DISCREPANCY,2,"C,D",0,0,1,1
+smede mens jernet er varmt,0,3,concrete misinterpretation,bearbejde jern mens det er varmt nok,udføre en handling når muligheden for et vellykket resultat er til stede,DISCREPANCY,2,"A,D",1,0,0,1
+hurtig i vendingen,0,1,abstract misinterpretation,skarp; intelligent,hurtig til at handle eller reagere i en situation,DISCREPANCY,3,"A,B,C",1,1,1,0
+historiens vingesus,0,1,concrete misinterpretation,hvislende eller susende lyd som historien laver,"bruges for at udtrykke en stærk oplevelse af historiens nærvær og betydning ved en bestemt lejlighed, fx ved overværelse af en historisk begivenhed mens den finder sted, eller ved tilstedeværelse dér hvor en sådan begivenhed engang fandt sted",DISCREPANCY,2,"A,B",1,1,0,0
+ligne udskidt æblegrød,1,2,abstract misinterpretation,ikke gøre sig umage med sit udseende,se meget træt og sløj ud,DISCREPANCY,3,"B,C,D",0,1,1,1
+ikke lutter lagkage,1,3,concrete misinterpretation,ikke blot lagkage (eller andre konditorkager),ikke kun let og behageligt og uden fortrædeligheder; ikke den rene idyl,DISCREPANCY,2,"B,D",0,1,0,1
+føle sig hjemme,2,1,concrete misinterpretation,have samme fornemmelse som når man er hjemme,være tilfreds med en beskæftigelse fordi den passer godt sammen med ens tanker og ønsker,DISCREPANCY,1,C,0,0,1,0
+frem og tilbage er lige langt,1,3,concrete misinterpretation,ruten ud og ruten hjem er den samme,bruges for at udtrykke ærgrelse over at der ikke er sket fremskridt trods mange anstrengelser,DISCREPANCY,2,"B,D",0,1,0,1
+mange bække små gør en stor å,0,1,concrete misinterpretation,der dannes en stor å når mange små vandløb løber sammen,"mange mindre forekomster, bidrag eller lignende som hver for sig ikke udgør noget særligt, kan tilsammen udgøre noget stort eller på anden måde betydningsfuldt",DISCREPANCY,2,"A,B",1,1,0,0
+glat som en ål,1,2,concrete misinterpretation,lige så glat som overfladen på en ål,undvigende og svær at fastholde i en diskussion; upålidelig,DISCREPANCY,2,"B,C",0,1,1,0
+det er ikke raketvidenskab,0,1,concrete misinterpretation,det er ikke lige så prestigefyldt eller kompliceret som raketvidenskab,"det er ikke særlig kompliceret, avanceret eller svært at forstå",DISCREPANCY,2,"A,B",1,1,0,0
+hellere ville brække en arm på langs end ..,0,3,abstract misinterpretation,bruges for at udtrykke modvilje og ubehag over nogens handlinger,bruges som udtryk for at nogen stiller sig totalt afvisende,DISCREPANCY,3,"A,B,D",1,1,0,1
+køre sit eget løb,0,3,abstract misinterpretation,køre hurtigere end en lovbestemt hastighedsgrænse tillader,være ligeglad med andre på en uansvarlig måde; ikke bidrage til fællesskabet,DISCREPANCY,0,,0,0,0,0
+efter alle kunstens regler,0,1,concrete misinterpretation,som følger en kunstarts regler,på den bedst tænkelige eller mulige måde; så alle tænkelige regler og normer er overholdt,DISCREPANCY,2,"A,B",1,1,0,0
+underskrive sin egen dødsdom,1,2,concrete misinterpretation,underskrive en aftale der dømmer én selv til døden,"handle således at konsekvenserne for éns eksistens, anseelse eller lignende bliver meget alvorlige",DISCREPANCY,2,"B,C",0,1,1,0
+have flossede kanter,0,2,concrete misinterpretation,være flosset langs kanten -- fx om bog,have visse fejl og mangler som ikke tidligere var der,DISCREPANCY,2,"A,C",1,0,1,0
+løvens gab,2,3,concrete misinterpretation,en løves mund,meget farligt eller ubehageligt sted,DISCREPANCY,2,"C,D",0,0,1,1
+hverken vådt eller tørt,0,1,concrete misinterpretation,em smule fugtigt,hverken noget drikkeligt eller noget spiseligt,DISCREPANCY,0,,0,0,0,0
+jeg vil æde min hat på ..,1,2,concrete misinterpretation,være så sikker på noget at man lover at ville æde sin hat hvis det ikke passer,bruges for at forsikre tilhøreren om at ens formodning i en bestemt sag er rigtig,DISCREPANCY,2,"B,C",0,1,1,0
+trække en kanin op af hatten,1,3,concrete misinterpretation,trække en kanin op af en hat -- ofte i forbindelse med tryllekunst,"gøre noget overraskende, fx komme med en ny og uventet oplysning i en debat for at skabe opmærksomhed",DISCREPANCY,2,"B,D",0,1,0,1
+de tusind søers land,2,3,concrete misinterpretation,et land med tusind søer,Finland,DISCREPANCY,2,"C,D",0,0,1,1
+slå nogen oven i hovedet med noget,1,3,abstract misinterpretation,"insistere på at nogen skal gøre noget bestemt, også selvom det er imod deres egne ønsker","argumentere (voldsomt) mod en andens mening, fx ved at fremhæve sin egen viden eller ved at fremføre indiskutable oplysninger",DISCREPANCY,2,"B,D",0,1,0,1
+sommerfuglestøv på vingerne,0,2,concrete misinterpretation,skæl på sommerfugles vinger,uskyldighed; uberørthed,DISCREPANCY,2,"A,C",1,0,1,0
+nogen vender bøtten,0,3,concrete misinterpretation,"nogen vender en beholder på hovedet, typisk for at få al indholdet ud",forholdet vendes om; noget tager en ny (og modsat) vending eller drejning,DISCREPANCY,2,"A,D",1,0,0,1
+som en åben bog,2,1,abstract misinterpretation,uden overraskelser,uden besvær,DISCREPANCY,1,C,0,0,1,0
+fange nogen på det forkerte ben,0,2,concrete misinterpretation,fange nogen uden de har balancen,overrumple nogen så vedkommende ikke kan nå at reagere hurtigt og rigtigt,DISCREPANCY,2,"A,C",1,0,1,0
+gå på krum arm,0,1,random definition,"bruges for at udtrykke at noget foregår med stor fart, eller at noget haster",gå tæt omslyngede; være kærester,DISCREPANCY,2,"A,B",1,1,0,0
+til ingen verdens nytte,0,2,concrete misinterpretation,ikke til nytte for nogen eller noget i verden,overhovedet ikke til nytte; helt overflødigt eller forgæves,DISCREPANCY,2,"A,C",1,0,1,0
+der kom en mand med en slæde i vejen,1,3,concrete misinterpretation,en mand med en slæde spærrer vejen for videre færd,der dukkede pludselige eller uforudsete forhindringer op,DISCREPANCY,3,"B,C,D",0,1,1,1
+give faklen videre,0,2,abstract misinterpretation,oplære nogen så de fremover kan udføre en bestemt opgave på egen hånd,"overlade et hverv, fx en formands- eller ministerpost",DISCREPANCY,2,"A,C",1,0,1,0
+kunne ligge på et meget lille sted,1,2,concrete misinterpretation,være tilstrækkelig lille til at befinde sig på et lille afgrænset område,have et meget begrænset omfang,DISCREPANCY,3,"B,C,D",0,1,1,1
+en orm gnaver,2,3,concrete misinterpretation,en orm spiser,noget nager én i længere tid,DISCREPANCY,2,"C,D",0,0,1,1
+sætte sin hat som man vil,1,3,abstract misinterpretation,udføre noget uden at tage imod råd og vejledning fra andre,opføre eller udfolde sig uden hensyntagen til gængse normer; gøre som man vil,DISCREPANCY,2,"B,D",0,1,0,1
+skulle bæres ud med fødderne først,0,3,concrete misinterpretation,være i en situation hvor det er nødvendigt at blive båret væk i en liggende stilling,"først forlade et sted eller holde op med en aktivitet når andre tvinger én dertil, eller når man dør",DISCREPANCY,2,"A,D",1,0,0,1
+have et ben i hver lejr,0,3,abstract misinterpretation,være i tvivl; vakle mellem to modsatrettede holdninger,have sympati eller interessefællesskab med begge (eller alle) de uenige parter,DISCREPANCY,2,"A,D",1,0,0,1
+ligne noget katten har slæbt ind,0,2,concrete misinterpretation,have et udseende tilsvarende noget en kat kunne bringe ind i et hus,se forfærdelig ud,DISCREPANCY,2,"A,C",1,0,1,0
+i den bedste af alle verdener,0,2,abstract misinterpretation,i en tilstand af fuldstændig tilfredshed,i en (tænkt) situation hvor alle afgørende forhold er så gode som de kan blive,DISCREPANCY,2,"A,C",1,0,1,0
+koge suppe på noget,0,1,abstract misinterpretation,lave en (sladder)historie ud af noget småt eller betydningsløst,vedblivende og trættende behandle et velkendt og udtømt emne,DISCREPANCY,2,"A,B",1,1,0,0
+ballonen revner,2,3,concrete misinterpretation,der går hul på en ballon,en illusion brister; noget går galt,DISCREPANCY,2,"C,D",0,0,1,1
+bagsiden af medaljen,0,1,concrete misinterpretation,den side af en medalje som ikke er forsiden,den negative side af noget positivt,DISCREPANCY,2,"A,B",1,1,0,0
+stoppe mens legen er god,0,1,concrete misinterpretation,holde op med at lege mens legen er underholdende for alle involverede,"holde op mens man stadig har succes, inden det går galt",DISCREPANCY,2,"A,B",1,1,0,0
+til sidste blodsdråbe,0,1,concrete misinterpretation,til der ikke er mere tilgængeligt blod,indtil der ikke er mere liv,DISCREPANCY,2,"A,B",1,1,0,0
+"ikke alt der glimter, er guld",1,3,concrete misinterpretation,"blot fordi noget glimter, er det ikke ensbetydende med at det er fremstillet af guld","blot fordi noget ser ud til at være fint og værdifuldt, er det ikke ensbetydende med at det er det",DISCREPANCY,2,"B,D",0,1,0,1
+koge suppe på en pølsepind,0,1,concrete misinterpretation,(forsøge at) lave suppe ud af meget lidt,beskæftige sig med eller behandle et ubetydeligt eller overflødigt emne,DISCREPANCY,2,"A,B",1,1,0,0
+have en aktie i,2,3,concrete misinterpretation,eje en andel af en virksomhed,være aktiv deltager i; have indflydelse på,DISCREPANCY,2,"C,D",0,0,1,1
+træde op på den store klinge,1,3,concrete misinterpretation,skifte til højeste gear,anstrenge sig; arbejde hårdt,DISCREPANCY,2,"B,D",0,1,0,1
+spille fransk klovn,0,1,random definition,"bruges ofte (selv)ironisk for at udtrykke at selv en person uden de store forudsætninger, med lidt held, kan løse en bestemt opgave",opføre sig (ufrivilligt) komisk,DISCREPANCY,3,"A,B,C",1,1,1,0
+en ulykke kommer sjældent alene,0,3,concrete misinterpretation,en ulykke sker for det meste samtidig med flere andre ulykker,"når noget går galt, kan man forvente at endnu mere går galt",DISCREPANCY,2,"A,D",1,0,0,1
+en køn plante,3,0,concrete misinterpretation,plantevækst der besidder særlige æstetiske egenskaber,en uopdragen eller på anden måde ubehagelig person,DISCREPANCY,1,D,0,0,0,1
+til at komme i papirmøllen,1,3,concrete misinterpretation,"klar til at blive makuleret, dvs. ødelagt",ubrugelig; kassabel,DISCREPANCY,2,"B,D",0,1,0,1
+I må kalde mig Mads hvis ..,0,2,concrete misinterpretation,i særlige situationer må I kalde mig Mads,bruges som forsikring om at noget er eller vil vise sig at være usandt,DISCREPANCY,4,"A,B,C,D",1,1,1,1
+det pulveriserende liv,0,2,abstract misinterpretation,det liv som ødelægger en,"samfundslivet eller erhvervslivet med den hektiske, opslidende aktivitet som det er forbundet med",DISCREPANCY,2,"A,C",1,0,1,0
+lugten i bageriet,0,3,abstract misinterpretation,"positiv sideeffekt af en proces, handling eller lignende","reglerne, forholdene og atmosfæren et bestemt sted",DISCREPANCY,3,"A,C,D",1,0,1,1
+brændt barn skyr ilden,1,2,concrete misinterpretation,"har et barn først brændt sig, omgås det ild med større forsigtighed","hvis man én gang er kommet galt af sted med noget, undgår man at indlade sig på det igen",DISCREPANCY,2,"B,C",0,1,1,0
+"når krybben er tom, bides hestene",0,2,concrete misinterpretation,når der ikke er mere at spise kommer hestene op at slås,"når der er knaphed eller mangel på noget, opstår der konflikter mellem mennesker",DISCREPANCY,2,"A,C",1,0,1,0
+tage noget i stiv arm,1,3,abstract misinterpretation,acceptere såvel de ubehagelige som de behagelige sider ved en sag,bære modgang med styrke og sindsro,DISCREPANCY,2,"B,D",0,1,0,1
+den sorte klap går ned,1,2,abstract misinterpretation,bruges for at udtrykke at en person pludselig mister besindelsen; voldsomt raseri,bruges for at udtrykke at en person pludselig ikke kan huske noget bestemt,DISCREPANCY,2,"B,C",0,1,1,0
+kunne høre græsset gro,0,1,random definition,forholde sig tøvende til en bestemt sag med en blandet følelse af interesse og ubehag,have en meget god hørelse,DISCREPANCY,0,,0,0,0,0
+ryste som et espeløv,0,1,concrete misinterpretation,ryste lige så meget som et blad på et espetræ,"ryste meget, fx af skræk, ophidselse, nervøsitet eller kulde",DISCREPANCY,2,"A,B",1,1,0,0
+gå uden om noget som katten om den varme grød,0,1,concrete misinterpretation,gå uden om noget på samme måde som en kat der går udenom en skål med varm grød,forholde sig tøvende til en bestemt sag med en blandet følelse af interesse og ubehag,DISCREPANCY,2,"A,B",1,1,0,0
+stikke næsen indenfor,0,3,abstract misinterpretation,opholde sig et sted hvor man er i tvivl om hvorvidt man er velkommen,vove sig et sted hen i kort tid; komme på et kort besøg,DISCREPANCY,2,"A,D",1,0,0,1
+skræve mere end bukserne kan holde,0,2,abstract misinterpretation,opføre sig vovet eller dumdristigt,prøve på at gøre noget som det viser sig man ikke kan gennemføre,DISCREPANCY,2,"A,C",1,0,1,0
+hvor længe var Adam i Paradis,2,3,concrete misinterpretation,tidsangivelse svarende til den periode hvor Adam befandt sig i paradisets have,bruges for at udtrykke at en god og lykkelig tilstand desværre kun var kortvarig,DISCREPANCY,2,"C,D",0,0,1,1
+vide hvad vej vinden blæser,1,3,abstract misinterpretation,"kende til den nyeste udvikling inden for et felt, emne ellerlign.","vide i hvilken retning en sag udvikler sig, og indrette sig derefter",DISCREPANCY,2,"B,D",0,1,0,1
+lige børn leger bedst,0,3,concrete misinterpretation,"børn der er lige gamle, har stor glæde af hinanden","personer med nogenlunde samme sociale status, interesser eller lignende forliges eller samarbejder bedst",DISCREPANCY,2,"A,D",1,0,0,1
+ukrudt forgår ikke så let,0,1,concrete misinterpretation,det er svært at fjerne ukrudt,nogen eller noget er sejlivet og trodser forventninger eller håb om udslettelse,DISCREPANCY,3,"A,B,C",1,1,1,0
+sidde med livet i hænderne,2,3,abstract misinterpretation,være i livsfare; befinde sig i en livstruende situation,"være meget nervøs, spændt eller bange",DISCREPANCY,2,"C,D",0,0,1,1
+have foden under eget bord,0,2,abstract misinterpretation,have styr på sin økonomi,have sit eget hjem eller sin egen virksomhed,DISCREPANCY,2,"A,C",1,0,1,0
+finde sine egne ben,0,3,random definition,gøre noget mere besværligt end man behøver; udføre unødvendigt arbejde,finde ud af hvad man mener om en bestemt sag,DISCREPANCY,0,,0,0,0,0
+på éns glatte ansigt,0,3,abstract misinterpretation,baseret på udseende og ydre fremtoning; uden at tage højde for indre liv,med et tillidvækkende ydre som eneste garanti,DISCREPANCY,2,"A,D",1,0,0,1
+ikke ride den dag man sadler,0,3,abstract misinterpretation,tænke sig godt om,være længe om at skride til konkret handling; være længe om at træffe en beslutning,DISCREPANCY,3,"A,C,D",1,0,1,1
+slikke frimærker,0,1,concrete misinterpretation,slikke på bagsiden af frimærker,"udføre underordnet, ensformigt kontorarbejde",DISCREPANCY,2,"A,B",1,1,0,0
+vende vrangen ud,0,1,concrete misinterpretation,vende et stykke tøj om sådan at sømmene vendes udad,"vise en ukendt, ofte ubehagelig eller problematisk, men sand side af noget eller nogen, evt. sig selv",DISCREPANCY,3,"A,B,C",1,1,1,0
+tyv tror hvermand stjæler,0,2,concrete misinterpretation,en tyv har en forestilling om at alle mennesker stjæler,bruges om en person som tillægger andre personer sine egne fejl og svagheder,DISCREPANCY,2,"A,C",1,0,1,0
+som skidt fra en spædekalv,0,3,concrete misinterpretation,som afføring fra en nyfødt kalv,hurtigt og i en stor mængde,DISCREPANCY,2,"A,D",1,0,0,1
+ikke kunne se en hånd for sig,1,2,concrete misinterpretation,ikke være i stand til at se en hånd lige foran kroppen,"ikke kunne se noget pga. mørke, tåge, snevejr eller lignende",DISCREPANCY,2,"B,C",0,1,1,0
+for nogens blå øjnes skyld,1,3,abstract misinterpretation,gøre noget for nogen fordi man synes godt om deres udseende,"bruges for at udtrykke at noget der ydes, udelukkende ydes af hensyn til modtageren uden fordel for giveren",DISCREPANCY,2,"B,D",0,1,0,1
+lægge alle sine æg i samme kurv,1,3,concrete misinterpretation,placere samtlige æg i én kurv,kun satse på én mulighed og dermed løbe en risiko,DISCREPANCY,2,"B,D",0,1,0,1
+fare i blækhuset,1,2,abstract misinterpretation,klappe i; holde op med at tale,reagere vredt eller kritisk på noget ved at skrive et indlæg imod det (især i form af et læserbrev),DISCREPANCY,2,"B,C",0,1,1,0
+bukke begge ender sammen på,1,0,concrete misinterpretation,bøje en genstand så enderne mødes,give en omgang tæsk,DISCREPANCY,1,B,0,1,0,0
+ride sin kæphest,1,3,abstract misinterpretation,dyrke en hobby; beskæftige sig med noget som man finder særligt interessant,(igen) give udtryk for sin velkendte mening eller tale om et bestemt emne,DISCREPANCY,2,"B,D",0,1,0,1
+det går ikke altid som præsten prædiker,1,3,abstract misinterpretation,kristne (eller religiøse) mennesker er ikke fejlfri,tingene udvikler sig ikke altid sådan som man havde regnet med,DISCREPANCY,2,"B,D",0,1,0,1
+gnide sig op ad nogen,1,3,concrete misinterpretation,gnide sin krop op ad en andens krop,være påtrængende og indsmigrende,DISCREPANCY,2,"B,D",0,1,0,1
+passe som fod i hose,0,3,concrete misinterpretation,passe som en nøgen fod i den rette størrelse sok,passe godt; gå meget nemt,DISCREPANCY,2,"A,D",1,0,0,1
+tro som guld,0,2,random definition,"være usikker, uvidende, dårligt forberedt eller lignende",meget trofast,DISCREPANCY,0,,0,0,0,0
+rotterne forlader den synkende skude,0,2,abstract misinterpretation,flere personer forlader en situation (fx. et møde eller en fest) pga. opstået uro eller en dårlig stemning,nogen trækker sig ud af et forehavende fordi det er på vej til at mislykkes,DISCREPANCY,2,"A,C",1,0,1,0
+så god som dagen er lang,2,3,abstract misinterpretation,meget hjælpsom og omsorgsfuld,ualmindelig sød og rar,DISCREPANCY,2,"C,D",0,0,1,1
+én svale gør ingen sommer,1,3,concrete misinterpretation,"at nogen ser en svale, betyder ikke at det er sommer",ét eksempel på noget positivt medfører ikke nødvendigvis en generel bedring,DISCREPANCY,2,"B,D",0,1,0,1
+have både til gården og til gaden,2,1,abstract misinterpretation,have nok til alle; have rigelige mængder,have en stor bagdel og en stor barm,DISCREPANCY,1,C,0,0,1,0
+for mange kokke fordærver maden,0,2,concrete misinterpretation,maden bliver dårlig hvis der er mange om at lave den,"hvis (for) mange personer deltager i noget, risikerer det at medføre et dårligt resultat",DISCREPANCY,2,"A,C",1,0,1,0
+have nogen nede i sækken,0,3,random definition,"blive svag og eftergivende; blive overvældet af en følelse af ømhed, forelskelse eller lignende",være i klar vinderposition i en sportskamp idet man fuldstændig kontrollerer sin modstander,DISCREPANCY,3,"A,B,D",1,1,0,1
+gå gennem ild og vand,0,1,abstract misinterpretation,gennemføre noget der i begyndelsen forekom at være umuligt,gøre alt hvad der står i ens magt,DISCREPANCY,2,"A,B",1,1,0,0
+hælde ned ad brættet,1,3,concrete misinterpretation,"tippe et bræt så det der ligger på det, falder ned",afvise fuldstændig,DISCREPANCY,2,"B,D",0,1,0,1
+man må krybe før man kan gå,0,2,abstract misinterpretation,man skal lægge forsigtigt ud når man ønsker at komme i bedre form,man bør begynde med simple og elementære opgaver før man giver sig i kast med komplicerede,DISCREPANCY,3,"A,C,D",1,0,1,1
+ligge på den flade hånd,0,1,concrete misinterpretation,ligge på en flad hånd,være helt oplagt eller umiddelbart tilgængelig,DISCREPANCY,3,"A,B,C",1,1,1,0
+en hund i et spil kegler,0,2,concrete misinterpretation,en hund som har forvildet sig ind i et spil kegler,"person, genstand eller lignende der virker fremmed eller malplaceret i en bestemt sammenhæng",DISCREPANCY,2,"A,C",1,0,1,0
+ingen kæde er stærkere end det svageste led,1,3,concrete misinterpretation,hvis et led i en kæde er svagt er hele kæden svag,selv det bedste er utilstrækkeligt hvis blot en enkelt detalje er mangelfuld,DISCREPANCY,2,"B,D",0,1,0,1
+det muntre køkken,1,3,concrete misinterpretation,et køkken hvor der hersker en glad stemning,"bruges om en ustyrlig, meget livlig og evt. ødelæggende aktivitet eller gruppe af personer",DISCREPANCY,2,"B,D",0,1,0,1
+smøge ærmerne op,0,2,concrete misinterpretation,lave flere folder på sine (eller andres) ærmer således at håndled og underarme er nøgne,ufortrødent og energisk gå i gang med en (svær) opgave,DISCREPANCY,2,"A,C",1,0,1,0
+nogens hjerte springer et slag over,1,3,concrete misinterpretation,nogens hjerte slår uregelmæssigt og springer slag over der ellers skulle have været der,"nogen bliver overrumplet af en stærk følelse, fx angst, glæde eller spænding",DISCREPANCY,3,"B,C,D",0,1,1,1
+det store dyr i åbenbaringen,0,2,abstract misinterpretation,bruges for at udtrykke når nogen eller noget er af markant bedre kvalitet end andet,"noget som er nyt og anderledes, og som på kort tid har fået stor positiv eller negativ indflydelse inden for et bestemt (fagligt) område",DISCREPANCY,0,,0,0,0,0
+ofre noget på kærlighedens alter,0,2,abstract misinterpretation,"miste noget, fx kontakten til sine venner, i forbindelse med en (ulykkelig) forelskelse",give afkald på noget værdifuldt til fordel for kærligheden,DISCREPANCY,2,"A,C",1,0,1,0
+en pind til nogens el. nogets ligkiste,1,3,abstract misinterpretation,bruges for at erklære sig enig i en negativ holdning til nogen eller noget,"en medvirkende årsag til en (uheldig, ulykkelig eller uønsket) afslutning på et forløb, en karriere eller lignende",DISCREPANCY,2,"B,D",0,1,0,1
+kun en tåbe frygter ikke havet,1,2,concrete misinterpretation,dumme mennesker er ikke bange for havet,man skal være meget forsigtig når man har med havet at gøre,DISCREPANCY,2,"B,C",0,1,1,0
+det melder historien ikke noget om,0,1,concrete misinterpretation,det er ikke en del af historien,"noget bestemt hører ikke til beretningen eller sagen, fx fordi det er uvedkommende, hemmeligt eller omstridt",DISCREPANCY,2,"A,B",1,1,0,0
+vælte læsset,1,2,concrete misinterpretation,vælte et læs,forhindre noget i at lykkes; ødelægge noget,DISCREPANCY,2,"B,C",0,1,1,0
+slag i bolledejen,1,2,random definition,"når man ikke vil lytte til andres råd, må man selv bære de ubehagelige konsekvenser","energisk, utraditionel og undertiden provokerende fremgangsmåde, handling eller lignende",DISCREPANCY,3,"B,C,D",0,1,1,1
+være en spurv i tranedans,1,3,abstract misinterpretation,være klodset og uelegant i sine handlinger,ikke være så fornem som de andre; deltage i noget man ikke er egnet til,DISCREPANCY,2,"B,D",0,1,0,1
+toppen af isbjerget,1,3,abstract misinterpretation,en synlig del af noget der ellers ikke kan ses,"en lille del af noget meget større, ofte noget ubehageligt",DISCREPANCY,3,"B,C,D",0,1,1,1
+kunne bide tungen af sig selv,1,2,abstract misinterpretation,kunne tvinge sig selv til at gøre noget ubehageligt,fortryde at have sagt en bestemt bemærkning,DISCREPANCY,2,"B,C",0,1,1,0
+skulle have noget ind med skeer,0,1,concrete misinterpretation,skulle mades med ske,skulle have noget forklaret på en langsom og udførlig måde (fordi man er langsomt opfattende),DISCREPANCY,2,"A,B",1,1,0,0
+"den der graver en grav for andre, falder selv i den",0,2,concrete misinterpretation,før eller siden falder man ned i den grav man har gravet for en anden,"den person der lægger planer om at narre eller skade en anden, risikerer selv at blive offer for disse planer",DISCREPANCY,3,"A,C,D",1,0,1,1
+lykken står den kække bi,1,2,concrete misinterpretation,en modig person bliver ofte lykkelig,"dristige, frejdige mennesker er ofte også heldige",DISCREPANCY,2,"B,C",0,1,1,0
+slå ind på en anden vej,0,3,concrete misinterpretation,følge en anden vej end tidligere,"ændre sin tilgang eller måde at agere på i forhold til et bestemt mål, typisk som reaktion på uventede omstændigheder eller for at opnå bedre resultater",DISCREPANCY,3,"A,B,D",1,1,0,1
+støbe kuglerne,0,3,abstract misinterpretation,udtænke måder at skade andre på,"være den der udtænker, planlægger og styrer udførelsen af en idé",DISCREPANCY,2,"A,D",1,0,0,1
+"når katten er ude, spiller musene på bordet",1,2,abstract misinterpretation,"når der ikke umiddelbart er tegn på fare, kan man godt tillade sig at slappe af","undlader man at holde opsyn, fører det til kåd opførsel og uorden",DISCREPANCY,2,"B,C",0,1,1,0
+slå til skaglerne,0,3,concrete misinterpretation,"slå let på nogle reb, fx på en båd",slå sig løs og more sig,DISCREPANCY,0,,0,0,0,0
+vende og dreje hver femøre,0,3,abstract misinterpretation,være meget nærig; overveje sit pengeforbrug meget nøje,være meget sparsommelig,DISCREPANCY,3,"A,C,D",1,0,1,1
+proppe noget ned i halsen på nogen,0,1,abstract misinterpretation,overtale nogen til at gøre noget de ikke har lyst til,påtvinge nogen noget,DISCREPANCY,2,"A,B",1,1,0,0
+til den store guldmedalje,0,3,abstract misinterpretation,i rigelige mængder; i overmål,"energisk, dygtigt eller med held",DISCREPANCY,2,"A,D",1,0,0,1
