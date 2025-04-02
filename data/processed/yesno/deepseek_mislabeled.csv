@@ -1,0 +1,334 @@
+talemaade_udtryk,yes_count,option_idx,option_letter,category,definition
+slå knuder på tungen,2,2,C,abstract misinterpretation,tie stille selvom man har meget at sige
+hurtig hjælp er dobbelt hjælp,2,2,C,concrete misinterpretation,hurtig hjælp er dobbelt så nyttig som hjælp der ydes langsomt
+puste til ilden,2,0,A,concrete misinterpretation,"puste til gløderne i et bål, en pejs eller lignende for at få dem til at flamme op"
+måtte sige farvel til noget,2,1,B,concrete misinterpretation,være nødsaget til at sige farvel til noget
+ramme muren,2,2,C,concrete misinterpretation,"støde ind i en mur, væg, ellerlign."
+vride halsen om på nogen,2,0,A,concrete misinterpretation,dræbe ved kvælning
+"lev stærkt, dø ung",2,0,A,concrete misinterpretation,"være stærk mens man er i live, men dø i en ung alder"
+stryge med hårene,2,2,C,concrete misinterpretation,"ae nogen, fx et barn, på hovedet i den retning håret vokser"
+spille sine kort godt,2,1,B,abstract misinterpretation,føre en fornuftig og langsigtet økonomisk politik
+viske tavlen ren,2,3,D,concrete misinterpretation,fjerne kridt fra en tavle med en tavlesvamp
+uden mad og drikke duer helten ikke,3,1,B,abstract misinterpretation,hvis ikke man får opfyldt sine basale behov kan man ikke være lykkelig
+uden mad og drikke duer helten ikke,3,3,D,concrete misinterpretation,man kan ikke udføre heltegerninger på tom mave
+de bonede gulve,2,1,B,concrete misinterpretation,gulve som er behandlet med bonevoks eller lignende
+være tynd i papirerne,2,0,A,abstract misinterpretation,være uden interessant og vigtigt indhold - om tekst
+spildte Guds ord på Balle-Lars,2,0,A,concrete misinterpretation,Balle-Lars forstår ikke det kristne budskab
+komme ud af busken,2,3,D,abstract misinterpretation,fortælle om sin seksualitet; komme ud af skabet
+ligne hinanden som to dråber vand,2,2,C,concrete misinterpretation,være ens på samme måde som to vanddråber er ens
+lavthængende frugter,2,3,D,concrete misinterpretation,"frugter der befinder sig på træets nederste grene, og som derfor er nemme at plukke fra jorden"
+nød lærer nøgen kvinde at spinde,2,2,C,concrete misinterpretation,hvis en kvinde er utilfreds med ikke at eje tøj til sig selv lærer hun at fremstille det
+gå efter manden i stedet for bolden,2,2,C,concrete misinterpretation,gå efter en mand fremfor en bold
+tage nogen ved hånden,2,1,B,concrete misinterpretation,holde nogen i hånden
+pakke ind i vat,2,2,C,concrete misinterpretation,beskytte noget mod fx slag ved at pakke det ind i vat
+panik før lukketid,2,2,C,concrete misinterpretation,hastværk i slutningen af åbningstiden
+arbejde så blodet springer fra neglene,2,1,B,concrete misinterpretation,arbejde så hårdt at fingrene bløder
+ikke være helt fin i kanten,2,3,D,concrete misinterpretation,have en eller flere fejl eller mangler der bryder en ellers perfekt kant
+hele dynen,2,1,B,concrete misinterpretation,"en dyne i sin helhed, inkl. dun eller andet fyld, betræk mv."
+have blod på hænderne,2,3,D,concrete misinterpretation,"have (andres) blod på sine hænder, typisk pga. en ulykke eller en forbrydelse"
+puste til gløderne,3,0,A,concrete misinterpretation,puste til en ild der er ved at dø ud
+puste til gløderne,3,3,D,abstract misinterpretation,tilføre romantik til et (langvarigt) kærlighedsforhold
+have mange jern i ilden,2,1,B,concrete misinterpretation,have mange forskellige jern i sin esse
+de forhåndenværende søms princip,2,0,A,random definition,en god begyndelse på noget forøger muligheden for en vellykket fortsættelse og afslutning
+"når enden er god, er alting godt",2,1,B,concrete misinterpretation,en god afslutning er væsentlig for kvaliteten
+gå hjem og vug,2,0,A,abstract misinterpretation,bruges til at overtale en (små)syg person til at gå hjem i seng
+være ved sine sansers fulde brug,2,0,A,concrete misinterpretation,have kontrol med og udbytte af alle fem sanser
+én fugl i hånden er bedre end ti på taget,3,0,A,abstract misinterpretation,det er mere værd at have én partner man stoler på end mange løse forhold
+én fugl i hånden er bedre end ti på taget,3,2,C,concrete misinterpretation,det er bedre at have en fugl i sin hånd end at have ti fugle siddende på sit tag
+med arme og ben,2,2,C,concrete misinterpretation,hvor man gør brug af både sine arme og ben
+have alle trumfer på hånden,2,2,C,concrete misinterpretation,have de bedst mulige kort på hånden i et kortspil
+være i ilden,2,1,B,abstract misinterpretation,være i fuld gang med at skabe eller udvikle noget nyt
+og så er den potte ude,2,1,B,abstract misinterpretation,"det pågældende væddemål er afsluttet, typisk fordi resultatet af en sportskamp eller lignende foreligger"
+man kan ikke lære en gammel hund nye kunster,3,0,A,concrete misinterpretation,det er ikke muligt at oplære en hund i ny adfærd efter den har nået en vis alder
+man kan ikke lære en gammel hund nye kunster,3,3,D,abstract misinterpretation,det er svært at ændre indgroede vaner
+komme på slagtebænken,2,0,A,concrete misinterpretation,"blive bragt til et slagteri -- om kvæg, svin eller andre slagtedyr"
+"koste blod, sved og tårer",2,2,C,concrete misinterpretation,"være så anstrengende at det fremkalder både blod, sved og tårer"
+munden står ikke stille på nogen,2,1,B,concrete misinterpretation,nogens mund er altid i bevægelse
+gøre rent bord,2,1,B,concrete misinterpretation,rydde op så bordpladen er fri og ren
+ligge lige til højrebenet,3,1,B,concrete misinterpretation,ligge godt til at sparke med højre ben -- om bold
+ligge lige til højrebenet,3,2,C,abstract misinterpretation,"være nemmere at udføre ved at støtte på højre ben -- om træningsøvelse, yogastilling ellerlign."
+tage pungen frem,2,0,A,concrete misinterpretation,fremdrage sin pengepung for at betale for bestemte varer eller en bestemt ydelse
+"villa, Volvo og vovhund",2,0,A,concrete misinterpretation,eje villa og en bil af mærket Volvo og holde hund som kæledyr
+kæden er hoppet af,2,2,C,concrete misinterpretation,"en kæde der forbinder to tandhjul, er sprunget af det ene eller begge tandhjul"
+fiske i rørte vande,2,3,D,abstract misinterpretation,forsøge at udnytte at andre er en i udsat position -- ofte i romantisk henseende
+bide sig fast,3,0,A,abstract misinterpretation,kæmpe ihærdigt med noget der er svært
+bide sig fast,3,3,D,concrete misinterpretation,holde fast i noget ved at bide sammen om det
+slå to fluer med ét smæk,2,0,A,concrete misinterpretation,"ramme to fluer i én, samlet bevægelse med hånden, fx med en fluesmækker"
+ikke lægge fingrene imellem,2,1,B,abstract misinterpretation,ikke blande sig i andres konflikt
+helt ude i skoven,2,1,B,abstract misinterpretation,i et øde område langt fra byer; i den vilde natur
+klæder skaber folk,2,0,A,concrete misinterpretation,tøj er med til at forme en persons identitet
+op ad bakke,2,2,C,concrete misinterpretation,i retning opad langs en stigning i landskabet
+"højt at flyve, dybt at falde",2,3,D,concrete misinterpretation,"når man befinder sig højt oppe, er der også langt ned"
+køre kanonerne i stilling,2,0,A,concrete misinterpretation,placere kanoner i en position hvor er klar til at blive affyret
+en pose blandede bolsjer,2,3,D,concrete misinterpretation,en pose med bolsjer af forskellig art
+"skomager, bliv ved din læst",3,0,A,concrete misinterpretation,en skomager bør ikke forlade sit værksted
+"skomager, bliv ved din læst",3,2,C,abstract misinterpretation,pas dig selv og lad være med at blande dig i andres sager
+ville give sin højre arm for noget,2,0,A,concrete misinterpretation,være parat til at lade sin højre arm amputere for en sag
+vække den slumrende løve,2,1,B,concrete misinterpretation,vække en sovende løve
+høre en knappenål falde til jorden,3,2,C,abstract misinterpretation,høre selv de svageste lyde
+høre en knappenål falde til jorden,3,3,D,concrete misinterpretation,høre lyden af en knappenål der rammer underlaget
+strø sand på,2,3,D,concrete misinterpretation,"kaste sand ud over et areal, fx et flisebelagt område"
+være tredje hjul på vognen,2,2,C,concrete misinterpretation,"være et ekstra, tredje hjul på en vogn der kun har behov for to hjul for at køre"
+være på tynd is,2,0,A,concrete misinterpretation,stå på et tyndt isdække der er i fare for at revne
+få noget på halsen,2,0,A,concrete misinterpretation,få noget på sin hals
+grave et par spadestik dybere,2,2,C,concrete misinterpretation,grave dybere ned i jorden end tidligere
+vide hvordan kagen skal skæres,2,3,D,concrete misinterpretation,være klar over hvordan man skal skære en kage ud
+"hvor der er hjerterum, er der husrum",2,2,C,concrete misinterpretation,hvis der er gæstfrit er der også rart at bo
+det er lettere for en kamel at komme igennem et nåleøje end for en rig at komme ind i Guds rige,2,0,A,concrete misinterpretation,det er lettere at bevæge sig gennem en snæver passage end at komme ind i Paradis med penge eller andre værdigenstande
+slå fast med syvtommersøm,2,0,A,abstract misinterpretation,tvinge en (kontroversiel) holdning igennem ved at fremføre argumenter
+fyre godt op under kedlerne,2,3,D,concrete misinterpretation,tænde ild under mere end én kedel
+målet helliger midlet,2,1,B,concrete misinterpretation,målet retfærdiggør metoden
+være femte hjul på vognen,2,1,B,concrete misinterpretation,"være et ekstra, femte hjul på en vogn der kun har behov for fire hjul for at køre"
+være helt ude i tovene,2,0,A,abstract misinterpretation,være fysisk udmattet (pga. hårdt arbejde); være udtømt for kræfter
+kysten er klar,2,2,C,concrete misinterpretation,kysten er klar til brug
+der gror ikke mos på en rullesten,2,0,A,concrete misinterpretation,"hvis en sten er i bevægelse, vil der ikke vokse mos på den"
+ligeud ad landevejen,2,2,C,concrete misinterpretation,kørselsretning uden sving og andre afvigelser fra ligeudkørsel
+der går inflation i noget,2,0,A,concrete misinterpretation,priserne stiger på en specifik vare eller varetype
+få en spand koldt vand i hovedet,2,2,C,concrete misinterpretation,blive overhældt med koldt vand fra en spand
+der skal to til tango,2,3,D,concrete misinterpretation,det kræver to personer at danse dansen tango
+spille kong Gulerod,2,2,C,concrete misinterpretation,"spille en rolle som karakteren kong Gulerod, fx i et teaterstykke for børn"
+"skønne, spildte kræfter",2,3,D,concrete misinterpretation,"energi der ikke bliver brugt til noget særligt, men spildt på ligegyldige ting"
+have knive i ærmerne,2,3,D,abstract misinterpretation,medbringe noget overraskende eller overrumplende
+"hvad man ikke ved, har man ikke ondt af",2,0,A,concrete misinterpretation,man kan ikke være ked af noget man ikke kender til
+skyde sig selv i foden,2,0,A,concrete misinterpretation,skyde sig i foden for at gøre sig selv ukampdygtig -- historisk
+våd som en druknet mus,2,0,A,concrete misinterpretation,lige så våd som en mus der er druknet
+ikke større end tobak for en skilling,3,2,C,concrete misinterpretation,på størrelse med den mængde tobak man kan købe for en lille sum penge
+ikke større end tobak for en skilling,3,3,D,abstract misinterpretation,ligegyldigt; ikke værd at beskæftige sig med
+have kniven på struben,3,1,B,abstract misinterpretation,være tæt på at dø; befinde sig i en livstruende situation
+have kniven på struben,3,3,D,concrete misinterpretation,blive truet med en knivsæg placeret mod ens strube
+det må briste eller bære,2,2,C,concrete misinterpretation,det er uvist om en bestemt konstruktion er tilpas kraftig til det intenderede formål
+stikke spaden i jorden,2,1,B,concrete misinterpretation,stikke en spade i jorden og begynde at grave
+den ene tjeneste er den anden værd,2,1,B,concrete misinterpretation,en tjeneste har samme værdi som en anden tjeneste
+have penge på kistebunden,2,0,A,concrete misinterpretation,have kontanter gemt nederst i en kiste (skjult under kistens øvrige indhold)
+trykke på pauseknappen,3,0,A,concrete misinterpretation,sætte noget på pause ved at trykke på en knap
+trykke på pauseknappen,3,1,B,abstract misinterpretation,være midlertidigt væk fra hinanden
+få luft under vingerne,2,3,D,concrete misinterpretation,"flyve -- om fugle, insekter og andre dyr med vinger"
+grave grøfter,2,0,A,concrete misinterpretation,grave lange render langs med veje
+ramme hovedet på sømmet,3,0,A,concrete misinterpretation,ramme sømmet helt rigtigt (med en hammer eller lignende)
+ramme hovedet på sømmet,3,1,B,abstract misinterpretation,udføre en opgave særdeles tilfredsstillende
+binde på hænder og fødder,2,2,C,concrete misinterpretation,binde hænderne og fødderne sammen
+binde på hænder og fødder,2,3,D,abstract misinterpretation,fratage modstanderen muligheden for at kæmpe videre; gøre ukampdygtig
+der bliver ingen bukser ud af det skind,2,2,C,concrete misinterpretation,det her skind er uegnet til fremstilling af bukser
+for lidt og for meget fordærver alting,3,2,C,abstract misinterpretation,man skal krydre maden med måde
+for lidt og for meget fordærver alting,3,3,D,concrete misinterpretation,både en for stor og en for lille mængde af noget ødelægger et produkt
+det stille vand har den dybe grund,2,3,D,concrete misinterpretation,en sø med stillestående vand er ofte meget dyb
+man skal høre meget før ørerne falder af,2,1,B,concrete misinterpretation,ørerne kan holde til meget støj; ørerne går ikke i stykker af at lytte (intenst)
+tomme tønder buldrer mest,2,0,A,concrete misinterpretation,tomme tønder larmer mere end fulde tønder
+med skindet på næsen,2,1,B,abstract misinterpretation,lige netop klare sig igennem en umiddelbart umulig situation
+"hvor der handles, der spildes",2,1,B,abstract misinterpretation,overforbrug belaster miljøet
+med omvendt fortegn,2,1,B,concrete misinterpretation,"med det modsatte fortegn, fx i matematisk opgave"
+ikke være til at styre på en hel tønde land,2,3,D,concrete misinterpretation,ikke være til at kontrollere på et specifikt område
+have gode kort på hånden,2,0,A,concrete misinterpretation,have en sammensætning af spillekort i hånden der giver gunstige chancer for at vinde et igangværende kortspil
+finde melodien,2,0,A,concrete misinterpretation,finde på en melodi til en sangtekst
+en sund sjæl i et sundt legeme,2,0,A,concrete misinterpretation,en person er både mentalt og fysisk i god form
+hverken se til højre eller venstre,3,1,B,concrete misinterpretation,se lige ud; undlade at dreje hovedet
+hverken se til højre eller venstre,3,2,C,abstract misinterpretation,ikke lytte til indvendinger og gode råd fra andre
+bo i en kuffert,2,1,B,abstract misinterpretation,bo på minimal plads og med minimalt forbrug af ressourcer
+trække tænderne ud,2,3,D,concrete misinterpretation,fjerne tænder ved udtrækning
+ved kasse ét,2,1,B,random definition,mennesket tænker først og fremmest på sin egen fordel når det skal vælge
+ved kasse ét,2,3,D,concrete misinterpretation,ved kasse nr. 1 (i et supermarked eller lignende)
+gnide salt i såret,2,3,D,concrete misinterpretation,gnubbe salt i et åbent sår
+være livet om at gøre,2,3,D,abstract misinterpretation,være det vigtigste i nogens liv
+"goddag mand, økseskaft",2,1,B,abstract misinterpretation,bruges for at udtrykke frustration
+gå i nogens fodspor,2,0,A,abstract misinterpretation,"efterligne nogen, fx i forhold til udtalelse og påklædning"
+"den der kommer først til mølle, får først malet",2,3,D,abstract misinterpretation,det kan betale sig at være i god tid
+sætte ulven til at vogte får,2,3,D,abstract misinterpretation,udvise tillid til nogen der ikke har fortjent det
+i mørke er alle katte grå,2,3,D,concrete misinterpretation,"i mørke fremstår katte grå, uanset hvilken farve de måtte have"
+arbejde sin røv i laser,2,3,D,concrete misinterpretation,arbejde så meget at man får ondt i kroppen
+skrive til skrivebordsskuffen,2,1,B,concrete misinterpretation,skrive et brev uden at sende det
+toppen af kransekagen,2,2,C,concrete misinterpretation,den øverste del af en kransekage (med pynt)
+mennesket lever ikke af brød alene,2,2,C,concrete misinterpretation,brød kan ikke alene udgøre en tilstrækkelig kost for mennesker
+få noget med på vejen,2,3,D,concrete misinterpretation,få noget med når man tager afsted
+være et hestehoved foran,3,1,B,abstract misinterpretation,have en fordel som andre ikke har
+være et hestehoved foran,3,3,D,concrete misinterpretation,være foran med en afstand der svarer til længden på et hestehoved
+have jord under neglene,2,3,D,concrete misinterpretation,have jord eller andet skidt under neglene
+stikke hånden i en hvepserede,3,2,C,abstract misinterpretation,beskæftige sig med noget farligt på trods af advarsler
+stikke hånden i en hvepserede,3,3,D,concrete misinterpretation,placere sin hånd i et hvepsebo
+gå som varmt brød,2,3,D,abstract misinterpretation,"blive delt af mange brugere på internettet, fx via et socialt medie"
+ikke kunne gøre en flue fortræd,2,1,B,concrete misinterpretation,ikke være i stand til at påføre en flue smerte
+tale nogen efter munden,2,1,B,abstract misinterpretation,erklære sig helt enig med en anden person
+bestemme hvor skabet skal stå,2,3,D,concrete misinterpretation,tage den endelige beslutning om hvor et skab skal placeres
+man skal ikke skue hunden på hårene,2,3,D,concrete misinterpretation,man skal ikke vurdere en hund blot på dens pels
+have en kage i ovnen,2,0,A,concrete misinterpretation,være ved at bage en kage
+sådan spiller klaveret ikke,3,0,A,concrete misinterpretation,dette er en fejlagtig måde at spille klaverstemmen på
+sådan spiller klaveret ikke,3,2,C,abstract misinterpretation,"bruges når nogen i et band, orkester ellerlign. spiller forkert"
+tage ordet ud af munden på nogen,2,3,D,abstract misinterpretation,afbryde nogen der er ved at fortælle
+den sne der faldt i fjor,2,1,B,concrete misinterpretation,den sne der faldt sidste år
+trække noget ned over hovedet på nogen,2,2,C,concrete misinterpretation,trække noget (typisk af stof) ned over nogens hoved
+sætte alle sejl til,2,2,C,concrete misinterpretation,sejle hurtigere end ellers (fordi alle sejl er oppe)
+hår på brystet,2,1,B,concrete misinterpretation,med hårvækst på og omkring brystkassen
+gøre kort proces,2,3,D,concrete misinterpretation,handle hurtigt og effektivt
+dreje 180 grader,2,2,C,concrete misinterpretation,dreje en halv omgang
+høre en lille fugl synge om noget,2,0,A,concrete misinterpretation,høre en (lille) fugl kvidre på en måde så det minder om tale eller sang
+høre en lille fugl synge om noget,2,2,C,abstract misinterpretation,have en fornemmelse baseret på intuition
+skrive noget på nogens konto,2,0,A,concrete misinterpretation,notere en udgift til senere betaling
+ryge fredspibe,2,3,D,concrete misinterpretation,ryge pibe sammen som symbol på enighed
+sætte en ny plade på grammofonen,2,3,D,concrete misinterpretation,afspille musik fra en ny plade på en grammofon
+tage noget på sin kappe,2,3,D,abstract misinterpretation,sørge for at nogens problemer bliver taget hånd om
+kaste et redningsbælte ud til nogen,2,2,C,concrete misinterpretation,hjælpe en druknende person ved at tilbyde vedkommende et hjælpemiddel der gør det nemmere at holde sig flydende i vandet
+med bred pensel,2,3,D,concrete misinterpretation,med brede penselstrøg
+hyppe sine egne kartofler,2,2,C,abstract misinterpretation,dyrke grøntsager i sin have til eget brug; være selvforsynende
+smede mens jernet er varmt,2,0,A,concrete misinterpretation,bearbejde jern mens det er varmt nok
+hellere lille og vågen end stor og doven,2,3,D,concrete misinterpretation,det er at foretrække at være lille og vågen fremfor stor og doven
+langt mellem snapsene,2,2,C,concrete misinterpretation,lang tid mellem situationer hvor man drikker snaps
+ligne udskidt æblegrød,2,3,D,concrete misinterpretation,have samme konsistens og udseende som afføring ved dårlig mave
+mange bække små gør en stor å,2,0,A,concrete misinterpretation,der dannes en stor å når mange små vandløb løber sammen
+glat som en ål,2,1,B,concrete misinterpretation,lige så glat som overfladen på en ål
+mele sin egen kage,2,0,A,abstract misinterpretation,(være i stand til at) planlægge og udføre en svær opgave uden betydelig hjælp fra andre
+kaste nogen for løverne,2,3,D,concrete misinterpretation,kaste nogen hen foran løver
+ikke ane hvilket ben man skal stå på,2,3,D,concrete misinterpretation,ikke kunne afgøre hvilket ben man skal lægge sin vægt på
+hellere ville brække en arm på langs end ..,2,0,A,abstract misinterpretation,bruges for at udtrykke modvilje og ubehag over nogens handlinger
+hellere ville brække en arm på langs end ..,2,1,B,concrete misinterpretation,være villig til at få et kompliceret knoglebrud i armen for at undgå en situation
+åbne for sluserne,2,3,D,concrete misinterpretation,åbne for passage af vand et eller flere steder i et vandreguleringsanlæg
+"operationen lykkedes, men patienten døde",3,2,C,abstract misinterpretation,"uanset hvor godt man udfører en opgave, forbereder sig på en situation eller lignende, er et godt resultat aldrig garanteret"
+"operationen lykkedes, men patienten døde",3,3,D,concrete misinterpretation,"det kirurgiske indgreb forløb som ønsket, men patienten overlevede ikke på trods af indgrebet"
+ude på dybt vand,2,1,B,concrete misinterpretation,i vand der er så dybt at man ikke kan bunde
+sætte kroner og øre på noget,2,3,D,concrete misinterpretation,lægge sine penge et sted
+underskrive sin egen dødsdom,2,1,B,concrete misinterpretation,underskrive en aftale der dømmer én selv til døden
+drikke nogen under bordet,2,1,B,concrete misinterpretation,få nogen til at drikke så meget at de falder ned af deres stol og lander under bordet
+kunne tælles på én hånd,2,2,C,concrete misinterpretation,være maksimalt fem
+en streg i regningen,2,3,D,concrete misinterpretation,"en streg på en kvittering, bon eller lignende -- kan fx angive at en udgift er slettet"
+surt løg,2,2,C,random definition,bortødsle noget værdifuldt på nogen der ikke forstår at værdsætte det
+koste en bondegård,2,3,D,concrete misinterpretation,koste det samme som en gård med tilhørende land og evt. dyrehold
+en tynd kop te,2,3,D,abstract misinterpretation,noget som ikke lever op til forventningerne
+jeg vil æde min hat på ..,2,1,B,concrete misinterpretation,være så sikker på noget at man lover at ville æde sin hat hvis det ikke passer
+én gang skal jo være den første,2,2,C,concrete misinterpretation,den første gang man udfører en specifik handling er præget af at man ikke har udført den før
+trække en kanin op af hatten,2,1,B,concrete misinterpretation,trække en kanin op af en hat -- ofte i forbindelse med tryllekunst
+ikke vide hvor man skal ende og begynde,2,2,C,concrete misinterpretation,være i tvivl om hvordan man starter og derefter også afslutter noget
+i sit ansigts sved,2,2,C,concrete misinterpretation,med sved løbende ned ad ansigtet pga. voldsom varme eller anstrengelse
+de tusind søers land,2,2,C,concrete misinterpretation,et land med tusind søer
+slå nogen oven i hovedet med noget,2,2,C,concrete misinterpretation,slå nogen i hovedet med noget
+nogen vender bøtten,2,0,A,concrete misinterpretation,"nogen vender en beholder på hovedet, typisk for at få al indholdet ud"
+slå hovedet på sømmet,2,3,D,concrete misinterpretation,ramme et søm præcist med en hammer
+rasle med sablen,2,1,B,concrete misinterpretation,gestikulere truende ved at vifte med et stikvåben i retning af en fjende
+som en åben bog,2,2,C,abstract misinterpretation,uden overraskelser
+som en åben bog,2,3,D,concrete misinterpretation,lige så nem at gå til som en bog der allerede er åben
+holde gryden i kog,2,0,A,concrete misinterpretation,opretholde en så høj temperatur på en væske i en gryde at væsken fortsat er i kog
+der er ikke nogen hjemme,2,3,D,concrete misinterpretation,en ellers beboet bolig er tom
+til ingen verdens nytte,2,0,A,concrete misinterpretation,ikke til nytte for nogen eller noget i verden
+mosekonen brygger,2,0,A,concrete misinterpretation,en mosekone fremstiller en drik ved opvarmning eller kogning
+mosekonen brygger,2,2,C,abstract misinterpretation,noget ildevarslende er under opsejling; nogen smeder rænker
+alle veje fører til Rom,2,2,C,concrete misinterpretation,følger man en bestemt vej længe nok ender man i Rom
+helt nede i kælderen,2,1,B,concrete misinterpretation,"på nederste etage, typisk placeret helt eller delvis under jordniveau"
+give faklen videre,3,0,A,abstract misinterpretation,oplære nogen så de fremover kan udføre en bestemt opgave på egen hånd
+give faklen videre,3,1,B,concrete misinterpretation,give en (tændt) fakkel videre til nogen
+give den en skalle,2,3,D,concrete misinterpretation,ramme noget med toppen af hovedet
+kunne ligge på et meget lille sted,2,1,B,concrete misinterpretation,være tilstrækkelig lille til at befinde sig på et lille afgrænset område
+kært barn har mange navne,2,1,B,concrete misinterpretation,de børn som man holder meget af får altid mange kælenavne
+sætte sin hat som man vil,3,0,A,concrete misinterpretation,placere sin hat på den måde man selv ønsker
+sætte sin hat som man vil,3,1,B,abstract misinterpretation,udføre noget uden at tage imod råd og vejledning fra andre
+en kærlig hånd,2,1,B,concrete misinterpretation,en hånd placeret på nogen som udtryk for omsorg eller kærlighed
+ikke kunne stikke en pind i en lort uden at ødelægge begge dele,2,3,D,concrete misinterpretation,ikke være i stand til at placere en pind i en hundelort uden både pind og hundelort går i stykker
+blive taget med fingrene i kagedåsen,3,0,A,abstract misinterpretation,befinde sig i en ufordelagtig eller problematisk situation hvor man føler sig magtesløs
+blive taget med fingrene i kagedåsen,3,3,D,concrete misinterpretation,blive opdaget i at være i færd med at stjæle kager fra en kagedåse
+komme fra et hjem med klaver,2,1,B,concrete misinterpretation,være vokset op i et hjem hvor den ene eller begge forældre spillede klaver
+stikke hovederne sammen,3,0,A,concrete misinterpretation,placere sine hoveder tæt ved hinanden
+stikke hovederne sammen,3,1,B,abstract misinterpretation,forsøge at blive enige igen efter en diskussion eller et skænderi
+ligne noget katten har slæbt ind,2,0,A,concrete misinterpretation,have et udseende tilsvarende noget en kat kunne bringe ind i et hus
+en strid om kejserens skæg,2,0,A,abstract misinterpretation,en strid som ingen ved hvad handler om
+koge suppe på noget,2,0,A,abstract misinterpretation,lave en (sladder)historie ud af noget småt eller betydningsløst
+ballonen revner,2,2,C,concrete misinterpretation,der går hul på en ballon
+bagsiden af medaljen,2,0,A,concrete misinterpretation,den side af en medalje som ikke er forsiden
+stoppe mens legen er god,2,0,A,concrete misinterpretation,holde op med at lege mens legen er underholdende for alle involverede
+vide hvad klokken er,2,1,B,concrete misinterpretation,være klar over hvad tid på døgnet det er
+have ild i enden,2,2,C,abstract misinterpretation,"være i en overdrevent begejstret eller opstemt, evt. overspændt sindstilstand"
+"ikke alt der glimter, er guld",2,1,B,concrete misinterpretation,"blot fordi noget glimter, er det ikke ensbetydende med at det er fremstillet af guld"
+give sorteper videre,2,3,D,concrete misinterpretation,give kortet sorteper til en anden spiller som i kortspillet af samme navn er dårligt at sidde med
+koge suppe på en pølsepind,2,0,A,concrete misinterpretation,(forsøge at) lave suppe ud af meget lidt
+så slutter festen,2,2,C,concrete misinterpretation,nu er tidspunktet kommet hvor festen er forbi
+have en aktie i,2,2,C,concrete misinterpretation,eje en andel af en virksomhed
+spille fransk klovn,2,0,A,random definition,"bruges ofte (selv)ironisk for at udtrykke at selv en person uden de store forudsætninger, med lidt held, kan løse en bestemt opgave"
+så let som at klø sig selv i nakken,2,3,D,concrete misinterpretation,uden større anstrengelse end den det kræver at klø sig i nakken
+det er for sent at kaste brønden til når barnet er druknet,2,0,A,concrete misinterpretation,når et barn først er druknet kan det ikke reddes
+alt lykkes i en gasovn,2,3,D,abstract misinterpretation,bruges som galgenhumoristisk kommentar til det at henrette mennesker ved at gasse dem
+klappe hesten,2,3,D,concrete misinterpretation,klappe en hest
+det pulveriserende liv,2,1,B,random definition,være i en meget vanskelig situation som påvirker én psykisk
+lugten i bageriet,2,0,A,abstract misinterpretation,"positiv sideeffekt af en proces, handling eller lignende"
+lugten i bageriet,2,2,C,concrete misinterpretation,den lugt der er i et bageri
+brændt barn skyr ilden,2,1,B,concrete misinterpretation,"har et barn først brændt sig, omgås det ild med større forsigtighed"
+"når krybben er tom, bides hestene",2,0,A,concrete misinterpretation,når der ikke er mere at spise kommer hestene op at slås
+hovmod står for fald,2,2,C,concrete misinterpretation,"når man er arrogant, kan man nemt falde"
+den sorte klap går ned,2,1,B,abstract misinterpretation,bruges for at udtrykke at en person pludselig mister besindelsen; voldsomt raseri
+sidste skud på stammen,2,1,B,abstract misinterpretation,sidste chance for at gøre noget
+rydde nogen af vejen,2,1,B,concrete misinterpretation,"skubbe nogen eller på anden vis forårsage at nogen kommer væk fra en bestemt vej, bane eller lignende"
+ryste som et espeløv,2,0,A,concrete misinterpretation,ryste lige så meget som et blad på et espetræ
+vandene skilles,2,2,C,abstract misinterpretation,nogen går fra hinanden; nogen bliver skilt
+skræve mere end bukserne kan holde,2,0,A,abstract misinterpretation,opføre sig vovet eller dumdristigt
+hvor længe var Adam i Paradis,2,2,C,concrete misinterpretation,tidsangivelse svarende til den periode hvor Adam befandt sig i paradisets have
+vide hvad vej vinden blæser,2,1,B,abstract misinterpretation,"kende til den nyeste udvikling inden for et felt, emne ellerlign."
+i nøden skal man kende sine venner,2,0,A,concrete misinterpretation,i modgang er det vigtigt at være tæt på sine venner
+"man ved hvad man har, men ikke hvad man får",2,3,D,concrete misinterpretation,man kender ikke fremtiden
+ukrudt forgår ikke så let,2,0,A,concrete misinterpretation,det er svært at fjerne ukrudt
+sidde med livet i hænderne,2,2,C,abstract misinterpretation,være i livsfare; befinde sig i en livstruende situation
+lang som et ondt år,2,3,D,concrete misinterpretation,et langt år
+"se sol, måne og stjerner",2,2,C,concrete misinterpretation,"kunne se både Solen, Månen og et udvalg af stjerner på himlen"
+have foden under eget bord,2,0,A,abstract misinterpretation,have styr på sin økonomi
+slag i ansigtet,2,2,C,concrete misinterpretation,et slag i nogens ansigt
+slag i ansigtet,2,3,D,abstract misinterpretation,ubehagelig overraskelse
+spænde livremmen ind,2,2,C,concrete misinterpretation,stramme sit bælte
+den vej skal vi alle,2,0,A,concrete misinterpretation,bruges for at udpege en vej som alle skal gå på
+være over alle bjerge,2,1,B,abstract misinterpretation,godt tilfreds med resultatet af noget
+enhver er sig selv nærmest,2,1,B,abstract misinterpretation,det er bedre at ordne tingene selv end at vente på at andre gør det for en
+slikke frimærker,2,0,A,concrete misinterpretation,slikke på bagsiden af frimærker
+vende vrangen ud,3,0,A,concrete misinterpretation,vende et stykke tøj om sådan at sømmene vendes udad
+vende vrangen ud,3,2,C,abstract misinterpretation,betro sig og vise sine inderste følelser
+rive hovedet af nogen,2,0,A,concrete misinterpretation,adskille nogens hoved fra vedkommendes krop
+tyv tror hvermand stjæler,2,0,A,concrete misinterpretation,en tyv har en forestilling om at alle mennesker stjæler
+ikke kunne se en hånd for sig,2,1,B,concrete misinterpretation,ikke være i stand til at se en hånd lige foran kroppen
+man skal kravle før man kan gå,2,2,C,concrete misinterpretation,det er en naturlig del af mennesket udvikling at småbørn lærer at kravle før de kan gå
+om smagen kan der ikke diskuteres,2,2,C,concrete misinterpretation,smag opleves forskelligt fra menneske til menneske
+lægge alle sine æg i samme kurv,2,1,B,concrete misinterpretation,placere samtlige æg i én kurv
+det hører man ikke når musikken spiller,2,1,B,concrete misinterpretation,(visse typer) støj kan overdøves af musik
+som at se maling tørre,3,1,B,abstract misinterpretation,bruges for at betegne en meget lang ventetid
+som at se maling tørre,3,3,D,concrete misinterpretation,som at observere en nymalet væg gå fra våd til tør
+stege i sit eget fedt,2,2,C,concrete misinterpretation,stege et stykke kød i animalsk fedt fra det dyr kødet stammer fra
+miraklernes tid er ikke forbi,2,1,B,abstract misinterpretation,der findes ting vi ikke kan forklare rationelt
+ride sin kæphest,2,1,B,abstract misinterpretation,dyrke en hobby; beskæftige sig med noget som man finder særligt interessant
+en hård nød at knække,2,3,D,concrete misinterpretation,denne nød er svær at ødelægge skallen på
+gnide sig op ad nogen,2,1,B,concrete misinterpretation,gnide sin krop op ad en andens krop
+en gang til for prins Knud,2,2,C,abstract misinterpretation,bruges for at angive at en person skal betale for endnu en udskænkning til alle på et værtshus eller i en bar
+krage søger mage,2,1,B,concrete misinterpretation,en krage leder efter en anden krage som partner
+ønske nogen hen hvor peberet gror,2,2,C,concrete misinterpretation,ønske nogen til de steder på kloden hvor der vokser peber
+rotterne forlader den synkende skude,2,0,A,abstract misinterpretation,flere personer forlader en situation (fx. et møde eller en fest) pga. opstået uro eller en dårlig stemning
+"de gode græd, og de onde lo",2,2,C,concrete misinterpretation,de gode mennesker græder og de onde mennesker ler
+for mange kokke fordærver maden,2,0,A,concrete misinterpretation,maden bliver dårlig hvis der er mange om at lave den
+trække læsset,2,3,D,concrete misinterpretation,trække (en vogn med) et tungt læs fremad
+være grebet ud af luften,2,1,B,abstract misinterpretation,være opstået eller sket pludseligt og uden forvarsel
+man må krybe før man kan gå,2,3,D,concrete misinterpretation,man er nødt til at lære at krybe eller kravle før man kan lære at gå
+fuglen er fløjet,2,2,C,abstract misinterpretation,en bestemt sag er lukket eller afsluttet
+ingen kæde er stærkere end det svageste led,2,1,B,concrete misinterpretation,hvis et led i en kæde er svagt er hele kæden svag
+brede sig som ringe i vandet,2,3,D,concrete misinterpretation,danne ringformede mønstre i en vandoverflade
+blive slap i knæene,2,2,C,concrete misinterpretation,miste styrke i musklerne omkring knæene
+fyre kanonen af,3,2,C,abstract misinterpretation,"bringe et afgørende og tungtvejende argument i en debat, en retssag eller lignende"
+fyre kanonen af,3,3,D,concrete misinterpretation,affyre granater eller projektiler fra en kanon
+nogens hjerte springer et slag over,3,1,B,concrete misinterpretation,nogens hjerte slår uregelmæssigt og springer slag over der ellers skulle have været der
+nogens hjerte springer et slag over,3,2,C,abstract misinterpretation,nogen får en fysisk reaktion på voldsomme følelser
+"den der gemmer til natten, gemmer til katten",2,3,D,concrete misinterpretation,gemmer man mad natten over risikerer man at det bliver spist (fx af en huskat)
+tage arven op efter nogen,2,2,C,concrete misinterpretation,arve penge eller værdier fordi en nær slægtning dør
+ramme på kornet,2,2,C,abstract misinterpretation,passe perfekt ind i en bestemt sammenhæng
+smide over bord,2,3,D,concrete misinterpretation,kaste noget ud fra et fartøj og ned i vandet
+komme godt fra land,2,3,D,concrete misinterpretation,sejle ud af en havn på fornuftig vis
+ofre noget på kærlighedens alter,3,0,A,abstract misinterpretation,"miste noget, fx kontakten til sine venner, i forbindelse med en (ulykkelig) forelskelse"
+ofre noget på kærlighedens alter,3,3,D,concrete misinterpretation,ofre noget på et alter og til en guddom man forbinder med kærlighed
+en pind til nogens el. nogets ligkiste,2,1,B,abstract misinterpretation,bruges for at erklære sig enig i en negativ holdning til nogen eller noget
+krybe i et musehul,3,2,C,concrete misinterpretation,bevæge sig ind i et smalt område
+krybe i et musehul,3,3,D,abstract misinterpretation,"gå i seng, især i et mindre rum; lægge sig til at sove et sted med begrænset plads"
+slag i bolledejen,2,3,D,abstract misinterpretation,stort postyr og aktivitet udløst af en bagatel
+være en spurv i tranedans,2,1,B,abstract misinterpretation,være klodset og uelegant i sine handlinger
+vente på at stegte duer skal flyve ind i munden på én,2,3,D,abstract misinterpretation,vente på at andre ordner ens problemer
+toppen af isbjerget,3,1,B,abstract misinterpretation,en synlig del af noget der ellers ikke kan ses
+toppen af isbjerget,3,2,C,concrete misinterpretation,den del af et isbjerg der befinder sig over havets overflade
+hver fugl synger med sit næb,2,3,D,abstract misinterpretation,alle mennesker har en unik stemme
+man har et standpunkt til man tager et nyt,2,2,C,concrete misinterpretation,man kan godt ændre mening
+være en hund efter noget,2,3,D,abstract misinterpretation,være ophidset og utålmodig
+ingen kan tjene to herrer,2,2,C,concrete misinterpretation,man kan ikke arbejde for to chefer samtidig
+smile i skægget,2,1,B,abstract misinterpretation,have det roligt og hyggeligt; føre sig godt tilpas
+"den der graver en grav for andre, falder selv i den",3,0,A,concrete misinterpretation,før eller siden falder man ned i den grav man har gravet for en anden
+"den der graver en grav for andre, falder selv i den",3,3,D,abstract misinterpretation,før eller siden bliver man indhentet af sin fortid
+lykken står den kække bi,2,1,B,concrete misinterpretation,en modig person bliver ofte lykkelig
+kræve nogens hoved på et fad,2,2,C,concrete misinterpretation,kræve nogens hoved bragt til én på et fad
+slå ind på en anden vej,2,0,A,concrete misinterpretation,følge en anden vej end tidligere
+"når katten er ude, spiller musene på bordet",2,1,B,abstract misinterpretation,"når der ikke umiddelbart er tegn på fare, kan man godt tillade sig at slappe af"
+håbet er lysegrønt,2,2,C,concrete misinterpretation,håb associeres med farven lysegrøn
+vende og dreje hver femøre,2,0,A,abstract misinterpretation,være meget nærig; overveje sit pengeforbrug meget nøje
+proppe noget ned i halsen på nogen,2,3,D,concrete misinterpretation,(med vold) tvinge en fødevare i en anden person

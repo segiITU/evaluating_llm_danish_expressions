@@ -1,2 +1,6 @@
-,accuracy,approach,total_predictions,yes_count_accuracy,multiple_yes_percent,no_yes_percent,yes_count_0,yes_count_1,yes_count_2,yes_count_3,accuracy_yes_count_0,accuracy_yes_count_1,accuracy_yes_count_2,accuracy_yes_count_3
-claude-3-7-sonnet,80.4,yes/no,1000,68.8,25.6,5.6000000000000005,5600,68800,23100,2500,0.0,0.0,0.0,0.0
+,accuracy,approach,total_predictions,yes_count_accuracy,multiple_yes_percent,no_yes_percent,yes_count_0,yes_count_1,yes_count_2,yes_count_3,accuracy_yes_count_0,accuracy_yes_count_1,accuracy_yes_count_2,accuracy_yes_count_3,yes_count_4,accuracy_yes_count_4
+gpt-4o,72.0,yes/no,50,60.0,38.0,2.0,100,3000,1500,400,0.0,0.0,0.0,0.0,,
+deepseek,67.06706706706707,yes/no,999,55.85585585585585,29.52952952952953,14.614614614614615,14600,55800,26500,3000,0.0,0.0,0.0,0.0,,
+grok-2,72.67267267267268,yes/no,999,62.56256256256256,29.429429429429426,8.008008008008009,8000,62500,26000,3100,0.0,0.0,0.0,0.0,300.0,0.0
+claude-3-7-sonnet,80.4,yes/no,1000,68.8,25.6,5.6000000000000005,5600,68800,23100,2500,0.0,0.0,0.0,0.0,,
+llama,53.800000000000004,yes/no,1000,25.2,73.7,1.0999999999999999,1100,25200,36600,27400,0.0,0.0,0.0,0.0,9700.0,0.0

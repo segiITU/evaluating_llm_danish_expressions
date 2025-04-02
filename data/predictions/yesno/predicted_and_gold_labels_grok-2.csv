@@ -1,0 +1,1000 @@
+talemaade_udtryk,predicted_label,yes_count,yes_options,A_response,B_response,C_response,D_response,true_label,Discrepancy
+lægge låg på noget,1,1,B,0,1,0,0,1,
+snyde nogen så vandet driver,3,1,D,0,0,0,1,3,
+tale med store bogstaver,3,1,D,0,0,0,1,3,
+lang næse,2,1,C,0,0,1,0,1,DISCREPANCY
+slå knuder på tungen,0,2,"A,C",1,0,1,0,0,
+hurtig hjælp er dobbelt hjælp,0,2,"A,C",1,0,1,0,0,
+puste til ilden,0,2,"A,C",1,0,1,0,2,DISCREPANCY
+måtte sige farvel til noget,0,3,"A,B,D",1,1,0,1,0,
+et levende leksikon,1,1,B,0,1,0,0,1,
+ikke have salt til et æg,1,1,B,0,1,0,0,1,
+skinnet bedrager,1,1,B,0,1,0,0,1,
+ikke have opfundet den dybe tallerken,0,1,A,1,0,0,0,0,
+lokummet brænder,1,2,"B,C",0,1,1,0,2,DISCREPANCY
+det er der ingen ben i,1,1,B,0,1,0,0,3,DISCREPANCY
+ramme muren,0,2,"A,C",1,0,1,0,0,
+ikke have mange brikker at flytte rundt med,0,1,A,1,0,0,0,2,DISCREPANCY
+danse efter nogens pibe,2,1,C,0,0,1,0,2,
+det kommer ikke det smør ved,3,1,D,0,0,0,1,3,
+hælde vand ud af ørerne,2,2,"C,D",0,0,1,1,2,
+vride halsen om på nogen,0,2,"A,D",1,0,0,1,3,DISCREPANCY
+være på egen boldgade,2,1,C,0,0,1,0,2,
+male byen rød,0,1,A,1,0,0,0,0,
+løbet er kørt,2,1,C,0,0,1,0,2,
+"lev stærkt, dø ung",1,2,"B,D",0,1,0,1,1,
+stryge med hårene,2,2,"C,D",0,0,1,1,3,DISCREPANCY
+den rygende pistol,2,1,C,0,0,1,0,2,
+svæve over vandene,0,0,,0,0,0,0,1,DISCREPANCY
+give en gang lak,2,1,C,0,0,1,0,2,
+være på bølgelængde,1,1,B,0,1,0,0,1,
+spille sine kort godt,2,1,C,0,0,1,0,2,
+viske tavlen ren,0,1,A,1,0,0,0,0,
+løbe om hjørner med,1,1,B,0,1,0,0,1,
+under én hat,0,2,"A,D",1,0,0,1,3,DISCREPANCY
+så går den vilde jagt,3,1,D,0,0,0,1,3,
+uden mad og drikke duer helten ikke,0,2,"A,D",1,0,0,1,0,
+ikke være mange sure sild værd,3,1,D,0,0,0,1,1,DISCREPANCY
+de bonede gulve,1,2,"B,C",0,1,1,0,2,DISCREPANCY
+få beskidte hænder,0,1,A,1,0,0,0,0,
+hul på bylden,3,1,D,0,0,0,1,3,
+vejen til en mands hjerte går gennem maven,2,1,C,0,0,1,0,2,
+med næb og kløer,0,1,A,1,0,0,0,0,
+leve som hund og kat,2,1,C,0,0,1,0,2,
+give en god dag i noget,0,1,A,1,0,0,0,0,
+male fanden på væggen,2,1,C,0,0,1,0,2,
+være tynd i papirerne,2,1,C,0,0,1,0,2,
+synge på sidste vers,3,1,D,0,0,0,1,3,
+slå større brød op end man kan bage,3,1,D,0,0,0,1,3,
+spildte Guds ord på Balle-Lars,0,2,"A,C",1,0,1,0,2,DISCREPANCY
+hæve barren,2,1,C,0,0,1,0,2,
+sandheden er ilde hørt,0,1,A,1,0,0,0,0,
+det går ned ad bakke,1,1,B,0,1,0,0,1,
+blind høne finder også korn,3,1,D,0,0,0,1,3,
+mester for noget,2,2,"C,D",0,0,1,1,3,DISCREPANCY
+trække en streg i sandet,1,1,B,0,1,0,0,1,
+bløde fronterne op,1,1,B,0,1,0,0,1,
+langt hen ad vejen,3,1,D,0,0,0,1,3,
+hænge i sin mors skørter,3,1,D,0,0,0,1,3,
+grine hele vejen til banken,0,1,A,1,0,0,0,0,
+komme ud af busken,0,1,A,1,0,0,0,0,
+gå med halm i træskoene,0,2,"A,C",1,0,1,0,0,
+give med den ene hånd og tage med den anden,3,1,D,0,0,0,1,3,
+holde på hat og briller,0,2,"A,D",1,0,0,1,3,DISCREPANCY
+andre boller på suppen,3,1,D,0,0,0,1,3,
+ligne hinanden som to dråber vand,2,2,"C,D",0,0,1,1,3,DISCREPANCY
+en dråbe i havet,1,1,B,0,1,0,0,1,
+lavthængende frugter,2,2,"C,D",0,0,1,1,2,
+"når man ikke vil høre, må man føle",2,1,C,0,0,1,0,2,
+nød lærer nøgen kvinde at spinde,1,1,B,0,1,0,0,1,
+der gror mos på nogen el. noget,0,2,"A,D",1,0,0,1,0,
+det fagreste træ i skoven,0,0,,0,0,0,0,1,DISCREPANCY
+lakrids mellem tæerne,0,0,,0,0,0,0,3,DISCREPANCY
+ikke nå nogen til knæene,1,1,B,0,1,0,0,1,
+gå efter manden i stedet for bolden,1,1,B,0,1,0,0,1,
+tegn og underlige gerninger,1,2,"B,D",0,1,0,1,1,
+tage nogen ved hånden,0,1,A,1,0,0,0,0,
+tage nogen med bukserne nede,2,1,C,0,0,1,0,2,
+pakke ind i vat,0,2,"A,C",1,0,1,0,0,
+panik før lukketid,0,2,"A,C",1,0,1,0,0,
+få skovlen under,1,1,B,0,1,0,0,1,
+en dans på roser,0,1,A,1,0,0,0,0,
+arbejde så blodet springer fra neglene,1,2,"B,C",0,1,1,0,2,DISCREPANCY
+være i lommen på,0,0,,0,0,0,0,3,DISCREPANCY
+grus i maskineriet,2,1,C,0,0,1,0,2,
+ikke være helt fin i kanten,1,1,B,0,1,0,0,1,
+hele dynen,1,1,B,0,1,0,0,3,DISCREPANCY
+smage af fugl,0,2,"A,B",1,1,0,0,0,
+have blod på hænderne,2,2,"C,D",0,0,1,1,2,
+puste til gløderne,0,2,"A,C",1,0,1,0,2,DISCREPANCY
+have mange jern i ilden,2,1,C,0,0,1,0,2,
+næsten ikke kunne få armene ned,2,2,"C,D",0,0,1,1,2,
+ikke vide om man er købt eller solgt,0,1,A,1,0,0,0,0,
+de forhåndenværende søms princip,1,1,B,0,1,0,0,1,
+"når enden er god, er alting godt",0,1,A,1,0,0,0,0,
+komme ud af røret,1,1,B,0,1,0,0,1,
+skulle have skolepengene tilbage,1,2,"B,C",0,1,1,0,1,
+skære ud i pap,2,1,C,0,0,1,0,1,DISCREPANCY
+gå hjem og vug,1,2,"B,D",0,1,0,1,1,
+krydse nogens vej,3,1,D,0,0,0,1,3,
+gå i brædderne,0,1,A,1,0,0,0,0,
+kronen på værket,2,1,C,0,0,1,0,2,
+være i stødet,2,1,C,0,0,1,0,2,
+slippe katten ud af sækken,2,1,C,0,0,1,0,2,
+være højt på strå,3,1,D,0,0,0,1,3,
+der er synk i nogen,3,1,D,0,0,0,1,2,DISCREPANCY
+ikke være nogens kop te,0,0,,0,0,0,0,3,DISCREPANCY
+det ene ord tager det andet,1,1,B,0,1,0,0,1,
+være høj i hatten,2,1,C,0,0,1,0,2,
+feje ind under gulvtæppet,3,1,D,0,0,0,1,3,
+nissen flytter med,0,3,"A,B,D",1,1,0,1,0,
+være ved sine sansers fulde brug,2,1,C,0,0,1,0,2,
+kæmpe mod vindmøller,1,1,B,0,1,0,0,1,
+have spidse albuer,2,1,C,0,0,1,0,2,
+kaste med mudder,2,2,"C,D",0,0,1,1,2,
+for fulde gardiner,3,1,D,0,0,0,1,3,
+religion er opium for folket,2,1,C,0,0,1,0,2,
+én fugl i hånden er bedre end ti på taget,2,2,"C,D",0,0,1,1,3,DISCREPANCY
+med arme og ben,3,1,D,0,0,0,1,3,
+have ryggen mod muren,0,1,A,1,0,0,0,0,
+have alle trumfer på hånden,2,2,"C,D",0,0,1,1,3,DISCREPANCY
+det er en dårlig fugl der skider i sin egen rede,1,1,B,0,1,0,0,1,
+med lodder og trisser,0,2,"A,D",1,0,0,1,3,DISCREPANCY
+man kan ikke klippe håret af en skaldet,2,1,C,0,0,1,0,2,
+flyde med mælk og honning,0,1,A,1,0,0,0,0,
+kigge for dybt i flasken,1,1,B,0,1,0,0,1,
+stå på gloende pæle,0,2,"A,B",1,1,0,0,0,
+belåne til op over skorstenen,0,2,"A,C",1,0,1,0,2,DISCREPANCY
+der går tretten på dusinet af noget,3,1,D,0,0,0,1,3,
+på sine grædende knæ,1,1,B,0,1,0,0,1,
+køre med klatten,0,2,"A,B",1,1,0,0,1,DISCREPANCY
+græsset er altid grønnere i naboens have,0,1,A,1,0,0,0,0,
+behandle nogen som et råddent æg,3,1,D,0,0,0,1,1,DISCREPANCY
+kigge nogen i kortene,2,1,C,0,0,1,0,2,
+være i ilden,3,1,D,0,0,0,1,3,
+have brød i ovnen,2,1,C,0,0,1,0,2,
+den åbne dørs politik,0,1,A,1,0,0,0,0,
+i den kolde sne,2,1,C,0,0,1,0,2,
+og så er den potte ude,0,2,"A,B",1,1,0,0,0,
+man kan ikke lære en gammel hund nye kunster,0,3,"A,C,D",1,0,1,1,2,DISCREPANCY
+ikke kunne huske fra næse til mund,2,1,C,0,0,1,0,2,
+et ord er et ord,1,1,B,0,1,0,0,1,
+kende sine lus på travet,3,1,D,0,0,0,1,3,
+lægge sin klamme hånd på noget,3,1,D,0,0,0,1,3,
+tampen brænder,0,0,,0,0,0,0,0,
+holde på den forkerte hest,2,1,C,0,0,1,0,2,
+en streg i luften,0,0,,0,0,0,0,1,DISCREPANCY
+bide i græsset,0,1,A,1,0,0,0,0,
+gammel kærlighed ruster ikke,3,1,D,0,0,0,1,3,
+gå til de evige jagtmarker,1,1,B,0,1,0,0,1,
+komme på slagtebænken,0,2,"A,D",1,0,0,1,3,DISCREPANCY
+være solgt til stanglakrids,1,1,B,0,1,0,0,1,
+eneste hane i kurven,0,2,"A,B",1,1,0,0,0,
+"koste blod, sved og tårer",1,2,"B,C",0,1,1,0,1,
+rive nogen noget i næsen,3,1,D,0,0,0,1,3,
+"når solen går ned i en sæk, står den op i en bæk",0,0,,0,0,0,0,1,DISCREPANCY
+noget er ikke det papir værd det er skrevet på,3,1,D,0,0,0,1,3,
+få en på frakken,2,1,C,0,0,1,0,2,
+tale samme sprog,0,1,A,1,0,0,0,0,
+spille på hele klaviaturet,1,1,B,0,1,0,0,1,
+hvem har tisset på din sukkermad,2,1,C,0,0,1,0,2,
+have det som blommen i et æg,2,1,C,0,0,1,0,2,
+stå med det ene ben i graven,3,1,D,0,0,0,1,3,
+munden står ikke stille på nogen,1,2,"B,D",0,1,0,1,3,DISCREPANCY
+lægge et godt ord ind for nogen,1,1,B,0,1,0,0,1,
+gøre rent bord,2,1,C,0,0,1,0,2,
+der er ingen smalle steder,2,1,C,0,0,1,0,2,
+gå på akkord,2,1,C,0,0,1,0,2,
+være vaccineret med en grammofonstift,2,1,C,0,0,1,0,2,
+dansen om guldkalven,1,1,B,0,1,0,0,1,
+der falder en sten fra éns hjerte,1,1,B,0,1,0,0,1,
+gå ud som et lys,0,2,"A,C",1,0,1,0,2,DISCREPANCY
+krybe langs panelerne,1,1,B,0,1,0,0,1,
+tabe både næse og mund,0,0,,0,0,0,0,2,DISCREPANCY
+ligge lige til højrebenet,1,2,"B,D",0,1,0,1,3,DISCREPANCY
+gaven der bliver ved med at give,0,1,A,1,0,0,0,0,
+tage pungen frem,0,2,"A,C",1,0,1,0,2,DISCREPANCY
+træde i karakter,0,0,,0,0,0,0,0,
+"villa, Volvo og vovhund",0,2,"A,B",1,1,0,0,1,DISCREPANCY
+kæden er hoppet af,2,2,"C,D",0,0,1,1,3,DISCREPANCY
+døden skal have en årsag,2,2,"C,D",0,0,1,1,2,
+der ryger en finke af panden,0,1,A,1,0,0,0,1,DISCREPANCY
+have fingeren på pulsen,0,1,A,1,0,0,0,0,
+få enden på komedie,0,0,,0,0,0,0,1,DISCREPANCY
+skriften på væggen,3,1,D,0,0,0,1,3,
+fiske i rørte vande,2,2,"C,D",0,0,1,1,2,
+bide sig fast,0,2,"A,B",1,1,0,0,1,DISCREPANCY
+slå to fluer med ét smæk,0,2,"A,C",1,0,1,0,2,DISCREPANCY
+stå malet i ansigtet på nogen,2,2,"C,D",0,0,1,1,3,DISCREPANCY
+noget kan blive både en dreng og en pige,2,1,C,0,0,1,0,2,
+vride bananen,1,1,B,0,1,0,0,2,DISCREPANCY
+ikke lægge fingrene imellem,3,1,D,0,0,0,1,3,
+åbne sit hjerte,0,2,"A,B",1,1,0,0,1,DISCREPANCY
+gå rundt med noget i maven,0,0,,0,0,0,0,0,
+helt ude i skoven,1,2,"B,C",0,1,1,0,2,DISCREPANCY
+klæder skaber folk,0,2,"A,C",1,0,1,0,2,DISCREPANCY
+op ad bakke,1,2,"B,C",0,1,1,0,1,
+tage hatten af for,3,1,D,0,0,0,1,3,
+Lars Tyndskids mark,0,3,"A,C,D",1,0,1,1,0,
+"går den, så går den",0,2,"A,B",1,1,0,0,0,
+"højt at flyve, dybt at falde",2,2,"C,D",0,0,1,1,2,
+gøre sine hoser grønne,2,1,C,0,0,1,0,2,
+gassen går af ballonen,0,1,A,1,0,0,0,0,
+køre kanonerne i stilling,0,2,"A,D",1,0,0,1,3,DISCREPANCY
+en pose blandede bolsjer,2,2,"C,D",0,0,1,1,2,
+der må være en blonde,0,0,,0,0,0,0,2,DISCREPANCY
+gå op og ned som kong Volmers røv,2,1,C,0,0,1,0,2,
+have det hele i munden,2,1,C,0,0,1,0,2,
+"skomager, bliv ved din læst",3,1,D,0,0,0,1,3,
+væggene har ører,1,1,B,0,1,0,0,1,
+vende tingene på hovedet,0,2,"A,D",1,0,0,1,0,
+ville give sin højre arm for noget,2,1,C,0,0,1,0,2,
+brænde sit lys i begge ender,3,1,D,0,0,0,1,3,
+vække den slumrende løve,0,1,A,1,0,0,0,0,
+kæmpe mod vejrmøller,3,1,D,0,0,0,1,3,
+høre en knappenål falde til jorden,1,3,"B,C,D",0,1,1,1,1,
+strø sand på,1,1,B,0,1,0,0,1,
+nogens eget kød og blod,0,1,A,1,0,0,0,0,
+de ti bud,0,0,,0,0,0,0,3,DISCREPANCY
+vende på en tallerken,1,1,B,0,1,0,0,1,
+være tredje hjul på vognen,2,2,"C,D",0,0,1,1,3,DISCREPANCY
+være på tynd is,2,1,C,0,0,1,0,2,
+kunne mere end sit fadervor,0,1,A,1,0,0,0,0,
+få noget på halsen,3,1,D,0,0,0,1,3,
+stikke piben ind,2,1,C,0,0,1,0,1,DISCREPANCY
+grave et par spadestik dybere,0,1,A,1,0,0,0,0,
+komme gennem kødhakkeren,2,2,"C,D",0,0,1,1,2,
+man skal ikke sælge skindet før bjørnen er skudt,1,2,"B,C",0,1,1,0,1,
+"hvis man kan være en karl om natten, kan man også være en karl om dagen",2,1,C,0,0,1,0,2,
+så du røgen,1,2,"B,C",0,1,1,0,1,
+ikke tro nogen over en dørtærskel,1,2,"B,D",0,1,0,1,2,DISCREPANCY
+vide hvordan kagen skal skæres,1,1,B,0,1,0,0,1,
+"hvor der er hjerterum, er der husrum",3,1,D,0,0,0,1,3,
+det er lettere for en kamel at komme igennem et nåleøje end for en rig at komme ind i Guds rige,2,1,C,0,0,1,0,2,
+slå fast med syvtommersøm,2,1,C,0,0,1,0,2,
+skrive sig noget bag øret,1,1,B,0,1,0,0,1,
+"den der ager med stude, kommer også frem",0,1,A,1,0,0,0,0,
+sætte nogens pis i kog,1,1,B,0,1,0,0,1,
+dele sol og vind lige,1,1,B,0,1,0,0,1,
+fyre godt op under kedlerne,0,1,A,1,0,0,0,0,
+målet helliger midlet,1,2,"B,D",0,1,0,1,3,DISCREPANCY
+være femte hjul på vognen,0,2,"A,B",1,1,0,0,0,
+være helt ude i tovene,0,1,A,1,0,0,0,3,DISCREPANCY
+der er ugler i mosen,1,1,B,0,1,0,0,1,
+falde på et tørt sted,3,1,D,0,0,0,1,2,DISCREPANCY
+kysten er klar,3,1,D,0,0,0,1,3,
+der gror ikke mos på en rullesten,0,2,"A,B",1,1,0,0,1,DISCREPANCY
+ind til benet,1,2,"B,D",0,1,0,1,1,
+ligeud ad landevejen,2,2,"C,D",0,0,1,1,3,DISCREPANCY
+skruen uden ende,1,1,B,0,1,0,0,1,
+der går inflation i noget,0,2,"A,D",1,0,0,1,3,DISCREPANCY
+forsvarsparaderne er oppe,0,1,A,1,0,0,0,0,
+have store tanker om,1,1,B,0,1,0,0,1,
+med pistolen for brystet,1,1,B,0,1,0,0,1,
+få en spand koldt vand i hovedet,3,1,D,0,0,0,1,3,
+splitte mine bramsejl,0,1,A,1,0,0,0,0,
+nye koste fejer bedst,2,1,C,0,0,1,0,0,DISCREPANCY
+der skal to til tango,2,2,"C,D",0,0,1,1,2,
+store ord og fedt flæsk,3,1,D,0,0,0,1,3,
+tilbage til rødderne,0,1,A,1,0,0,0,0,
+lyse i kuld og køn,2,1,C,0,0,1,0,0,DISCREPANCY
+spille kong Gulerod,0,2,"A,D",1,0,0,1,3,DISCREPANCY
+lægge billet ind på noget,2,1,C,0,0,1,0,2,
+fra asken og i ilden,0,1,A,1,0,0,0,0,
+"har man sagt A, må man også sige B",3,1,D,0,0,0,1,3,
+"skønne, spildte kræfter",0,3,"A,C,D",1,0,1,1,2,DISCREPANCY
+ål i strømperne,0,0,,0,0,0,0,0,
+ligge med næsen i vejret,0,0,,0,0,0,0,3,DISCREPANCY
+have knive i ærmerne,0,3,"A,C,D",1,0,1,1,2,DISCREPANCY
+give bolden op,0,0,,0,0,0,0,1,DISCREPANCY
+man kan stille uret efter ham,3,1,D,0,0,0,1,3,
+vaske sine hænder,2,1,C,0,0,1,0,2,
+få fingrene i fedtefadet,3,1,D,0,0,0,1,1,DISCREPANCY
+til punkt og prikke,2,1,C,0,0,1,0,2,
+det løber nogen koldt ned ad ryggen,0,1,A,1,0,0,0,0,
+alle gode gange tre,0,1,A,1,0,0,0,0,
+læsse noget over på nogen,2,1,C,0,0,1,0,2,
+bide nogen i haserne,3,1,D,0,0,0,1,3,
+dagens mand i skysovs,1,1,B,0,1,0,0,1,
+det er her det sner,1,2,"B,C",0,1,1,0,1,
+tungen på vægtskålen,1,1,B,0,1,0,0,1,
+smage sin egen medicin,3,1,D,0,0,0,1,3,
+sætte i et dårligt lys,1,1,B,0,1,0,0,1,
+tage hul på noget,1,1,B,0,1,0,0,1,
+køre af sporet,0,1,A,1,0,0,0,0,
+rene ord for pengene,0,0,,0,0,0,0,3,DISCREPANCY
+is i maven,2,2,"C,D",0,0,1,1,3,DISCREPANCY
+trække noget op af hatten,2,1,C,0,0,1,0,2,
+"hvad man ikke ved, har man ikke ondt af",0,2,"A,C",1,0,1,0,2,DISCREPANCY
+ikke lade solen gå ned over sin vrede,0,2,"A,D",1,0,0,1,3,DISCREPANCY
+ikke den skarpeste kniv i skuffen,2,1,C,0,0,1,0,2,
+skyde sig selv i foden,0,0,,0,0,0,0,2,DISCREPANCY
+våd som en druknet mus,0,2,"A,D",1,0,0,1,3,DISCREPANCY
+ikke større end tobak for en skilling,0,3,"A,C,D",1,0,1,1,0,
+rage kastanjerne ud af ilden,0,1,A,1,0,0,0,0,
+have kniven på struben,1,2,"B,C",0,1,1,0,2,DISCREPANCY
+født med en guldske i munden,3,1,D,0,0,0,1,3,
+det må briste eller bære,3,1,D,0,0,0,1,3,
+stikke spaden i jorden,0,1,A,1,0,0,0,0,
+stå med håret ned ad nakken,0,4,"A,B,C,D",1,1,1,1,3,DISCREPANCY
+uden for lands lov og ret,2,1,C,0,0,1,0,1,DISCREPANCY
+ligge og lure i vandskorpen,0,1,A,1,0,0,0,0,
+den ene tjeneste er den anden værd,2,1,C,0,0,1,0,2,
+gå hele vejen,3,1,D,0,0,0,1,3,
+lige så godt springe som krybe i det,1,1,B,0,1,0,0,1,
+ikke fugls føde,3,1,D,0,0,0,1,3,
+have penge på kistebunden,2,1,C,0,0,1,0,2,
+trykke på pauseknappen,0,2,"A,D",1,0,0,1,3,DISCREPANCY
+bidt af en gal skuespiller,0,0,,0,0,0,0,0,
+være på benene,2,1,C,0,0,1,0,2,
+det kan du tage gift på,1,1,B,0,1,0,0,1,
+få luft under vingerne,1,1,B,0,1,0,0,1,
+grave grøfter,0,2,"A,B",1,1,0,0,1,DISCREPANCY
+ramme hovedet på sømmet,1,2,"B,D",0,1,0,1,3,DISCREPANCY
+træde af på naturens vegne,2,1,C,0,0,1,0,2,
+få noget ud af systemet,0,1,A,1,0,0,0,0,
+"ude af øje, ude af sind",1,2,"B,D",0,1,0,1,3,DISCREPANCY
+binde på hænder og fødder,0,2,"A,D",1,0,0,1,0,
+vove det ene øje,0,1,A,1,0,0,0,0,
+der bliver ingen bukser ud af det skind,2,2,"C,D",0,0,1,1,3,DISCREPANCY
+for lidt og for meget fordærver alting,0,2,"A,D",1,0,0,1,0,
+"ét spøg, et andet alvor",0,2,"A,D",1,0,0,1,0,
+ikke ville røre noget med en ildtang,1,2,"B,D",0,1,0,1,1,
+en pæl i kødet,1,1,B,0,1,0,0,1,
+sætte skibe i søen,3,1,D,0,0,0,1,1,DISCREPANCY
+få lange arme,2,1,C,0,0,1,0,3,DISCREPANCY
+elefanten i rummet,2,1,C,0,0,1,0,2,
+det stille vand har den dybe grund,2,1,C,0,0,1,0,2,
+føre nogen bag lyset,3,1,D,0,0,0,1,3,
+man skal høre meget før ørerne falder af,2,1,C,0,0,1,0,2,
+lytte på vandrørene,2,1,C,0,0,1,0,2,
+købe katten i sækken,2,1,C,0,0,1,0,2,
+tomme tønder buldrer mest,0,2,"A,B",1,1,0,0,1,DISCREPANCY
+med skindet på næsen,1,2,"B,D",0,1,0,1,3,DISCREPANCY
+gå op i en spids,0,0,,0,0,0,0,2,DISCREPANCY
+der er løbet meget vand gennem åen siden ..,0,0,,0,0,0,0,0,
+slå til plukfisk,1,2,"B,C",0,1,1,0,2,DISCREPANCY
+varme nogens ører,0,1,A,1,0,0,0,3,DISCREPANCY
+få kærligheden at føle,1,2,"B,D",0,1,0,1,3,DISCREPANCY
+"hvor der handles, der spildes",3,1,D,0,0,0,1,3,
+ben i næsen,0,0,,0,0,0,0,0,
+et plaster på såret,2,1,C,0,0,1,0,2,
+små gryder har også ører,1,1,B,0,1,0,0,1,
+asfaltere mens man kører,1,2,"B,C",0,1,1,0,2,DISCREPANCY
+være karl for sin hat,3,1,D,0,0,0,1,3,
+som en brækket arm,0,0,,0,0,0,0,1,DISCREPANCY
+have et øje på hver finger,0,1,A,1,0,0,0,0,
+"hvad hjertet er fuldt af, løber munden over med",1,1,B,0,1,0,0,1,
+koste spidsen af en jetjager,3,1,D,0,0,0,1,3,
+man skal rejse sig ved det træ hvor man er faldet,0,0,,0,0,0,0,1,DISCREPANCY
+tabe småkagerne,0,1,A,1,0,0,0,0,
+skille fårene fra bukkene,3,1,D,0,0,0,1,3,
+være på den grønne gren,2,1,C,0,0,1,0,2,
+med omvendt fortegn,1,2,"B,D",0,1,0,1,3,DISCREPANCY
+lokke nogen ud af busken,1,1,B,0,1,0,0,1,
+hugge en hæl og klippe en tå,1,1,B,0,1,0,0,1,
+ikke være til at styre på en hel tønde land,1,2,"B,C",0,1,1,0,1,
+man skal ikke give bagerbørn hvedebrød,0,2,"A,D",1,0,0,1,3,DISCREPANCY
+holde kortene tæt til kroppen,3,1,D,0,0,0,1,3,
+have gode kort på hånden,0,2,"A,C",1,0,1,0,2,DISCREPANCY
+"hvad er højest, Rundetårn eller et tordenskrald?",0,2,"A,B",1,1,0,0,0,
+finde melodien,2,1,C,0,0,1,0,2,
+have nogen el. noget i kikkerten,1,1,B,0,1,0,0,1,
+gennemgå med en tættekam,1,3,"B,C,D",0,1,1,1,3,DISCREPANCY
+fra hestens egen mund,3,1,D,0,0,0,1,3,
+en sund sjæl i et sundt legeme,0,2,"A,C",1,0,1,0,2,DISCREPANCY
+hverken se til højre eller venstre,0,2,"A,B",1,1,0,0,0,
+bo i en kuffert,1,2,"B,D",0,1,0,1,3,DISCREPANCY
+"to sjæle, én tanke",3,1,D,0,0,0,1,3,
+hælde benzin på bålet,0,2,"A,B",1,1,0,0,0,
+trække tænderne ud,1,2,"B,D",0,1,0,1,1,
+ved kasse ét,0,4,"A,B,C,D",1,1,1,1,0,
+man skal ikke flyve højere end vingerne kan bære,3,1,D,0,0,0,1,3,
+slag på tasken,2,2,"C,D",0,0,1,1,3,DISCREPANCY
+gnide salt i såret,1,1,B,0,1,0,0,1,
+logik for burhøns,0,0,,0,0,0,0,3,DISCREPANCY
+køre på skinner,1,1,B,0,1,0,0,1,
+hånd i hanke med,1,1,B,0,1,0,0,1,
+helt ind i knoglerne,1,1,B,0,1,0,0,1,
+det er ikke studenterhuen der trykker,0,0,,0,0,0,0,2,DISCREPANCY
+hvile på laurbærrene,2,1,C,0,0,1,0,2,
+komme ind fra gaden,2,1,C,0,0,1,0,2,
+støde panden mod en mur,0,1,A,1,0,0,0,0,
+"når det regner på præsten, drypper det på degnen",0,2,"A,C",1,0,1,0,2,DISCREPANCY
+være livet om at gøre,2,2,"C,D",0,0,1,1,2,
+"goddag mand, økseskaft",3,1,D,0,0,0,1,3,
+dråben der får bægeret til at flyde over,0,2,"A,C",1,0,1,0,0,
+have en høne at plukke med nogen,0,1,A,1,0,0,0,0,
+gå i nogens fodspor,2,1,C,0,0,1,0,2,
+"den der kommer først til mølle, får først malet",0,2,"A,D",1,0,0,1,0,
+komme ind med firetoget,3,1,D,0,0,0,1,3,
+ikke kunne se skoven for bare træer,2,1,C,0,0,1,0,2,
+sætte ulven til at vogte får,0,1,A,1,0,0,0,0,
+"når skidt kommer til ære, ved det ikke hvordan det skal være",1,3,"B,C,D",0,1,1,1,2,DISCREPANCY
+i mørke er alle katte grå,3,1,D,0,0,0,1,1,DISCREPANCY
+være sulten som en ulv,3,1,D,0,0,0,1,3,
+arbejde sin røv i laser,0,0,,0,0,0,0,2,DISCREPANCY
+ikke få et ben til jorden,1,1,B,0,1,0,0,1,
+skrive til skrivebordsskuffen,0,2,"A,B",1,1,0,0,0,
+toppen af kransekagen,2,2,"C,D",0,0,1,1,3,DISCREPANCY
+det glatte lag,0,0,,0,0,0,0,3,DISCREPANCY
+gå i spagat over noget,0,0,,0,0,0,0,2,DISCREPANCY
+hellere se éns hæl end éns tå,1,2,"B,D",0,1,0,1,1,
+fryse til is,0,0,,0,0,0,0,2,DISCREPANCY
+hvad forstår bønder sig på agurkesalat,0,1,A,1,0,0,0,0,
+skæg for sig og snot for sig,1,2,"B,C",0,1,1,0,1,
+mennesket lever ikke af brød alene,0,1,A,1,0,0,0,0,
+gå bananas,0,1,A,1,0,0,0,0,
+penge lugter ikke,3,1,D,0,0,0,1,3,
+hive sig selv op ved håret,0,0,,0,0,0,0,1,DISCREPANCY
+sidde med hænderne i skødet,0,1,A,1,0,0,0,0,
+komme ind under huden,0,1,A,1,0,0,0,0,
+tabe på gulvet,0,2,"A,B",1,1,0,0,1,DISCREPANCY
+få noget med på vejen,3,1,D,0,0,0,1,0,DISCREPANCY
+slå knuder på sig selv,0,3,"A,B,C",1,1,1,0,1,DISCREPANCY
+vifte nogen om næsen med noget,1,1,B,0,1,0,0,2,DISCREPANCY
+den hellige grav er vel forvaret,1,1,B,0,1,0,0,1,
+heldet følger de tossede,3,1,D,0,0,0,1,3,
+tanker er toldfri,2,1,C,0,0,1,0,2,
+med hård hånd,1,1,B,0,1,0,0,1,
+være et hestehoved foran,0,3,"A,B,D",1,1,0,1,0,
+nogens mund er lukket med syv segl,0,1,A,1,0,0,0,0,
+satse alt på ét kort,0,0,,0,0,0,0,2,DISCREPANCY
+parkere bussen,1,1,B,0,1,0,0,1,
+guds ord fra landet,0,0,,0,0,0,0,2,DISCREPANCY
+feje af bordet,0,3,"A,C,D",1,0,1,1,2,DISCREPANCY
+blæse nogen en hatfuld,2,1,C,0,0,1,0,0,DISCREPANCY
+have jord under neglene,2,1,C,0,0,1,0,2,
+"når nøden er størst, er hjælpen nærmest",0,2,"A,B",1,1,0,0,1,DISCREPANCY
+stikke hånden i en hvepserede,0,3,"A,C,D",1,0,1,1,0,
+få blod på tanden,3,1,D,0,0,0,1,3,
+vise nogen vintervejen,2,1,C,0,0,1,0,2,
+gå i ét med tapetet,3,1,D,0,0,0,1,3,
+nu er gode råd dyre,3,1,D,0,0,0,1,3,
+gå som varmt brød,2,1,C,0,0,1,0,2,
+se ud som om man er faldet ned fra månen,0,1,A,1,0,0,0,0,
+krølle på halen,0,1,A,1,0,0,0,0,
+levende lig,0,0,,0,0,0,0,3,DISCREPANCY
+sætte himmel og hav i bevægelse,3,1,D,0,0,0,1,3,
+ikke kunne gøre en flue fortræd,0,2,"A,B",1,1,0,0,0,
+tage tyren ved hornene,0,1,A,1,0,0,0,0,
+tale nogen efter munden,0,1,A,1,0,0,0,0,
+bestemme hvor skabet skal stå,2,1,C,0,0,1,0,2,
+godt begyndt er halvt fuldendt,0,2,"A,C",1,0,1,0,2,DISCREPANCY
+have rundsave på albuerne,1,1,B,0,1,0,0,1,
+den ene hånd ved ikke hvad den anden gør,0,1,A,1,0,0,0,0,
+ikke nå nogen til sokkeholderne,1,1,B,0,1,0,0,3,DISCREPANCY
+hr. og fru Danmark,0,2,"A,D",1,0,0,1,0,
+vende hver en sten,0,1,A,1,0,0,0,0,
+holde dampen oppe,2,1,C,0,0,1,0,2,
+med mand og mus,1,1,B,0,1,0,0,3,DISCREPANCY
+man skal ikke skue hunden på hårene,1,2,"B,D",0,1,0,1,1,
+ingen roser uden torne,3,1,D,0,0,0,1,3,
+slå hjernen fra,2,1,C,0,0,1,0,2,
+sidde løst i sadlen,2,1,C,0,0,1,0,2,
+ikke kunne se ud over sin egen næsetip,1,1,B,0,1,0,0,1,
+have en kage i ovnen,1,1,B,0,1,0,0,1,
+et vink med en vognstang,1,1,B,0,1,0,0,1,
+gå til makronerne,0,0,,0,0,0,0,1,DISCREPANCY
+sådan spiller klaveret ikke,2,2,"C,D",0,0,1,1,3,DISCREPANCY
+trække nogen rundt ved næsen,2,1,C,0,0,1,0,2,
+lyve så stærkt som en hest kan rende,3,1,D,0,0,0,1,3,
+ikke være tabt bag en vogn,2,1,C,0,0,1,0,2,
+æren er det fejreste træ i skoven,0,1,A,1,0,0,0,3,DISCREPANCY
+tage ordet ud af munden på nogen,2,1,C,0,0,1,0,2,
+bide til bollen,0,1,A,1,0,0,0,0,
+med åben mund og polypper,0,0,,0,0,0,0,2,DISCREPANCY
+glansen går af Sankt Gertrud,0,2,"A,D",1,0,0,1,3,DISCREPANCY
+den sne der faldt i fjor,0,2,"A,B",1,1,0,0,0,
+lægge hænderne på kogepladen,0,0,,0,0,0,0,1,DISCREPANCY
+puste i nakken,0,1,A,1,0,0,0,0,
+have nogen i sin hule hånd,0,1,A,1,0,0,0,0,
+trække noget ned over hovedet på nogen,2,2,"C,D",0,0,1,1,3,DISCREPANCY
+have en skrue løs,0,1,A,1,0,0,0,0,
+sætte alle sejl til,0,2,"A,C",1,0,1,0,0,
+hår på brystet,0,2,"A,B",1,1,0,0,0,
+sætte hælene i,1,1,B,0,1,0,0,1,
+gøre kort proces,2,2,"C,D",0,0,1,1,2,
+så er det bal forbi,3,1,D,0,0,0,1,3,
+dreje 180 grader,2,2,"C,D",0,0,1,1,3,DISCREPANCY
+høre en lille fugl synge om noget,1,1,B,0,1,0,0,1,
+ikke have noget liv,0,0,,0,0,0,0,2,DISCREPANCY
+i en snæver vending,0,0,,0,0,0,0,0,
+overlade tøjlerne til nogen,0,1,A,1,0,0,0,0,
+vende sig i sin grav,3,1,D,0,0,0,1,3,
+lediggang er roden til alt ondt,1,1,B,0,1,0,0,1,
+skud fra hoften,0,1,A,1,0,0,0,0,
+stå på god fod med nogen,3,1,D,0,0,0,1,3,
+vende den anden kind til,1,1,B,0,1,0,0,1,
+skrive noget på nogens konto,0,2,"A,C",1,0,1,0,2,DISCREPANCY
+sno nogen om sin lillefinger,2,1,C,0,0,1,0,2,
+sætte det lange ben foran,0,0,,0,0,0,0,0,
+ryge fredspibe,2,2,"C,D",0,0,1,1,2,
+stiv time,1,1,B,0,1,0,0,1,
+havkat i hyttefadet,3,1,D,0,0,0,1,0,DISCREPANCY
+lade fem og syv være lige,3,1,D,0,0,0,1,3,
+dummere end politiet tillader,1,1,B,0,1,0,0,1,
+sætte en ny plade på grammofonen,2,2,"C,D",0,0,1,1,2,
+tage noget på sin kappe,1,1,B,0,1,0,0,1,
+kaste et redningsbælte ud til nogen,0,2,"A,C",1,0,1,0,0,
+have ti tommelfingre,2,1,C,0,0,1,0,2,
+sætte lus i skindpelsen,2,1,C,0,0,1,0,2,
+tabe hovedet,3,1,D,0,0,0,1,3,
+leve på en sten,2,2,"C,D",0,0,1,1,3,DISCREPANCY
+"livet er kort, kunsten er lang",3,1,D,0,0,0,1,2,DISCREPANCY
+med bred pensel,2,2,"C,D",0,0,1,1,2,
+den blå luft,3,1,D,0,0,0,1,1,DISCREPANCY
+dreje kniven rundt i såret,2,1,C,0,0,1,0,2,
+drive nogen i armene på nogen,3,1,D,0,0,0,1,3,
+hyppe sine egne kartofler,2,2,"C,D",0,0,1,1,3,DISCREPANCY
+smede mens jernet er varmt,3,1,D,0,0,0,1,3,
+hurtig i vendingen,1,2,"B,C",0,1,1,0,1,
+få fingeren ud,1,1,B,0,1,0,0,1,
+ikke kende nogen landegrænser,0,1,A,1,0,0,0,0,
+tjene ind på gyngerne hvad man har mistet på karrusellen,1,2,"B,C",0,1,1,0,1,
+stå med hatten i hånden,1,1,B,0,1,0,0,1,
+græde over spildt mælk,0,1,A,1,0,0,0,0,
+historiens vingesus,1,1,B,0,1,0,0,1,
+hellere lille og vågen end stor og doven,1,2,"B,D",0,1,0,1,1,
+langt mellem snapsene,0,2,"A,C",1,0,1,0,0,
+gammel i gårde,0,1,A,1,0,0,0,0,
+ligne udskidt æblegrød,1,3,"B,C,D",0,1,1,1,2,DISCREPANCY
+med hovedet under armen,0,0,,0,0,0,0,3,DISCREPANCY
+trække store veksler på nogen,0,1,A,1,0,0,0,0,
+ikke lutter lagkage,0,3,"A,B,D",1,1,0,1,3,DISCREPANCY
+føle sig hjemme,2,1,C,0,0,1,0,1,DISCREPANCY
+sætte ræven til at vogte gæs,0,1,A,1,0,0,0,0,
+frem og tilbage er lige langt,0,0,,0,0,0,0,3,DISCREPANCY
+mange bække små gør en stor å,0,2,"A,B",1,1,0,0,1,DISCREPANCY
+gå op i sømmene,0,3,"A,B,C",1,1,1,0,0,
+glat som en ål,1,2,"B,C",0,1,1,0,2,DISCREPANCY
+falde nogen for brystet,2,1,C,0,0,1,0,2,
+mele sin egen kage,0,2,"A,C",1,0,1,0,2,DISCREPANCY
+holde nogen til ilden,0,0,,0,0,0,0,0,
+gå forkert i byen,2,1,C,0,0,1,0,0,DISCREPANCY
+det er ikke raketvidenskab,1,1,B,0,1,0,0,1,
+kaste nogen for løverne,2,1,C,0,0,1,0,2,
+spænde ben,2,1,C,0,0,1,0,2,
+ikke ane hvilket ben man skal stå på,1,1,B,0,1,0,0,1,
+slå hånden af nogen,1,1,B,0,1,0,0,1,
+rande under øjnene,0,1,A,1,0,0,0,0,
+hellere ville brække en arm på langs end ..,1,1,B,0,1,0,0,3,DISCREPANCY
+køre sit eget løb,0,0,,0,0,0,0,3,DISCREPANCY
+skide grønne grise,0,0,,0,0,0,0,2,DISCREPANCY
+åbne for sluserne,1,2,"B,D",0,1,0,1,1,
+"operationen lykkedes, men patienten døde",1,3,"B,C,D",0,1,1,1,1,
+efter alle kunstens regler,0,2,"A,B",1,1,0,0,1,DISCREPANCY
+holde nogen på pinebænken,1,1,B,0,1,0,0,1,
+ude på dybt vand,0,2,"A,D",1,0,0,1,0,
+det skal du længere ud på landet med,2,1,C,0,0,1,0,2,
+sætte kroner og øre på noget,0,2,"A,C",1,0,1,0,0,
+ligeved og næsten slår ingen mand af hesten,2,1,C,0,0,1,0,1,DISCREPANCY
+underskrive sin egen dødsdom,2,1,C,0,0,1,0,2,
+have et horn i siden på,1,1,B,0,1,0,0,1,
+have flossede kanter,0,1,A,1,0,0,0,2,DISCREPANCY
+komme ud af fjerene,0,2,"A,C",1,0,1,0,2,DISCREPANCY
+få svesken på disken,3,1,D,0,0,0,1,3,
+tone rent flag,2,1,C,0,0,1,0,2,
+drikke nogen under bordet,2,1,C,0,0,1,0,2,
+smage som at række tungen ud ad vinduet,3,1,D,0,0,0,1,3,
+sætte kikkerten for det blinde øje,0,2,"A,C",1,0,1,0,2,DISCREPANCY
+vippe af sadlen,1,2,"B,D",0,1,0,1,1,
+riste over en sagte ild,1,2,"B,D",0,1,0,1,1,
+kunne tælles på én hånd,0,2,"A,C",1,0,1,0,0,
+sælge sand i Sahara,2,1,C,0,0,1,0,2,
+lægge kortene på bordet,2,1,C,0,0,1,0,2,
+stikke hovedet i busken,0,1,A,1,0,0,0,0,
+være nogens forlængede arm,3,1,D,0,0,0,1,3,
+en streg i regningen,2,1,C,0,0,1,0,2,
+ikke født i går,0,1,A,1,0,0,0,0,
+hænge ved nogens læber,2,1,C,0,0,1,0,2,
+surt løg,1,1,B,0,1,0,0,1,
+det rager mig en fjer,2,1,C,0,0,1,0,2,
+sætte sig på den høje hest,2,1,C,0,0,1,0,2,
+tage noget tungt,0,2,"A,D",1,0,0,1,1,DISCREPANCY
+koste en bondegård,1,1,B,0,1,0,0,1,
+løvens gab,3,1,D,0,0,0,1,3,
+nære en slange ved sin barm,3,1,D,0,0,0,1,3,
+spille med skjulte kort,1,1,B,0,1,0,0,1,
+hverken vådt eller tørt,3,1,D,0,0,0,1,1,DISCREPANCY
+naturens muntre søn,1,1,B,0,1,0,0,1,
+en tynd kop te,0,2,"A,B",1,1,0,0,0,
+jeg vil æde min hat på ..,1,2,"B,C",0,1,1,0,2,DISCREPANCY
+én gang skal jo være den første,0,2,"A,C",1,0,1,0,0,
+trække en kanin op af hatten,1,2,"B,D",0,1,0,1,3,DISCREPANCY
+vide hvordan landet ligger,0,1,A,1,0,0,0,0,
+ingen kender dagen før solen går ned,1,1,B,0,1,0,0,1,
+ikke vide hvor man skal ende og begynde,1,2,"B,C",0,1,1,0,1,
+lægge ansigtet i de rette folder,2,1,C,0,0,1,0,2,
+i sit ansigts sved,1,2,"B,C",0,1,1,0,1,
+skære nogen i hjertet,0,0,,0,0,0,0,2,DISCREPANCY
+en gave fra himlen,1,1,B,0,1,0,0,1,
+klæde sig i sæk og aske,0,1,A,1,0,0,0,0,
+bevæbnet til tænderne,1,1,B,0,1,0,0,1,
+have mange bolde i luften,2,1,C,0,0,1,0,2,
+løbe åbne døre ind,1,1,B,0,1,0,0,1,
+kvæle i fødslen,1,1,B,0,1,0,0,1,
+de tusind søers land,2,2,"C,D",0,0,1,1,3,DISCREPANCY
+slå nogen oven i hovedet med noget,3,1,D,0,0,0,1,3,
+sommerfuglestøv på vingerne,0,2,"A,C",1,0,1,0,2,DISCREPANCY
+nogen vender bøtten,0,2,"A,D",1,0,0,1,3,DISCREPANCY
+være med på noderne,0,2,"A,B",1,1,0,0,0,
+skille klinten fra hveden,1,1,B,0,1,0,0,1,
+æblet falder ikke langt fra stammen,1,1,B,0,1,0,0,1,
+tale lige ud af posen,0,1,A,1,0,0,0,0,
+slå hovedet på sømmet,0,0,,0,0,0,0,0,
+der falder brænde ned,0,3,"A,B,D",1,1,0,1,1,DISCREPANCY
+rasle med sablen,3,1,D,0,0,0,1,3,
+som en åben bog,0,0,,0,0,0,0,1,DISCREPANCY
+Rom blev ikke bygget på en dag,2,1,C,0,0,1,0,2,
+fange nogen på det forkerte ben,2,1,C,0,0,1,0,2,
+bide sig selv i halen,2,1,C,0,0,1,0,2,
+gå på krum arm,1,1,B,0,1,0,0,1,
+jorden brænder under nogen,3,1,D,0,0,0,1,3,
+holde gryden i kog,0,2,"A,C",1,0,1,0,2,DISCREPANCY
+spille med åbne kort,1,1,B,0,1,0,0,1,
+kaste perler for svin,3,1,D,0,0,0,1,3,
+skyde over målet,0,2,"A,C",1,0,1,0,0,
+der er ikke nogen hjemme,2,2,"C,D",0,0,1,1,2,
+holde snuden fra noget,2,1,C,0,0,1,0,2,
+verdens tag,2,1,C,0,0,1,0,2,
+gammel vin på nye flasker,3,1,D,0,0,0,1,3,
+til ingen verdens nytte,0,2,"A,C",1,0,1,0,2,DISCREPANCY
+mosekonen brygger,1,2,"B,C",0,1,1,0,1,
+alle veje fører til Rom,3,1,D,0,0,0,1,3,
+helt nede i kælderen,0,2,"A,B",1,1,0,0,0,
+der kom en mand med en slæde i vejen,1,3,"B,C,D",0,1,1,1,3,DISCREPANCY
+give faklen videre,0,3,"A,B,C",1,1,1,0,2,DISCREPANCY
+ved sine fulde fem,2,1,C,0,0,1,0,2,
+give den en skalle,3,1,D,0,0,0,1,2,DISCREPANCY
+ikke give ved dørene,1,1,B,0,1,0,0,1,
+kunne ligge på et meget lille sted,1,2,"B,C",0,1,1,0,2,DISCREPANCY
+en orm gnaver,3,1,D,0,0,0,1,3,
+bide skeer med,3,1,D,0,0,0,1,3,
+kært barn har mange navne,0,1,A,1,0,0,0,0,
+skære ind til benet,0,1,A,1,0,0,0,0,
+sætte sin hat som man vil,0,2,"A,D",1,0,0,1,3,DISCREPANCY
+være stor i munden,0,1,A,1,0,0,0,0,
+feje for sin egen dør,0,1,A,1,0,0,0,0,
+skulle bæres ud med fødderne først,0,2,"A,D",1,0,0,1,3,DISCREPANCY
+en kærlig hånd,0,2,"A,B",1,1,0,0,0,
+rive sig i håret,3,1,D,0,0,0,1,3,
+hverken fugl eller fisk,2,1,C,0,0,1,0,2,
+kende noget som sin egen bukselomme,2,1,C,0,0,1,0,2,
+der er ikke noget at rafle om,0,0,,0,0,0,0,3,DISCREPANCY
+lade falde hvad ikke kan stå,3,1,D,0,0,0,1,3,
+ikke lige være nogens nummer,0,0,,0,0,0,0,0,
+ikke kunne stikke en pind i en lort uden at ødelægge begge dele,1,2,"B,D",0,1,0,1,1,
+blive taget med fingrene i kagedåsen,1,2,"B,D",0,1,0,1,1,
+komme fra et hjem med klaver,0,1,A,1,0,0,0,0,
+rydde noget af vejen,2,1,C,0,0,1,0,2,
+stikke hovederne sammen,2,1,C,0,0,1,0,2,
+have gelé i knæene,1,1,B,0,1,0,0,1,
+have et ben i hver lejr,0,2,"A,D",1,0,0,1,3,DISCREPANCY
+være en flue på væggen,2,1,C,0,0,1,0,2,
+krumme et hår på nogens hoved,3,1,D,0,0,0,1,3,
+gå på med krum hals,0,1,A,1,0,0,0,0,
+en bid af kagen,2,1,C,0,0,1,0,2,
+der er mere mellem himmel og jord,1,1,B,0,1,0,0,1,
+det tager en krig,0,0,,0,0,0,0,1,DISCREPANCY
+det er ikke mit bord,0,1,A,1,0,0,0,0,
+ligne noget katten har slæbt ind,0,2,"A,C",1,0,1,0,2,DISCREPANCY
+stikke noget under stolen,3,1,D,0,0,0,1,3,
+være godt skåret for tungebåndet,2,1,C,0,0,1,0,2,
+have fået det forkerte ben ud af sengen,2,1,C,0,0,1,0,2,
+en strid om kejserens skæg,3,1,D,0,0,0,1,3,
+i den bedste af alle verdener,2,1,C,0,0,1,0,2,
+koge suppe på noget,0,2,"A,B",1,1,0,0,1,DISCREPANCY
+bringe frem i lyset,3,1,D,0,0,0,1,3,
+ballonen revner,2,2,"C,D",0,0,1,1,3,DISCREPANCY
+bagsiden af medaljen,1,1,B,0,1,0,0,1,
+have benzin i blodet,2,1,C,0,0,1,0,2,
+danse på vulkaner,2,1,C,0,0,1,0,2,
+stoppe mens legen er god,1,1,B,0,1,0,0,1,
+det haster ikke mere end det jager,2,1,C,0,0,1,0,2,
+til sidste blodsdråbe,1,1,B,0,1,0,0,1,
+vide hvad klokken er,0,1,A,1,0,0,0,0,
+have en ræv bag øret,0,1,A,1,0,0,0,0,
+have ild i enden,1,2,"B,C",0,1,1,0,1,
+"ikke alt der glimter, er guld",1,2,"B,D",0,1,0,1,3,DISCREPANCY
+en møllesten om halsen på nogen,3,1,D,0,0,0,1,3,
+give sorteper videre,2,2,"C,D",0,0,1,1,2,
+have rent mel i posen,1,1,B,0,1,0,0,1,
+få så hatten passer,2,1,C,0,0,1,0,2,
+råbe vagt i gevær,0,0,,0,0,0,0,3,DISCREPANCY
+bide i det sure æble,0,1,A,1,0,0,0,0,
+koge suppe på en pølsepind,0,3,"A,B,D",1,1,0,1,1,DISCREPANCY
+være på trapperne,2,1,C,0,0,1,0,2,
+så slutter festen,1,2,"B,C",0,1,1,0,1,
+hænge i bremsen,1,1,B,0,1,0,0,1,
+stikke næsen i sky,1,1,B,0,1,0,0,1,
+have en aktie i,1,3,"B,C,D",0,1,1,1,3,DISCREPANCY
+træde op på den store klinge,0,3,"A,B,D",1,1,0,1,3,DISCREPANCY
+apostlenes heste,3,1,D,0,0,0,1,3,
+sejle på varmen,2,1,C,0,0,1,0,0,DISCREPANCY
+spille fransk klovn,0,2,"A,B",1,1,0,0,1,DISCREPANCY
+være som snydt ud af næsen på nogen,0,1,A,1,0,0,0,0,
+en fjer i hatten,1,1,B,0,1,0,0,1,
+gå nogen nærmere på klingen,3,1,D,0,0,0,1,3,
+luften går af ballonen,3,1,D,0,0,0,1,3,
+en ulykke kommer sjældent alene,0,2,"A,D",1,0,0,1,3,DISCREPANCY
+de bredeste skuldre skal bære de tungeste byrder,0,0,,0,0,0,0,0,
+en køn plante,3,1,D,0,0,0,1,0,DISCREPANCY
+slibe kanterne af nogen,0,1,A,1,0,0,0,0,
+så let som at klø sig selv i nakken,1,2,"B,D",0,1,0,1,1,
+have noget hængende over hovedet,0,1,A,1,0,0,0,0,
+det er for sent at kaste brønden til når barnet er druknet,0,3,"A,B,D",1,1,0,1,1,DISCREPANCY
+alt lykkes i en gasovn,1,2,"B,D",0,1,0,1,1,
+"når man taler om solen, så skinner den",1,1,B,0,1,0,0,1,
+klappe hesten,0,1,A,1,0,0,0,0,
+der falder skæl fra ens øjne,1,1,B,0,1,0,0,1,
+til at komme i papirmøllen,0,0,,0,0,0,0,3,DISCREPANCY
+I må kalde mig Mads hvis ..,1,1,B,0,1,0,0,2,DISCREPANCY
+det pulveriserende liv,0,2,"A,C",1,0,1,0,2,DISCREPANCY
+lugten i bageriet,2,1,C,0,0,1,0,3,DISCREPANCY
+brændt barn skyr ilden,1,2,"B,C",0,1,1,0,2,DISCREPANCY
+klædt af til skindet,2,1,C,0,0,1,0,0,DISCREPANCY
+have rene hænder,0,1,A,1,0,0,0,0,
+have snuden i sporet,3,1,D,0,0,0,1,3,
+"når krybben er tom, bides hestene",0,2,"A,C",1,0,1,0,2,DISCREPANCY
+bryde isen,3,1,D,0,0,0,1,3,
+stærk tobak,1,1,B,0,1,0,0,1,
+hovmod står for fald,0,1,A,1,0,0,0,0,
+tage noget i stiv arm,0,1,A,1,0,0,0,3,DISCREPANCY
+få en appelsin i turbanen,2,1,C,0,0,1,0,2,
+sagen er bøf,0,0,,0,0,0,0,2,DISCREPANCY
+grave sin egen grav,2,2,"C,D",0,0,1,1,2,
+heldig kartoffel,0,0,,0,0,0,0,1,DISCREPANCY
+have bly i røven,1,1,B,0,1,0,0,1,
+som at slå vand på en gås,2,1,C,0,0,1,0,2,
+læse noget som Fanden læser Bibelen,0,0,,0,0,0,0,2,DISCREPANCY
+skumme fløden,1,1,B,0,1,0,0,1,
+den sorte klap går ned,1,1,B,0,1,0,0,2,DISCREPANCY
+slå op i banen,0,2,"A,C",1,0,1,0,2,DISCREPANCY
+sidste skud på stammen,0,0,,0,0,0,0,3,DISCREPANCY
+tage benene på nakken,2,1,C,0,0,1,0,2,
+rydde nogen af vejen,0,1,A,1,0,0,0,0,
+kunne høre græsset gro,1,1,B,0,1,0,0,1,
+ryste som et espeløv,0,2,"A,B",1,1,0,0,1,DISCREPANCY
+vandene skilles,0,1,A,1,0,0,0,0,
+gå uden om noget som katten om den varme grød,0,2,"A,B",1,1,0,0,1,DISCREPANCY
+føre til torvs,0,3,"A,B,C",1,1,1,0,1,DISCREPANCY
+stikke næsen indenfor,3,1,D,0,0,0,1,3,
+tung at danse med,0,1,A,1,0,0,0,0,
+skræve mere end bukserne kan holde,0,2,"A,C",1,0,1,0,2,DISCREPANCY
+blive lang i ansigtet,3,1,D,0,0,0,1,3,
+male sig selv op i et hjørne,1,1,B,0,1,0,0,1,
+hammeren falder,0,1,A,1,0,0,0,0,
+ligge lunt i svinget,3,1,D,0,0,0,1,3,
+begge fødder på jorden,3,1,D,0,0,0,1,3,
+hvor længe var Adam i Paradis,2,2,"C,D",0,0,1,1,3,DISCREPANCY
+vide hvad vej vinden blæser,1,2,"B,D",0,1,0,1,3,DISCREPANCY
+holde skindet på næsen,0,2,"A,C",1,0,1,0,2,DISCREPANCY
+i nøden skal man kende sine venner,3,1,D,0,0,0,1,3,
+lige børn leger bedst,0,2,"A,D",1,0,0,1,3,DISCREPANCY
+være på hælene,2,1,C,0,0,1,0,1,DISCREPANCY
+blive vejet og fundet for let,1,1,B,0,1,0,0,1,
+hænge nogen langt ud af halsen,0,0,,0,0,0,0,2,DISCREPANCY
+"man ved hvad man har, men ikke hvad man får",0,1,A,1,0,0,0,0,
+dér ligger hunden begravet,0,1,A,1,0,0,0,0,
+ukrudt forgår ikke så let,0,2,"A,B",1,1,0,0,1,DISCREPANCY
+man skal ikke kaste med sten når man selv bor i et glashus,1,1,B,0,1,0,0,1,
+skyde en hvid pind efter,0,0,,0,0,0,0,0,
+have en heldig hånd,1,2,"B,C",0,1,1,0,2,DISCREPANCY
+sidde med livet i hænderne,2,2,"C,D",0,0,1,1,3,DISCREPANCY
+have flere strenge at spille på,3,1,D,0,0,0,1,3,
+der er forår i luften,0,1,A,1,0,0,0,0,
+vand på nogens mølle,0,1,A,1,0,0,0,0,
+lang som et ondt år,2,1,C,0,0,1,0,2,
+alt hvad remmer og tøj kan holde,2,1,C,0,0,1,0,2,
+"se sol, måne og stjerner",0,2,"A,C",1,0,1,0,1,DISCREPANCY
+have foden under eget bord,2,1,C,0,0,1,0,2,
+gale katte får revne skind,0,2,"A,B",1,1,0,0,1,DISCREPANCY
+love guld og grønne skove,2,1,C,0,0,1,0,2,
+finde sine egne ben,0,0,,0,0,0,0,3,DISCREPANCY
+slag i ansigtet,0,2,"A,D",1,0,0,1,0,
+slå til søren,0,0,,0,0,0,0,0,
+spænde livremmen ind,1,2,"B,C",0,1,1,0,1,
+den vej skal vi alle,1,1,B,0,1,0,0,1,
+være over alle bjerge,3,1,D,0,0,0,1,3,
+have ordet i sin magt,0,1,A,1,0,0,0,0,
+på éns glatte ansigt,0,4,"A,B,C,D",1,1,1,1,3,DISCREPANCY
+gå op i limningen,2,1,C,0,0,1,0,2,
+plejer er død,1,1,B,0,1,0,0,1,
+der er ingen ko på isen,1,1,B,0,1,0,0,1,
+ride med på en bølge,1,1,B,0,1,0,0,1,
+give den hele armen,1,1,B,0,1,0,0,1,
+i sin visdom,0,1,A,1,0,0,0,0,
+save den gren over man selv sidder på,0,2,"A,D",1,0,0,1,0,
+have en skarp tunge,1,1,B,0,1,0,0,1,
+eneste høne i kurven,0,1,A,1,0,0,0,0,
+brænde alle broer bag sig,1,1,B,0,1,0,0,1,
+enhver er sig selv nærmest,2,1,C,0,0,1,0,2,
+ikke ride den dag man sadler,3,1,D,0,0,0,1,3,
+slikke frimærker,0,2,"A,B",1,1,0,0,1,DISCREPANCY
+træerne vokser ikke ind i himlen,1,2,"B,C",0,1,1,0,1,
+vende vrangen ud,0,3,"A,B,C",1,1,1,0,1,DISCREPANCY
+have bly i benene,0,1,A,1,0,0,0,0,
+rive hovedet af nogen,0,2,"A,B",1,1,0,0,1,DISCREPANCY
+tyv tror hvermand stjæler,0,2,"A,C",1,0,1,0,2,DISCREPANCY
+på et hængende hår,0,1,A,1,0,0,0,0,
+fare rundt som en flue i en flaske,2,1,C,0,0,1,0,2,
+som skidt fra en spædekalv,0,2,"A,D",1,0,0,1,3,DISCREPANCY
+blod er tykkere end vand,0,1,A,1,0,0,0,0,
+himmel og jord står i ét,1,2,"B,D",0,1,0,1,1,
+ikke kunne se en hånd for sig,1,2,"B,C",0,1,1,0,2,DISCREPANCY
+man skal kravle før man kan gå,0,2,"A,C",1,0,1,0,0,
+tage brødet ud af munden på nogen,3,1,D,0,0,0,1,3,
+hverken til at hugge eller stikke i,3,1,D,0,0,0,1,2,DISCREPANCY
+arbejde som en hest,2,1,C,0,0,1,0,2,
+for nogens blå øjnes skyld,3,1,D,0,0,0,1,3,
+løbe hornene af sig,2,1,C,0,0,1,0,2,
+om smagen kan der ikke diskuteres,1,2,"B,C",0,1,1,0,1,
+have nerverne uden på tøjet,1,1,B,0,1,0,0,1,
+have bukserne på,1,1,B,0,1,0,0,1,
+slå en streg over noget,0,1,A,1,0,0,0,0,
+spænde buen for hårdt,2,1,C,0,0,1,0,2,
+lægge alle sine æg i samme kurv,1,2,"B,D",0,1,0,1,3,DISCREPANCY
+fare i blækhuset,2,1,C,0,0,1,0,2,
+søbe den kål man selv har spyttet i,1,1,B,0,1,0,0,1,
+støde nogen på manchetterne,2,1,C,0,0,1,0,2,
+det skriger til himlen,1,1,B,0,1,0,0,1,
+sur røv,0,0,,0,0,0,0,1,DISCREPANCY
+det hører man ikke når musikken spiller,2,1,C,0,0,1,0,0,DISCREPANCY
+som at se maling tørre,2,2,"C,D",0,0,1,1,2,
+en storm i et glas vand,1,1,B,0,1,0,0,1,
+stege i sit eget fedt,3,1,D,0,0,0,1,3,
+miraklernes tid er ikke forbi,0,2,"A,B",1,1,0,0,0,
+bukke begge ender sammen på,1,1,B,0,1,0,0,0,DISCREPANCY
+med det yderste af neglene,0,1,A,1,0,0,0,0,
+ride sin kæphest,1,2,"B,D",0,1,0,1,3,DISCREPANCY
+en hård nød at knække,0,1,A,1,0,0,0,0,
+gøre kål på,3,1,D,0,0,0,1,3,
+det går ikke altid som præsten prædiker,3,1,D,0,0,0,1,3,
+gnide sig op ad nogen,1,2,"B,D",0,1,0,1,3,DISCREPANCY
+hår i suppen,2,1,C,0,0,1,0,2,
+træde nogen over tæerne,1,1,B,0,1,0,0,1,
+tage skeen i den anden hånd,1,1,B,0,1,0,0,1,
+man kan også købe guld for dyrt,3,1,D,0,0,0,1,0,DISCREPANCY
+rønnebærrene er sure,0,3,"A,C,D",1,0,1,1,2,DISCREPANCY
+passe som fod i hose,3,1,D,0,0,0,1,3,
+nerverne står på højkant,0,1,A,1,0,0,0,0,
+tro som guld,1,2,"B,C",0,1,1,0,2,DISCREPANCY
+tælle på knapperne,0,2,"A,B",1,1,0,0,0,
+der er intet nyt under solen,0,1,A,1,0,0,0,0,
+en gang til for prins Knud,1,2,"B,C",0,1,1,0,0,DISCREPANCY
+krage søger mage,0,1,A,1,0,0,0,0,
+ønske nogen hen hvor peberet gror,1,1,B,0,1,0,0,1,
+rotterne forlader den synkende skude,2,1,C,0,0,1,0,2,
+så god som dagen er lang,0,0,,0,0,0,0,3,DISCREPANCY
+sætte fingeren på det ømme punkt,1,1,B,0,1,0,0,1,
+skyde gråspurve med kanoner,3,1,D,0,0,0,1,3,
+"de gode græd, og de onde lo",0,2,"A,C",1,0,1,0,0,
+én svale gør ingen sommer,3,1,D,0,0,0,1,3,
+tage en kugle for nogen,2,1,C,0,0,1,0,2,
+have både til gården og til gaden,0,0,,0,0,0,0,1,DISCREPANCY
+for mange kokke fordærver maden,0,2,"A,C",1,0,1,0,2,DISCREPANCY
+trække læsset,1,2,"B,D",0,1,0,1,1,
+spise kirsebær med de store,1,1,B,0,1,0,0,1,
+have en trumf i ærmet,2,1,C,0,0,1,0,2,
+en fis i en hornlygte,1,1,B,0,1,0,0,1,
+være grebet ud af luften,1,2,"B,C",0,1,1,0,2,DISCREPANCY
+stikke halen mellem benene,2,1,C,0,0,1,0,2,
+have en lille fjer på,0,2,"A,C",1,0,1,0,0,
+veje sine ord på en guldvægt,3,1,D,0,0,0,1,3,
+surt show,3,1,D,0,0,0,1,3,
+have nogen nede i sækken,0,0,,0,0,0,0,3,DISCREPANCY
+gå gennem ild og vand,0,2,"A,B",1,1,0,0,1,DISCREPANCY
+se gennem fingrene med noget,3,1,D,0,0,0,1,3,
+sætte en finger på noget,2,1,C,0,0,1,0,2,
+hælde ned ad brættet,0,0,,0,0,0,0,3,DISCREPANCY
+erfaren mand er god at gæste,1,2,"B,C",0,1,1,0,1,
+hverken hoved eller hale,1,1,B,0,1,0,0,1,
+man må krybe før man kan gå,2,2,"C,D",0,0,1,1,2,
+give nogen horn i panden,0,1,A,1,0,0,0,0,
+ligge på den flade hånd,1,1,B,0,1,0,0,1,
+fuglen er fløjet,1,2,"B,C",0,1,1,0,1,
+trække fronterne op,3,1,D,0,0,0,1,3,
+forbuden frugt smager bedst,2,1,C,0,0,1,0,2,
+gå i vasken,2,1,C,0,0,1,0,2,
+jokke i spinaten,0,0,,0,0,0,0,3,DISCREPANCY
+klappe i sine små hænder,3,1,D,0,0,0,1,3,
+oven i hatten,0,2,"A,C",1,0,1,0,0,
+en hund i et spil kegler,2,1,C,0,0,1,0,2,
+ingen kæde er stærkere end det svageste led,1,2,"B,D",0,1,0,1,3,DISCREPANCY
+tab og vind med samme sind,0,1,A,1,0,0,0,0,
+ondt i håret,1,1,B,0,1,0,0,3,DISCREPANCY
+brede sig som ringe i vandet,1,1,B,0,1,0,0,1,
+blive slap i knæene,1,1,B,0,1,0,0,1,
+lade en dør stå på klem,0,2,"A,C",1,0,1,0,0,
+ikke kunne høre hvad man selv tænker,1,1,B,0,1,0,0,1,
+uden for pædagogisk rækkevidde,1,2,"B,C",0,1,1,0,1,
+være oppe på lakridserne,0,0,,0,0,0,0,0,
+fyre kanonen af,1,3,"B,C,D",0,1,1,1,1,
+tage med fløjlshandsker på nogen,0,1,A,1,0,0,0,0,
+det muntre køkken,1,2,"B,D",0,1,0,1,3,DISCREPANCY
+smøge ærmerne op,2,1,C,0,0,1,0,2,
+gå hen over hovedet på nogen,0,0,,0,0,0,0,1,DISCREPANCY
+springe over hvor gærdet er lavest,2,2,"C,D",0,0,1,1,2,
+nogens hjerte springer et slag over,2,2,"C,D",0,0,1,1,3,DISCREPANCY
+lege med ilden,1,1,B,0,1,0,0,1,
+over hals og hoved,2,2,"C,D",0,0,1,1,2,
+"den der gemmer til natten, gemmer til katten",2,2,"C,D",0,0,1,1,2,
+tage arven op efter nogen,0,0,,0,0,0,0,1,DISCREPANCY
+slå sig på flasken,2,1,C,0,0,1,0,2,
+"mens græsset gror, dør horsemor",1,1,B,0,1,0,0,1,
+det store dyr i åbenbaringen,0,0,,0,0,0,0,2,DISCREPANCY
+gå i hundene,0,1,A,1,0,0,0,0,
+ramme på kornet,1,2,"B,C",0,1,1,0,1,
+sætte nogen fluer i hovedet,0,0,,0,0,0,0,0,
+være i sikre hænder,2,1,C,0,0,1,0,2,
+fare i flæsket på,0,2,"A,B",1,1,0,0,0,
+smide over bord,0,2,"A,D",1,0,0,1,0,
+gribe i egen barm,3,1,D,0,0,0,1,3,
+én på torsken,0,1,A,1,0,0,0,0,
+tage med sig i graven,1,1,B,0,1,0,0,1,
+komme godt fra land,0,0,,0,0,0,0,1,DISCREPANCY
+lægge to og to sammen,1,1,B,0,1,0,0,1,
+ofre noget på kærlighedens alter,0,2,"A,C",1,0,1,0,2,DISCREPANCY
+bange for sin egen skygge,2,1,C,0,0,1,0,2,
+det grå guld,0,1,A,1,0,0,0,0,
+spil for galleriet,2,1,C,0,0,1,0,2,
+en pind til nogens el. nogets ligkiste,3,1,D,0,0,0,1,3,
+sidde klistret til skærmen,2,1,C,0,0,1,0,2,
+krybe i et musehul,1,1,B,0,1,0,0,1,
+kun en tåbe frygter ikke havet,0,0,,0,0,0,0,2,DISCREPANCY
+forslå som en skrædder i helvede,0,0,,0,0,0,0,0,
+det melder historien ikke noget om,1,1,B,0,1,0,0,1,
+have fat i den lange ende,0,1,A,1,0,0,0,0,
+"den der sår vind, høster storm",1,1,B,0,1,0,0,1,
+tisse i bukserne for at holde varmen,1,2,"B,C",0,1,1,0,2,DISCREPANCY
+tage nogen ved vingebenet,2,1,C,0,0,1,0,2,
+hvis og hvis min røv var spids,0,0,,0,0,0,0,1,DISCREPANCY
+prinsen på den hvide hest,0,1,A,1,0,0,0,0,
+have meget om ørerne,1,1,B,0,1,0,0,1,
+vælte læsset,2,1,C,0,0,1,0,2,
+stikke en kniv i ryggen på nogen,1,1,B,0,1,0,0,1,
+stille sig på bagbenene,3,1,D,0,0,0,1,3,
+slag i bolledejen,1,3,"B,C,D",0,1,1,1,2,DISCREPANCY
+være en spurv i tranedans,1,2,"B,D",0,1,0,1,3,DISCREPANCY
+lukke for det varme vand,0,2,"A,D",1,0,0,1,0,
+vente på at stegte duer skal flyve ind i munden på én,2,1,C,0,0,1,0,2,
+sætte til vægs,0,2,"A,C",1,0,1,0,0,
+en klods om benet på nogen,1,1,B,0,1,0,0,1,
+gå ud af sit gode skind,3,1,D,0,0,0,1,3,
+smide barnet ud med badevandet,0,1,A,1,0,0,0,0,
+hu hej vilde dyr,3,1,D,0,0,0,1,0,DISCREPANCY
+toppen af isbjerget,1,2,"B,D",0,1,0,1,3,DISCREPANCY
+hver fugl synger med sit næb,2,2,"C,D",0,0,1,1,2,
+slå koldt vand i blodet,0,1,A,1,0,0,0,0,
+når der er to torsdage i en uge,1,2,"B,C",0,1,1,0,1,
+krig på kniven,2,1,C,0,0,1,0,2,
+med et glimt i øjet,2,1,C,0,0,1,0,2,
+kunne bide tungen af sig selv,2,1,C,0,0,1,0,2,
+man kan ikke både blæse og have mel i munden,0,1,A,1,0,0,0,0,
+man har et standpunkt til man tager et nyt,0,2,"A,C",1,0,1,0,0,
+være en hund efter noget,0,1,A,1,0,0,0,0,
+der går et lys op for nogen,0,1,A,1,0,0,0,0,
+sælge nogen en trepattet ko,3,1,D,0,0,0,1,3,
+gøre en myg til en elefant,2,1,C,0,0,1,0,2,
+gå over åen efter vand,2,2,"C,D",0,0,1,1,2,
+ingen kan tjene to herrer,1,1,B,0,1,0,0,1,
+bide tænderne sammen,1,2,"B,D",0,1,0,1,1,
+skulle have noget ind med skeer,0,2,"A,B",1,1,0,0,1,DISCREPANCY
+lægge hovedet i blød,1,1,B,0,1,0,0,1,
+pynte sig med lånte fjer,2,1,C,0,0,1,0,2,
+"det er mig, sagde hunden",1,1,B,0,1,0,0,1,
+gå op i hat og briller,0,0,,0,0,0,0,0,
+stå med håret i postkassen,3,1,D,0,0,0,1,3,
+smile i skægget,3,1,D,0,0,0,1,3,
+gyde olie på vandene,2,1,C,0,0,1,0,2,
+"den der graver en grav for andre, falder selv i den",0,2,"A,C",1,0,1,0,2,DISCREPANCY
+lykken står den kække bi,1,2,"B,C",0,1,1,0,2,DISCREPANCY
+kræve nogens hoved på et fad,1,1,B,0,1,0,0,1,
+bringe blodet i kog,3,1,D,0,0,0,1,3,
+tage bladet fra munden,1,1,B,0,1,0,0,1,
+kolos på lerfødder,1,1,B,0,1,0,0,1,
+slå ind på en anden vej,0,2,"A,D",1,0,0,1,3,DISCREPANCY
+støbe kuglerne,2,1,C,0,0,1,0,3,DISCREPANCY
+have krudt i røven,3,1,D,0,0,0,1,3,
+ikke have en snebolds chance i helvede,3,1,D,0,0,0,1,3,
+"når katten er ude, spiller musene på bordet",2,1,C,0,0,1,0,2,
+stirre sig blind på noget,1,1,B,0,1,0,0,1,
+der er løbet meget vand i stranden siden ..,2,2,"C,D",0,0,1,1,3,DISCREPANCY
+slå til skaglerne,0,0,,0,0,0,0,3,DISCREPANCY
+"øje for øje, tand for tand",1,1,B,0,1,0,0,1,
+håbet er lysegrønt,0,1,A,1,0,0,0,0,
+vende og dreje hver femøre,0,3,"A,C,D",1,0,1,1,3,DISCREPANCY
+proppe noget ned i halsen på nogen,1,1,B,0,1,0,0,1,
+tale for sin syge moster,1,1,B,0,1,0,0,1,
+til den store guldmedalje,0,2,"A,B",1,1,0,0,3,DISCREPANCY
+kaste under bussen,2,1,C,0,0,1,0,2,
+holde næsen i plovfuren,2,1,C,0,0,1,0,2,
+stampe op af jorden,3,1,D,0,0,0,1,3,
+svare i øst når der spørges i vest,0,1,A,1,0,0,0,0,
+et greb i lommen,0,1,A,1,0,0,0,0,
+smide gode penge efter dårlige,0,1,A,1,0,0,0,0,
+piben får en anden lyd,3,1,D,0,0,0,1,3,
+spille på flere heste,0,2,"A,D",1,0,0,1,0,
+ikke syv vilde heste kan ..,3,1,D,0,0,0,1,3,
+"den enes død, den andens brød",1,1,B,0,1,0,0,1,
