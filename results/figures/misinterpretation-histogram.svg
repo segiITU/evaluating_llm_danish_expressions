@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="white"/>
+  
+  <!-- Grid lines -->
+  <g stroke="#e0e0e0" stroke-width="1">
+    <line x1="100" y1="500" x2="750" y2="500"/>
+    <line x1="100" y1="450" x2="750" y2="450"/>
+    <line x1="100" y1="400" x2="750" y2="400"/>
+    <line x1="100" y1="350" x2="750" y2="350"/>
+    <line x1="100" y1="300" x2="750" y2="300"/>
+    <line x1="100" y1="250" x2="750" y2="250"/>
+    <line x1="100" y1="200" x2="750" y2="200"/>
+    <line x1="100" y1="150" x2="750" y2="150"/>
+    <line x1="100" y1="100" x2="750" y2="100"/>
+  </g>
+  
+  <!-- Y-axis -->
+  <line x1="100" y1="100" x2="100" y2="500" stroke="black" stroke-width="2"/>
+  
+  <!-- X-axis (extended to last column) -->
+  <line x1="100" y1="500" x2="750" y2="500" stroke="black" stroke-width="2"/>
+  
+  <!-- Y-axis labels -->
+  <text x="95" y="500" text-anchor="end" dominant-baseline="middle" font-family="Arial" font-size="12">0</text>
+  <text x="95" y="450" text-anchor="end" dominant-baseline="middle" font-family="Arial" font-size="12">10</text>
+  <text x="95" y="400" text-anchor="end" dominant-baseline="middle" font-family="Arial" font-size="12">20</text>
+  <text x="95" y="350" text-anchor="end" dominant-baseline="middle" font-family="Arial" font-size="12">30</text>
+  <text x="95" y="300" text-anchor="end" dominant-baseline="middle" font-family="Arial" font-size="12">40</text>
+  <text x="95" y="250" text-anchor="end" dominant-baseline="middle" font-family="Arial" font-size="12">50</text>
+  <text x="95" y="200" text-anchor="end" dominant-baseline="middle" font-family="Arial" font-size="12">60</text>
+  <text x="95" y="150" text-anchor="end" dominant-baseline="middle" font-family="Arial" font-size="12">70</text>
+  <text x="95" y="100" text-anchor="end" dominant-baseline="middle" font-family="Arial" font-size="12">80</text>
+  
+  <!-- Y-axis title -->
+  <text x="50" y="300" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="14" transform="rotate(-90, 50, 300)">Percentage (%)</text>
+  
+  <!-- Title -->
+  <text x="400" y="50" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="20" font-weight="bold">LLM Model Misinterpretation Comparison</text>
+  
+  <!-- Model groups - Using grouped column approach with wider columns -->
+  <!-- Claude 3.7 Sonnet -->
+  <rect x="128" y="194" width="30" height="306" fill="#6A51A3" stroke="#000000" stroke-width="1"/>
+  <rect x="162" y="347" width="30" height="153" fill="#4393C3" stroke="#000000" stroke-width="1"/>
+  <rect x="196" y="459" width="30" height="41" fill="#FDBB84" stroke="#000000" stroke-width="1"/>
+  
+  <!-- DeepSeek -->
+  <rect x="258" y="202" width="30" height="298" fill="#6A51A3" stroke="#000000" stroke-width="1"/>
+  <rect x="292" y="366" width="30" height="134" fill="#4393C3" stroke="#000000" stroke-width="1"/>
+  <rect x="326" y="432" width="30" height="68" fill="#FDBB84" stroke="#000000" stroke-width="1"/>
+  
+  <!-- GPT-4o -->
+  <rect x="388" y="193" width="30" height="307" fill="#6A51A3" stroke="#000000" stroke-width="1"/>
+  <rect x="422" y="338" width="30" height="162" fill="#4393C3" stroke="#000000" stroke-width="1"/>
+  <rect x="456" y="469" width="30" height="31" fill="#FDBB84" stroke="#000000" stroke-width="1"/>
+  
+  <!-- Grok-2 -->
+  <rect x="518" y="244" width="30" height="256" fill="#6A51A3" stroke="#000000" stroke-width="1"/>
+  <rect x="552" y="330" width="30" height="170" fill="#4393C3" stroke="#000000" stroke-width="1"/>
+  <rect x="586" y="427" width="30" height="73" fill="#FDBB84" stroke="#000000" stroke-width="1"/>
+  
+  <!-- Llama -->
+  <rect x="648" y="352" width="30" height="148" fill="#6A51A3" stroke="#000000" stroke-width="1"/>
+  <rect x="682" y="291" width="30" height="209" fill="#4393C3" stroke="#000000" stroke-width="1"/>
+  <rect x="716" y="357" width="30" height="143" fill="#FDBB84" stroke="#000000" stroke-width="1"/>
+  
+  <!-- Model Names (moved closer to x-axis) -->
+  <text x="162" y="520" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold">Claude 3.7 Sonnet</text>
+  <text x="292" y="520" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold">DeepSeek</text>
+  <text x="422" y="520" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold">GPT-4o</text>
+  <text x="552" y="520" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold">Grok-2</text>
+  <text x="682" y="520" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold">Llama</text>
+  
+  <!-- Legend -->
+  <rect x="580" y="80" width="15" height="15" fill="#6A51A3" stroke="#000000" stroke-width="1"/>
+  <text x="600" y="92" font-family="Arial" font-size="12" dominant-baseline="middle">Concrete Misinterpretations</text>
+  
+  <rect x="580" y="105" width="15" height="15" fill="#4393C3" stroke="#000000" stroke-width="1"/>
+  <text x="600" y="117" font-family="Arial" font-size="12" dominant-baseline="middle">Abstract Misinterpretations</text>
+  
+  <rect x="580" y="130" width="15" height="15" fill="#FDBB84" stroke="#000000" stroke-width="1"/>
+  <text x="600" y="142" font-family="Arial" font-size="12" dominant-baseline="middle">Random Definitions</text>
+  
+  <!-- Data labels - With counts in parentheses, moved above bars -->
+  <!-- Claude -->
+  <text x="143" y="174" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold">61.2%</text>
+  <text x="143" y="190" text-anchor="middle" font-family="Arial" font-size="11">(120)</text>
+  
+  <text x="177" y="327" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold">30.6%</text>
+  <text x="177" y="343" text-anchor="middle" font-family="Arial" font-size="11">(60)</text>
+  
+  <text x="211" y="439" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold">8.1%</text>
+  <text x="211" y="455" text-anchor="middle" font-family="Arial" font-size="11">(16)</text>
+  
+  <!-- DeepSeek -->
+  <text x="273" y="182" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold">59.5%</text>
+  <text x="273" y="198" text-anchor="middle" font-family="Arial" font-size="11">(196)</text>
+  
+  <text x="307" y="346" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold">26.7%</text>
+  <text x="307" y="362" text-anchor="middle" font-family="Arial" font-size="11">(88)</text>
+  
+  <text x="341" y="412" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold">13.7%</text>
+  <text x="341" y="428" text-anchor="middle" font-family="Arial" font-size="11">(45)</text>
+  
+  <!-- GPT-4o -->
+  <text x="403" y="173" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold">61.3%</text>
+  <text x="403" y="189" text-anchor="middle" font-family="Arial" font-size="11">(138)</text>
+  
+  <text x="437" y="318" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold">32.4%</text>
+  <text x="437" y="334" text-anchor="middle" font-family="Arial" font-size="11">(73)</text>
+  
+  <text x="471" y="449" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold">6.2%</text>
+  <text x="471" y="465" text-anchor="middle" font-family="Arial" font-size="11">(14)</text>
+  
+  <!-- Grok-2 -->
+  <text x="533" y="224" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold">51.2%</text>
+  <text x="533" y="240" text-anchor="middle" font-family="Arial" font-size="11">(140)</text>
+  
+  <text x="567" y="310" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold">34.1%</text>
+  <text x="567" y="326" text-anchor="middle" font-family="Arial" font-size="11">(93)</text>
+  
+  <text x="601" y="407" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold">14.7%</text>
+  <text x="601" y="423" text-anchor="middle" font-family="Arial" font-size="11">(40)</text>
+  
+  <!-- Llama -->
+  <text x="663" y="332" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold">29.7%</text>
+  <text x="663" y="348" text-anchor="middle" font-family="Arial" font-size="11">(137)</text>
+  
+  <text x="697" y="271" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold">41.8%</text>
+  <text x="697" y="287" text-anchor="middle" font-family="Arial" font-size="11">(193)</text>
+  
+  <text x="731" y="337" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold">28.6%</text>
+  <text x="731" y="353" text-anchor="middle" font-family="Arial" font-size="11">(132)</text>
+</svg>
