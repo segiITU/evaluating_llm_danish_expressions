@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650">
+  <!-- Background -->
+  <rect width="1000" height="650" fill="white"/>
+  
+  <!-- Title -->
+  <text x="500" y="40" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold">LLM Model Response Distribution Analysis (yes/no prompt)</text>
+  
+  <!-- Response distribution section -->
+  <text x="500" y="80" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold">Response Distribution</text>
+  
+  <!-- Stacked bar chart for response types -->
+  <rect x="125" y="100" width="750" height="210" fill="#F8F8F8" stroke="#CCCCCC" stroke-width="1"/>
+  
+  <!-- Legend for stacked bar chart -->
+  <rect x="175" y="120" width="15" height="15" fill="#4CAF50"/>
+  <text x="195" y="133" font-family="Arial" font-size="12">Single "yes" response</text>
+  <rect x="350" y="120" width="15" height="15" fill="#FF9800"/>
+  <text x="370" y="133" font-family="Arial" font-size="12">Multiple "yes" responses</text>
+  <rect x="525" y="120" width="15" height="15" fill="#F44336"/>
+  <text x="545" y="133" font-family="Arial" font-size="12">No "yes" responses</text>
+  
+  <!-- Claude 3.7 Sonnet stacked bar -->
+  <text x="230" y="175" text-anchor="middle" font-family="Arial" font-size="12">Claude 3.7 Sonnet</text>
+  <rect x="190" y="180" width="80" height="40" fill="#4CAF50"/>
+  <rect x="190" y="220" width="80" height="40" fill="#FF9800" opacity="0.7"/>
+  <rect x="190" y="260" width="80" height="20" fill="#F44336" opacity="0.7"/>
+  <text x="230" y="205" text-anchor="middle" font-family="Arial" font-size="10" fill="white">68.8%</text>
+  <text x="230" y="241" text-anchor="middle" font-family="Arial" font-size="10" fill="white">25.6%</text>
+  <text x="230" y="274" text-anchor="middle" font-family="Arial" font-size="10" fill="white">5.6%</text>
+  
+  <!-- GPT-4o stacked bar -->
+  <text x="350" y="175" text-anchor="middle" font-family="Arial" font-size="12">GPT-4o</text>
+  <rect x="310" y="180" width="80" height="40" fill="#4CAF50"/>
+  <rect x="310" y="220" width="80" height="40" fill="#FF9800" opacity="0.7"/>
+  <rect x="310" y="260" width="80" height="10" fill="#F44336" opacity="0.7"/>
+  <text x="350" y="205" text-anchor="middle" font-family="Arial" font-size="10" fill="white">59.7%</text>
+  <text x="350" y="241" text-anchor="middle" font-family="Arial" font-size="10" fill="white">38.4%</text>
+  <!-- Small percentage below the red bar -->
+  <text x="350" y="285" text-anchor="middle" font-family="Arial" font-size="10" fill="black">1.9%</text>
+  
+  <!-- Grok-2 stacked bar -->
+  <text x="470" y="175" text-anchor="middle" font-family="Arial" font-size="12">Grok-2</text>
+  <rect x="430" y="180" width="80" height="40" fill="#4CAF50"/>
+  <rect x="430" y="220" width="80" height="40" fill="#FF9800" opacity="0.7"/>
+  <rect x="430" y="260" width="80" height="20" fill="#F44336" opacity="0.7"/>
+  <text x="470" y="205" text-anchor="middle" font-family="Arial" font-size="10" fill="white">62.6%</text>
+  <text x="470" y="241" text-anchor="middle" font-family="Arial" font-size="10" fill="white">29.4%</text>
+  <text x="470" y="274" text-anchor="middle" font-family="Arial" font-size="10" fill="white">8.0%</text>
+  
+  <!-- DeepSeek stacked bar -->
+  <text x="590" y="175" text-anchor="middle" font-family="Arial" font-size="12">DeepSeek</text>
+  <rect x="550" y="180" width="80" height="40" fill="#4CAF50"/>
+  <rect x="550" y="220" width="80" height="40" fill="#FF9800" opacity="0.7"/>
+  <rect x="550" y="260" width="80" height="25" fill="#F44336" opacity="0.7"/>
+  <text x="590" y="205" text-anchor="middle" font-family="Arial" font-size="10" fill="white">55.9%</text>
+  <text x="590" y="241" text-anchor="middle" font-family="Arial" font-size="10" fill="white">29.5%</text>
+  <text x="590" y="274" text-anchor="middle" font-family="Arial" font-size="10" fill="white">14.6%</text>
+  
+  <!-- Llama stacked bar -->
+  <text x="710" y="175" text-anchor="middle" font-family="Arial" font-size="12">Llama</text>
+  <rect x="670" y="180" width="80" height="30" fill="#4CAF50"/>
+  <rect x="670" y="210" width="80" height="60" fill="#FF9800" opacity="0.7"/>
+  <rect x="670" y="270" width="80" height="10" fill="#F44336" opacity="0.7"/>
+  <text x="710" y="198" text-anchor="middle" font-family="Arial" font-size="10" fill="white">25.2%</text>
+  <text x="710" y="241" text-anchor="middle" font-family="Arial" font-size="10" fill="white">73.7%</text>
+  <!-- Small percentage just under the red bar -->
+  <text x="710" y="290" text-anchor="middle" font-family="Arial" font-size="10" fill="black">1.1%</text>
+  
+  <!-- Detailed response metrics section -->
+  <text x="500" y="340" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold">Response Count Distribution</text>
+  
+  <!-- Chart for number of "yes" responses - now with just two charts -->
+  <rect x="100" y="360" width="800" height="230" fill="#F8F8F8" stroke="#CCCCCC" stroke-width="1"/>
+  
+  <!-- Chart headers - with just two sections -->
+  <text x="350" y="385" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold">One "yes" response</text>
+  <text x="650" y="385" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold">Multiple "yes" responses</text>
+  
+  <!-- Left chart: "yes" count 1 responses -->
+  <!-- Claude 3.7 Sonnet -->
+  <rect x="235" y="400" width="30" height="150" fill="#9575CD"/>
+  <text x="250" y="395" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold">68.8%</text>
+  
+  <!-- GPT-4o -->
+  <rect x="275" y="430" width="30" height="120" fill="#4CAF50"/>
+  <text x="290" y="425" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold">59.7%</text>
+  
+  <!-- Grok-2 -->
+  <rect x="315" y="417" width="30" height="133" fill="#FF9800"/>
+  <text x="330" y="412" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold">62.6%</text>
+  
+  <!-- DeepSeek -->
+  <rect x="355" y="438" width="30" height="112" fill="#FFC107"/>
+  <text x="370" y="433" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold">55.9%</text>
+  
+  <!-- Llama -->
+  <rect x="395" y="502" width="30" height="48" fill="#E65100"/>
+  <text x="410" y="497" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold">25.2%</text>
+  
+  <!-- Right chart: multiple "yes" responses -->
+  <!-- Claude 3.7 Sonnet -->
+  <rect x="535" y="500" width="30" height="50" fill="#9575CD"/>
+  <text x="550" y="495" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold">25.6%</text>
+  
+  <!-- GPT-4o -->
+  <rect x="575" y="465" width="30" height="85" fill="#4CAF50"/>
+  <text x="590" y="460" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold">38.4%</text>
+  
+  <!-- Grok-2 -->
+  <rect x="615" y="490" width="30" height="60" fill="#FF9800"/>
+  <text x="630" y="485" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold">29.4%</text>
+  
+  <!-- DeepSeek -->
+  <rect x="655" y="490" width="30" height="60" fill="#FFC107"/>
+  <text x="670" y="485" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold">29.5%</text>
+  
+  <!-- Llama -->
+  <rect x="695" y="405" width="30" height="145" fill="#E65100"/>
+  <text x="710" y="400" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold">73.7%</text>
+  
+  <!-- Baseline for bar charts -->
+  <line x1="200" y1="550" x2="500" y2="550" stroke="black" stroke-width="1"/>
+  <line x1="500" y1="550" x2="800" y2="550" stroke="black" stroke-width="1"/>
+  
+  <!-- Centered color legend at bottom -->
+  <g transform="translate(50, 0)"> <!-- Shifting the entire legend group to center it better -->
+    <rect x="215" y="615" width="15" height="15" fill="#9575CD"/>
+    <text x="235" y="627" font-family="Arial" font-size="12">Claude 3.7 Sonnet</text>
+    
+    <rect x="365" y="615" width="15" height="15" fill="#4CAF50"/>
+    <text x="385" y="627" font-family="Arial" font-size="12">GPT-4o</text>
+    
+    <rect x="465" y="615" width="15" height="15" fill="#FF9800"/>
+    <text x="485" y="627" font-family="Arial" font-size="12">Grok-2</text>
+    
+    <rect x="565" y="615" width="15" height="15" fill="#FFC107"/>
+    <text x="585" y="627" font-family="Arial" font-size="12">DeepSeek</text>
+    
+    <rect x="665" y="615" width="15" height="15" fill="#E65100"/>
+    <text x="685" y="627" font-family="Arial" font-size="12">Llama</text>
+  </g>
+</svg>
